@@ -186,7 +186,7 @@
 .mod-mobile .pt-login-notice{color:#ccc; line-height:24px; margin-top:10px;}
 .mod-mobile .pt-login-notice a{color:#fcff00; text-decoration:underline;}
 .mod-mobile .pt-download{width:382px; margin-top:35px; padding-top:30px; border-top:1px solid #483372;}
-.mod-mobile .pt-download a,.mod-mobile .pt-download .pt-download-qr{background:url(../images/mobile_pt_spirits.png) no-repeat;}
+.mod-mobile .pt-download a,.mod-mobile .pt-download .pt-download-qr{background:url(../../../images/mobile_pt_spirits.png) no-repeat;}
 .mod-mobile .pt-download a{display:block; width:222px; height:52px; line-height:500px; overflow:hidden;}
 .mod-mobile .pt-download a.pt-download-pc:hover{background-position:0 -106px;}
 .mod-mobile .pt-download a.pt-download-android{background-position:0 -53px; margin-top:11px;}

@@ -57,8 +57,8 @@ select[multiple],select[size]{height:auto;}
 select:focus,input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:none;}
 
 /* spirits 图片 */
-.mod-forms .tips-date,.mod-forms .add-btn,.mod-forms .del-btn,span.error-tips,span.valid-tips,.forms-btn-g .btn-sub,.refresh-btn,.forms-btn-g a,.forms-btn-g input,.item .item-tab a.current i,.bank-card-info .btn-copy,.btn-red .btn-sub,.unfold i,.fold i,.hd-cell i,.item .item-tab .tip-dot,.items-tab .tip-dot,.recycle-btn,.recycle-btn em,.form-guide .form-guide-btn,.form-guide .form-guide-btn i,.transfer-btn a,.lock-btn a,.mod-retrieval .btn-sub,.mod-retrieval .btn{background:url(../images/common_spirits.png) no-repeat;}
-.top-notice .notice-close,.modal .modal-close{background:url(../images/close.png) no-repeat; width:15px; height:14px; cursor:pointer;}
+.mod-forms .tips-date,.mod-forms .add-btn,.mod-forms .del-btn,span.error-tips,span.valid-tips,.forms-btn-g .btn-sub,.refresh-btn,.forms-btn-g a,.forms-btn-g input,.item .item-tab a.current i,.bank-card-info .btn-copy,.btn-red .btn-sub,.unfold i,.fold i,.hd-cell i,.item .item-tab .tip-dot,.items-tab .tip-dot,.recycle-btn,.recycle-btn em,.form-guide .form-guide-btn,.form-guide .form-guide-btn i,.transfer-btn a,.lock-btn a,.mod-retrieval .btn-sub,.mod-retrieval .btn{background:url(../static/images/common_spirits.png) no-repeat;}
+.top-notice .notice-close,.modal .modal-close{background:url(../static/images/close.png) no-repeat; width:15px; height:14px; cursor:pointer;}
 
 /* 表单 */
 .mod-forms label,.mod-forget-passwd li label{width:120px; text-align:right; float:left; margin-right:10px; font-size:14px; line-height:28px;}
@@ -176,12 +176,12 @@ span.valid-tips{background-position:0 0; width:18px; padding:0;}
 .bank-card-info .t{color:#666;}
 .bank-card-info .tip{color:#999; margin-left:5px;}
 
-.modal .btn-deposit{float:left; display:inline; margin:2px 0 0 10px; background:url(../images/btn_deposit_bg.png) no-repeat; width:51px; *width:68px; height:24px; font-size:12px; color:#007922; line-height:24px; padding-left:17px; cursor:pointer;}
+.modal .btn-deposit{float:left; display:inline; margin:2px 0 0 10px; background:url(../static/images/btn_deposit_bg.png) no-repeat; width:51px; *width:68px; height:24px; font-size:12px; color:#007922; line-height:24px; padding-left:17px; cursor:pointer;}
 .modal .btn-deposit:hover{background-position:0 -24px; color:#ff7800;}
 
 .pt-pc-download-modal{position:fixed;}
 .pt-pc-download-modal .mod-forms label{width:110px;}
-.pt-pc-download-modal .btn-deposit{padding-left:15px; width:60px; background:url(../images/btn_deposit_bg.png) no-repeat;}
+.pt-pc-download-modal .btn-deposit{padding-left:15px; width:60px; background:url(../../images/btn_deposit_bg.png) no-repeat;}
 .pt-pc-download-modal .forms-btn-g .btn-reset{margin:10px 10px 0 120px; padding:0 30px;}
 .pt-pc-download-modal .forms-btn-g .btn-sub{margin-left:170px; padding:0; width:180px;}
 .pt-pc-download-modal .user-form{min-height:0;}
@@ -198,7 +198,7 @@ span.valid-tips{background-position:0 0; width:18px; padding:0;}
 .pt-pc-download-modal .pt-dl-wrap dd.pt-dl-qr img{border:1px solid #ccc; width:96px; height:96px;}
 .pt-pc-download-modal .pt-dl-wrap dd.pt-dl-qr p{color:#999; text-align:center; width:100%; height:20px; line-height:20px; overflow:hidden;}
 .pt-pc-download-modal .pt-dl-wrap .pt-dl-btn{margin:0 43px; width:182px;}
-.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a{background:url(../images/pt_dl_btn.png) no-repeat; width:182px; height:43px; line-height:200px; overflow:hidden; display:block;}
+.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a{background:url(../../images/pt_dl_btn.png) no-repeat; width:182px; height:43px; line-height:200px; overflow:hidden; display:block;}
 .pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-pc-btn:hover{background-position:0 -45px;}
 .pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-android-btn{background-position:0 -100px; margin-top:10px;}
 .pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-android-btn:hover{background-position:0 -145px;}
