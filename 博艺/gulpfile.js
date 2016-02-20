@@ -18,6 +18,7 @@ function concatCompile(path){
     if(path_name=="index.html"){
         return false
     }
+    console.log("生成文件为",path_name)
     gulp.src(path)
         .pipe(p.contentIncluder({
             includerReg:/<!\-\-include\s+"([^"]+)"\-\->/g,
