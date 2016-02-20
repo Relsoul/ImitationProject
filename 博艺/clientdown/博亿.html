@@ -1,0 +1,213 @@
+<!--include "../header.html"-->
+
+
+<div class="content">
+    <div class="mod-mobile">
+        <div class="mod-banner">
+            <!--焦点图-->
+            <div class="slide-wrap" id="slides">
+                <ul>
+                    <li style="display:block;"><img src="../dev/clientdown/博亿_files/welcome_banner_01.png"></li>
+                </ul>
+            </div>
+            <!-- 公告 -->
+            <div class="notice"><div class="layout"><div class="marquee"><div style="width: 100000px; margin-left: 765px; animation: marqueeAnimation-9602612 146.711s linear -10s running;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 100px; float: left;"></div><div class="js-marquee" style="margin-right: 100px; float: left;"></div></div></div></div></div>
+<script type="text/javascript">
+    //公告滚动
+    $(document).ready(function(){
+        $('.marquee').marquee({
+            duration:30000,
+            gap:100,
+            delayBeforeStart:-10000,
+            direction: 'left',
+            duplicated: true,
+            pauseOnHover:true
+        });
+    });
+</script>            <!--end 公告 -->
+            <!--end 焦点图-->
+        </div>
+        <div class="section section2">
+            <div class="layout">
+                <div class="fr section-info">
+                    <h3>PT游戏客户端下载</h3>
+                    <div class="pt-player-name clearfix">
+                        <label>您的客户端<br>专用登录名</label>
+                        <span>kz_c42.账户名</span>
+                    </div>
+                    <p class="pt-login-notice"><i>注意：</i>PT客户端一定要使用“专用登录名”和“专用密码”才能正常使用。<br>未设置或忘记“专用密码”的用户可以点击 <a id="pt_download_start" href="javascript:void(0);">这里设置</a></p>
+                    <div class="pt-download">
+                        <span class="fr pt-download-qr">安卓手机扫描下载</span>
+                        <span class="fl">
+                            <a target="_blank" href="http://cdn.jackpotmatrix.com/d/setupglx.exe" class="pt-download-pc">电脑版下载</a>
+                            <a target="_blank" href="http://m.mp176588.com/download.html" class="pt-download-android">安卓手机版下载</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="fl section-img"><img src="../dev/clientdown/博亿_files/second_img.png"></div>
+            </div>
+        </div>
+        <div class="browser-dl clearfix"><a href="http://pb88.ac101.net/ub/cur/UB-Launcher.exe" target="_blank"></a></div>
+    </div>
+</div>
+
+<!-- 设置PT电游客户端密码 -->
+<div class="modal pt-pc-download-modal" id="pt-step-1" style="width: 560px; margin-left:-280px; opacity:1;visibility:hidden; top:100px;">
+    <div class="modal-hd"><a id="closeM1" class="right modal-close close-reveal-modal"></a>
+        <h2 id="title">设置PT电游客户端专用密码</h2>
+    </div>
+    <div class="modal-content">
+        <div class="user-form">
+            <form id="resetpwd">
+            <ul class="mod-forms clearfix">
+                <li>
+                    <label>专用登录账号</label>
+                    <div class="txt"><span class="fl" style="font-size:22px; color:#ff7800;">kz_c42.</span><span title="点此复制" class="btn-deposit">点此复制</span></div>
+                </li>
+                <li>
+                    <label>专用登录密码</label>
+                    <div class="item-ipt">
+                        <input type="password" id="pwd" class="txt-ipt">
+                        <span class="error-tips" style="display:none;">密码格式有误！</span>
+                    </div>
+                </li>
+                <li>
+                    <label>确认密码</label>
+                    <div class="item-ipt">
+                        <input type="password" id="pwdc" class="txt-ipt">
+                        <span class="error-tips" style="display:none;">确认密码不能为空！</span>
+                    </div>
+                </li>
+            </ul>
+        </form>
+            <div class="forms-btn-g"><a href="javascript:void(0);" class="btn-reset">下一步</a>(如果您已经设置过<font color="red">专用登录密码</font>，可以直接进行下一步)</div>
+            <div class="forms-btn-g"><h4><font color="red">注意：PT客户端一定要使用专用登录账号和专用登录密码才能正常使用。</font></h4></div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- 下载PT电游客户端 -->
+<div class="modal pt-pc-download-modal" id="pt-step-2" style="width: 560px; margin-left:-280px; opacity:1; visibility:hidden; top:100px;">
+    <div class="modal-hd"><a id="closeM2" class="right modal-close close-reveal-modal"></a>
+        <h2 id="title">下载PT客户端</h2>
+    </div>
+    <div class="modal-content">
+        <div class="user-form">
+            <p class="f18px tac" id="cgpwdsuc">您即将下载的是博亿为您提供的PT电游客户端。</p>
+            <ul class="mod-forms clearfix pt-pc-download-form">
+                <li>
+                    <label>记住客户端<br>专用登录名</label>
+                    <div class="txt"><span class="fl">kz_c42.</span><span onclick="window.clipboardData.setData(&quot;Text&quot;,&quot;kz_c42.&quot;);" title="点此复制" class="btn-deposit">点此复制</span></div>
+                </li>
+            </ul>
+            <dl class="pt-dl-wrap clearfix">
+                <dd class="pt-dl-qr"><img src="../dev/clientdown/博亿_files/pt_dl_android_qr.png"><p>安卓手机扫描下载</p></dd>
+                <dd class="pt-dl-btn">
+                    <a onclick="$(&#39;#pt-step-2&#39;).css(&#39;visibility&#39;,&#39;hidden&#39;);$(&#39;.reveal-modal-bg&#39;).hide();" target="_blank" href="http://cdn.jackpotmatrix.com/d/setupglx.exe" class="pt-dl-pc-btn">电脑版客户端</a>
+                    <a onclick="$(&#39;#pt-step-2&#39;).css(&#39;visibility&#39;,&#39;hidden&#39;);$(&#39;.reveal-modal-bg&#39;).hide();" target="_blank" href="http://m.mp176588.com/download.html" class="pt-dl-android-btn">Android手机版</a>
+                </dd>
+                <dd class="pt-dl-qr"><img src="../dev/clientdown/博亿_files/api.php"><p>扫描获取用户名</p></dd>
+            </dl>
+            <h4 class="tac m-t-20"><font color="red">注意：PT客户端一定要使用专用登录账号和专用登录密码才能正常使用。</font></h4>
+        </div>
+    </div>
+</div>
+<!-- modal 遮罩 -->
+<div class="reveal-modal-bg" style="display:none;"></div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    //PT客户端下载
+    $("#pt_download_start").click(function(){
+        if('1'!='0'){
+            notify('请先登陆');
+        }else{
+            $.post("/kz/gp/reg", {gpid: '451819984708'}, function () {
+                $('#pt-step-1').css('visibility','visible');
+                //$('#pt-step-1').css('top',100+getScrollTop());
+                $('.reveal-modal-bg').show();
+            });
+        }
+    });
+
+    $("#closeM1").click(function(){
+        $('#pt-step-1').css('visibility','hidden');
+        $('.reveal-modal-bg').hide();
+    });
+
+    $("#closeM2").click(function(){
+        $('#pt-step-2').css('visibility','hidden');
+        $('.reveal-modal-bg').hide();
+    });
+
+    $(".pt-pc-download-modal .btn-reset").click(function(){
+
+        var pwd = $("#pwd").val();
+        var pwdc = $("#pwdc").val();
+        if(pwd==""&&pwdc==""){
+              $('#pt-step-1').css('visibility','hidden');
+              $('#pt-step-2').css('visibility','visible');
+              return true;
+        }
+
+        if(check()){
+           $.ajax({
+                url: '/liveCasino/resetPwd',
+                type: 'post',
+                dataType: 'json',
+                data: {pwd:$("#pwd").val()},
+                error: function () {
+                    notify("修改失败");
+                },
+                success: function (da) {
+                    if(da.success == true){
+                        $("#cgpwdsuc").html("密码设置成功！您即将下载的是博亿为您提供的PT电游客户端。");
+                         $('#pt-step-1').css('visibility','hidden');
+                         $('#pt-step-2').css('visibility','visible');
+                         //$('#pt-step-2').css('top',100+getScrollTop());
+                    }else{
+                        notify("修改失败："+da.msg);
+                    }
+                }
+            });
+        }
+    });
+
+
+    // $("#pwd").change(function(){check();});
+    // $("#pwdc").change(function(){check();});
+
+    function check(){
+        var pwd = $("#pwd").val();
+        var pwdc = $("#pwdc").val();
+        if(pwd!=pwdc){
+            $("#pwdc").next().show().html("两次输入的密码不一致");
+            return false;
+        }else{
+            $("#pwdc").next().hide();
+        }
+        if(pwd.length>=50||pwd.length<5){
+            $("#pwd").next().show().html("密码请保持5-50位");
+            return false;
+        }else{
+             $("#pwd").next().hide();
+        }
+        if(!pwd.match("^\\w+$")){
+            $("#pwd").next().show().html("密码格式不正确(数字、字母、下划线)");
+            return false;
+        }else{
+             $("#pwd").next().hide();
+        }
+        return true;
+    }
+
+});
+</script>
+
+<script type="text/javascript" src="../dev/clientdown/博亿_files/jquery.slide.js"></script>
+<script type="text/javascript" src="../dev/clientdown/博亿_files/Game.js"></script>
+
+
+<!--include "../footer.html"-->

@@ -178,34 +178,7 @@
         </ul>
     </div>
 </div>
-<script type="text/javascript">
-    if (self.location != top.location)
-        top.location = self.location;
 
-    var left_top = 150, right_top = 150, float_list = [];
-    $(function () {
-        //浮動圖
-        float_list['1'] = $('#sideChatLeft');
-        float_list['2'] = $('#sideChatRight');
-        for (var i in float_list) {
-            var self = float_list[i], picfloat = (self.attr('picfloat') == 'right') ? 1 : 0;
-            self.show().Float({
-                'floatRight': picfloat,
-                'topSide': ((picfloat == 1) ? right_top
-                        : left_top),
-                close: "closebox" + (i)
-            });
-
-            if (picfloat) {
-                right_top = right_top + 10 + (self.height() || 250);
-            } else {
-                left_top = left_top + 10 + (self.height() || 250);
-            }
-            self.show();
-        }
-    });
-</script>
-<!--在线客服飘窗 end-->
 <script type="text/javascript" src="libs/messenger.min.js"></script>
 <script type="text/javascript" src="libs/jsbn.js"></script>
 <script type="text/javascript" src="libs/prng4.js"></script>
