@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
-      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\index.html" afterPath="" />
-    </list>
+    <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="" />
     <ignored path="ImitationProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,8 +94,8 @@
       <file leaf-file-name="博亿-1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/博艺/clientdown/博亿-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.845879">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.8637993">
+              <caret line="415" column="26" selection-start-line="415" selection-start-column="26" selection-end-line="415" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -593,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/博艺/clientdown/博亿-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.845879">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.8637993">
+          <caret line="415" column="26" selection-start-line="415" selection-start-column="26" selection-end-line="415" selection-end-column="26" />
           <folding />
         </state>
       </provider>
