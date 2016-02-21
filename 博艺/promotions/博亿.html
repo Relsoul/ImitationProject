@@ -1,0 +1,74 @@
+<!--include "../header.html"-->
+<div class="content">
+    <div class="mod-promotions">
+        <div class="mod-banner">
+            <!--焦点图-->
+            <div class="slide-wrap" id="slides">
+                <ul>
+                    <li style="display:block;"><img src="../images/promotions_banner_01.png"></li>
+                </ul>
+            </div>
+            <!-- 公告 -->
+            <div class="notice"><div class="layout"><div class="marquee"><div style="width: 100000px; margin-left: 765px; animation: marqueeAnimation-2431307 146.711s linear -10s running;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 100px; float: left;"></div><div class="js-marquee" style="margin-right: 100px; float: left;"></div></div></div></div></div>
+<script type="text/javascript">
+    //公告滚动
+    $(document).ready(function(){
+        $('.marquee').marquee({
+            duration:30000,
+            gap:100,
+            delayBeforeStart:-10000,
+            direction: 'left',
+            duplicated: true,
+            pauseOnHover:true
+        });
+    });
+</script>            <!--end 公告 -->
+            <!--end 焦点图-->
+        </div>
+        <div class="layout m-t-20">
+            <div class="area-sub clearfix">
+                <div class="menu-sub">
+                    <ul id="atypes">
+                        <li atype="0" class="current"><a href="javascript:void(0);">全部优惠</a></li>
+                                                <li atype="1000" class=""><a href="javascript:void(0);">存送</a></li>
+                                                <li atype="1001" class=""><a href="javascript:void(0);">返水送</a></li>
+                                                <li atype="1002" class=""><a href="javascript:void(0);">注册送</a></li>
+                                                <li atype="1003" class=""><a href="javascript:void(0);">其他</a></li>
+                                            </ul>
+                </div>
+            </div>
+            <ul class="m-t-20 info-items" id="info-show">
+                            </ul>
+            <script>
+                $(function(){
+                    $('#info-show .info-tit').click(function(){
+                        if($(this).siblings('.info-cont').is(":hidden")){
+                            $(this).parent().siblings('li').children('.info-cont').hide();
+                            $(this).siblings('.info-cont').show();
+                            $('html,body').animate({scrollTop: $(this).offset().top},'slow');
+    
+                        }else{
+                            $(this).siblings('.info-cont').slideUp();
+                        }
+                    })
+                });
+            
+                $(function(){
+                    $('#atypes').find('li').on('click',function(){
+                        $('#atypes').find('li.current').removeClass('current');
+                        $(this).addClass('current');
+                        var type = parseInt($(this).attr('atype'));
+                        if(!isNaN(type) && type > 0){
+                            $('li[act=act][atype='+type+']').show();
+                            $('li[act=act][atype!='+type+']').hide();
+                        }else{
+                            $('li[act=act]').show();
+                        }
+            
+                    });
+                });
+            </script>
+        </div>
+    </div>
+</div><!--footer-->
+<!--include "../footer.html"-->

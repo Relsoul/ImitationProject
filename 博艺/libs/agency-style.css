@@ -1,0 +1,29 @@
+/* CSS Document */
+
+/* 代理前端 */
+.logined-nav a{margin-left:20px;}
+.logined-nav .user-center{height:30px;}
+.logined-nav .user-center i{background-position:-192px -634px; width:5px; height:9px; display:inline-block; margin-left:6px; _display:inline; _zoom:1;}
+.nav{padding-right:25px;}
+.agency-home{padding-top:322px;}
+.agency-platform li{margin:20px 0 30px; background:#333; padding:1px;}
+.agency-platform .platform-tit{background:#f4f4f4; border:1px solid #222; height:116px;}
+.agency-platform .platform-logo{width:250px; margin:20px 0 0; height:70px; border-right:1px solid #b5ab99; color:#666; text-align:center;}
+.agency-platform .platform-logo h2{font:30px/1.2 "Microsoft YaHei"; color:#000;}
+.agency-platform .platform-logo span{font:20px/1.6 "Microsoft YaHei";}
+.agency-platform .platform-text{font-size:14px; width:360px; padding:24px 10px 10px 80px; color:#585858;}
+.agency-platform .platform-text strong{color:#333;}
+.agency-platform .platform-go{background:#c41100; color:#fff; background-image:linear-gradient(to top,#c41100,#da2c00);background-image:-webkit-linear-gradient(to top,#c41100,#da2c00); margin:32px 40px 0px 20px; width:220px; height:54px; font:20px/54px "Microsoft YaHei"; text-align:center; border-radius:5px;}
+.agency-platform .platform-go:hover{background:#da2c00; background-image:linear-gradient(to top,#da2c00,#c41100);background-image:-webkit-linear-gradient(to top,#da2c00,#c41100);}
+
+.agency-content{padding:322px 0 20px;}
+.agency-content .layout{background:#0d002b; margin:0 auto; color:#eee;}
+.agency-content .agency-wrap{border:1px solid #403063; padding:20px; width:958px;}
+.agency-content h2{font:30px/1.5 "Microsoft YaHei"; margin-bottom:20px; color:#978bff;}
+.agency-content p{font-size:14px; line-height:24px; margin:10px 0; text-indent:2em;}
+.agency-content h3{font:18px/1.5 "Microsoft YaHei"; color:#FFCC00; margin-top:30px;}
+.agency-content .child{font-size:12px; text-indent:4em;}
+.agency-content .form-t th{background:#2c0a59; border-color:#442967; color:#fff;}
+.agency-content .form-t td{background:#fff; border-color:#442967; color:#333;}
+
+/* 代理中心 */

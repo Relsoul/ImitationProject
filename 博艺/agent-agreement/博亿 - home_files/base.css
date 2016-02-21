@@ -1,0 +1,948 @@
+/* CSS Document */
+body{min-width:1002px; font:12px/1.5 Tahoma,Arial,"宋体",sans-serif;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,button,textarea,p,blockquote,table,th,td{padding:0; margin:0;}
+table{border-collapse:collapse;}
+button,input,select,textarea{font-family:inherit; font-size:100%;}
+i,em{font-style:normal;}
+ol,ul{list-style:none;}
+li{list-style-type:none;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;}
+img{vertical-align:top;border:0;}
+.clear{clear:both; height:0; line-height:0; font-size:0px; display:block; overflow:hidden;}
+.clearfix,.layout,.layout980,.layout1000,.mod-forms li,.user-form,.mod-forms-list li{zoom:1;}
+.clearfix:after,.layout:after,.layout980:after,.layout1000:after,.mod-forms li:after,.user-form:after,.mod-forms-list li:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+a{text-decoration:none; outline:none;}
+a:visited,a:hover,a:active{text-decoration:none;}
+.a-td,.a-td:hover{text-decoration:underline;}
+
+.cWhite,.cWhite a,.cWhite a:hover,a.cWhite,a.cWhite:visited,a.cWhite:hover{color:#fff;}
+.cGray,a.cGray,.cGray a,.cGray a:active{color:#bcbcbc;}
+.c6,a.c6,.c6 a,.c6 a:active{color:#666;}
+.c8,a.c8,.c8 a,.c8 a:active{color:#888;}
+.cRed,a.cRed,.cRed a,.cRed a:active{color:#ea0011;}
+.cRed a:hover,a.cRed:hover{color:#ea0011; text-decoration:underline;}
+.cGreen,a.cGreen,.cGreen a,.cGreen a:active{color:#2bb774;}
+.cGreen a:hover,a.cGreen:hover{color:#2bb774; text-decoration:underline;}
+.cOrange,a.cOrange,.cOrange a,.cOrange a:active{color:#ffc000;}
+
+.fl,.left{float:left;}
+.fr,.right{float:right;}
+.fb{font-weight:bold;}
+.pr{position:relative;}
+.hide{display:none;}
+.m-l-10{margin-left:10px !important;}
+.m-l-20{margin-left:20px !important;}
+.m-l-130{margin-left:130px;}
+.m-tb-20{margin:20px 0;}
+.m-t-10{margin-top:10px !important;}
+.m-t-15{margin-top:15px !important;}
+.m-t-20{margin-top:20px !important;}
+.m-t-30{margin-top:30px !important;}
+hr{height:1px;border-width:0;background:#ccc;}
+.f14px{font-size:14px;}
+.f18px{font-size:16px; font-family:"Microsoft YaHei";}
+.tac{text-align:center;}
+
+/* input style */
+select,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{display:inline-block; height:20px; padding:4px 6px; font-size:14px; line-height:20px; color:#444; vertical-align:middle;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+input,.uneditable-input{width:200px; font-family:inherit; font-size:100%;}
+textarea{height:auto;}
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.uneditable-input{background-color:#fff; border:1px solid #cccccc;}
+input[type="radio"],input[type="checkbox"]{margin:4px 0 0; margin-top:1px \9;  *margin-top:0; line-height:normal;}
+input[type="file"],input[type="image"],input[type="submit"],input[type="reset"],input[type="button"],input[type="radio"],input[type="checkbox"]{width:auto;}
+select,input[type="file"]{height:30px; *margin-top:4px; line-height:30px;}
+select{width:212px; border:1px solid #cccccc;}
+select[multiple],select[size]{height:auto;}
+select:focus,input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus{outline:none;}
+
+/* spirits 图片 */
+.mod-forms .tips-date,.mod-forms .add-btn,.mod-forms .del-btn,span.error-tips,span.valid-tips,.forms-btn-g .btn-sub,.refresh-btn,.forms-btn-g a,.forms-btn-g input,.item .item-tab a.current i,.bank-card-info .btn-copy,.btn-red .btn-sub,.unfold i,.fold i,.hd-cell i,.item .item-tab .tip-dot,.items-tab .tip-dot,.recycle-btn,.recycle-btn em,.form-guide .form-guide-btn,.form-guide .form-guide-btn i,.transfer-btn a,.lock-btn a,.mod-retrieval .btn-sub,.mod-retrieval .btn{background:url(../static/images/common_spirits.png) no-repeat;}
+.top-notice .notice-close,.modal .modal-close{background:url(../static/images/close.png) no-repeat; width:15px; height:14px; cursor:pointer;}
+
+/* 表单 */
+.mod-forms label,.mod-forget-passwd li label{width:120px; text-align:right; float:left; margin-right:10px; font-size:14px; line-height:28px;}
+.mod-forms li,.mod-forget-passwd li{margin-bottom:15px;}
+.mod-forms .item-ipt{float:left; display:inline;}
+.mod-forms .item-ipt p{margin-top:10px;}
+.mod-forms .item-ipt .tips{color:#666; vertical-align:middle; margin-left:5px;}
+.mod-forms .txt{line-height:28px; font-size:14px; float:left; display:inline;}
+.mod-forms .user-info{font-size:14px; line-height:26px;}
+.mod-forms .gender label{width:auto; margin-right:25px;}
+.mod-forms .tips-date{background-position:-32px -605px; width:22px; height:23px; cursor:pointer; display:inline-block; vertical-align:middle; margin-left:5px;}
+.mod-forms .add-btn,.mod-forms .del-btn{width:25px; height:25px; display:inline-block; vertical-align:middle; cursor:pointer;}
+.mod-forms .add-btn{background-position:-76px -574px;}
+.mod-forms .del-btn{background-position:-76px -608px;}
+span.valid-tips,span.error-tips{height:18px; display:inline-block; vertical-align:middle; margin:0 5px;}
+.gender span.valid-tips,.gender span.error-tips{margin-top:5px;}
+span.error-tips{background-position:0 -70px; padding-left:23px;color:#cc000f; line-height:18px;}
+span.valid-tips{background-position:0 0; width:18px; padding:0;}
+
+.mod-forms-list li{line-height:30px; margin-bottom:5px;}
+.mod-forms-list li label{color:#808080; float:left; width:110px; text-align:right; display:inline;}
+.mod-forms-list li div{margin-left:20px; display:inline; float:left;}
+
+.ipt-file{position:relative;}
+.ipt-file .file-type{height:30px;width:290px;filter:alpha(opacity=0); opacity: 0; cursor:pointer;}
+.ipt-file .ipt-file-wrap{position:absolute; top:0; left:0; z-index:-1;}
+.ipt-file .ipt-file-wrap .btn-type{height:28px; line-height:28px; width:65px; vertical-align:middle; margin-left:5px; border:1px solid #ccc; background:#f2f2f2;}
+
+.withdraw-psw-tip p{font-size:16px; padding:50px 0 0;}
+.withdraw-psw-tip p a{text-decoration:underline; color:#e04220;}
+.withdraw-psw-tip p a:hover{color:#f99d1c;}
+
+.forms-tips{margin-bottom:15px;}
+.forms-btn-g{margin-left:130px;}
+.forms-btn-g a,.forms-btn-g input{height:30px; line-height:30px; font-size:14px;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; font-weight:bold; display:inline-block; text-align:center; margin:20px 20px 0 0; padding:0 35px; border:0;}
+.forms-btn-g .btn-sub,.refresh-btn{background-position:0 -727px; color:#fff;}
+.forms-btn-g .btn-sub:hover,.refresh-btn:hover{background-position:0 -758px; color:#fff;}
+.forms-btn-g .btn-reset,.forms-btn-g .btn-gray,.forms-btn-g .btn-close{background-position:0 -278px; color:#222;}
+.forms-btn-g .btn-reset:hover,.forms-btn-g .btn-gray:hover,.forms-btn-g .btn-close:hover{background-position:0 -309px;}
+.forms-btn-g .btn-sub-gray{background:#eee; color:#bbb; cursor:default;}
+.forms-btn-g .submit-disabled,.forms-btn-g .submit-disabled:hover{background:url(../static/images/submit_loading.gif) no-repeat 80% center #bbb; cursor:default; padding:0 50px 0 20px; color:#fff;}
+
+.form-t th,.form-t-3 th{font-weight:normal; background:#ececec; height:36px; font-size:12px; padding:0 10px;}
+.form-t-3 th{padding:0;}
+.form-t th,.form-t td,.form-t-3 th,.form-t-3 td{border:1px solid #ccc; text-align:center;}
+.form-t td,.form-t-3 td{color:#666; padding:10px; line-height:22px; background:#fff;}
+.form-t-3 td{padding:10px 0;}
+.form-t-2 th{background:#ececec; font-weight:normal; text-align:right; color:#666;}
+.form-t-2 td,.form-t-2 th{font-size:14px; border:1px solid #ccc; height:36px; padding:0 10px;}
+.form-t-2 td{background:#fff;}
+.txt-left th,.txt-left td{text-align:left;}
+.form-t td.cGreen{color:#2bb774;}
+.form-t td.cRed{color:#cc000f;}
+.form-t td.cOrange{color:#ffc000;}
+
+.form-guide h3,.write-form-tit{font:24px/1 "Microsoft YaHei"; color:#333; margin:20px 0 20px 130px;}
+.form-guide .form-guide-btn{background-position:0 -350px; background-repeat:repeat-x; height:42px; display:block; float:left; padding:0 20px; font-size:14px; line-height:42px; color:#fff;-webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px; margin:0 0 20px 130px;}
+.form-guide .form-guide-btn:hover{background-position:0 -393px;}
+.form-guide .form-guide-btn i{background-position:-189px -606px; width:8px; height:14px; display:inline-block; vertical-align:middle; margin-left:10px;}
+
+.mod-retrieval .date-ipt{width:120px;}
+.mod-retrieval .btn-sub,.mod-retrieval .btn{width:80px; height:26px; line-height:26px; color:#fff; border:none; vertical-align:middle; cursor:pointer;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+.mod-retrieval .btn-sub{background-position:0 -119px;}
+.mod-retrieval .btn-sub:hover{background-position:-80px -119px;}
+.mod-retrieval .btn{background-position:0 -145px; color:#222; margin-left:10px;}
+.mod-retrieval .btn:hover{background-position:-80px -145px;}
+
+.btn-red .btn-sub{background-position:0 -727px;font-size:14px; font-family:"Microsoft YaHei"; margin:0; width:160px; height:30px; display:block; text-align:center; color:#fff; line-height:30px; border:none;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px;}
+.btn-red .btn-sub:hover{background-position:0 -758px; color:#fff;}
+
+/* 忘记密码 */
+.mod-forget-passwd ul{margin:20px 40px;}
+.mod-forget-passwd .item-ipt{float:left; display:inline;}
+.mod-forget-passwd .ways a{width:160px; margin:10px 0  !important;}
+.mod-forget-passwd .ways{margin:30px 0 30px 170px;}
+.mod-forget-passwd .ways span{color:#999;}
+
+/* error 403 */
+.mod-error .layout{padding:60px 0;}
+.mod-error .error-wrap .error-icon{background:url(../static/images/error_icon.png) no-repeat; width:90px; height:90px; float:left; display:inline; margin-left:210px;}
+.mod-error .error-wrap .error-content{margin-left:330px;}
+.mod-error .error-wrap h3{font:18px/1 "Microsoft YaHei";}
+.mod-error .error-wrap p{color:#666; line-height:22px; margin:20px 0;}
+.mod-error .error-wrap .refresh-btn{width:120px;}
+
+/* modal弹出框 */
+.reveal-modal-bg{position:fixed; height:100%; width:100%; background:url(../images/transparent_80_bg.png) repeat; z-index:9998; top:0; left:0;}
+.modal{left:50%; top:100px; position:absolute; z-index:9999; visibility:hidden; padding-bottom:20px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; -moz-box-shadow:0 0 10px rgba(0,0,0,.4); -webkit-box-shadow:0 0 10px rgba(0,0,0,.4); box-shadow:0 0 10px rgba(0,0,0,.4); background:#fff;}
+.modal,.reveal-modal-bg:after{vertical-align:middle;}
+.modal hr{border-color:e3e3e3; margin:0 20px;}
+.modal .modal-hd h2{font-size:20px; font-weight:normal; padding:15px 20px 10px; font-family:"Microsoft YaHei";}
+.modal .modal-close{position:absolute; right:20px; top:22px;}
+.modal .modal-close:hover{background-position:0 -14px;}
+.modal .modal-content{margin-left:20px;}
+.modal .modal-content h3{font:14px/22px "Microsoft YaHei"; color:#666;}
+.modal .tips{color:#666;}
+.modal .forms-btn-g{margin:0;}
+.modal .forms-btn-g .btn-gray{font-size:12px; font-weight:normal; margin:0 10px;}
+.deposit-tip-wrap .modal-content .tip-wrap{background:url(../static/images/modal_tip.gif) no-repeat; margin:35px 0 0 35px; padding-left:100px; min-height:80px;}
+.deposit-tip-wrap .modal-content .tip-wrap .tip-tit{font:18px/1.5 "Microsoft YaHei"; color:#222;}
+.deposit-tip-wrap .modal-content .tip-wrap p{margin:15px 0; line-height:22px; color:#808080;}
+.deposit-tip-wrap .forms-btn-g{margin-left:125px;}
+.deposit-tip-wrap .forms-btn-g .btn-gray{font-size:14px;}
+.deposit-tip-wrap .forms-btn-g .btn-sub{font-weight:normal;}
+.deposit-content .forms-btn-g .btn-gray{margin-top:0;}
+
+.bank-qr-code{position:absolute; top:0; left:580px; display:none;}
+.bank-qr-code img{padding:10px; border:1px solid #ccc;}
+.bank-qr-code p{color:#999; padding-top:8px; text-align:center;}
+
+.bank-card-info{width:360px; margin-top:10px; margin-bottom:10px; border:2px solid #eee; padding:18px 0; font-size:14px; line-height:26px;}
+.bank-card-info ul{margin:10px 25px 0;}
+.bank-card-info .btn-copy{float:right; background-position:-92px 0; width:36px; height:22px; padding-left:15px; font-size:12px; color:#007922; line-height:22px; cursor:pointer;}
+.bank-card-info .btn-copy:hover{color:#cc000f;}
+.bank-card-info .t{color:#666;}
+.bank-card-info .tip{color:#999; margin-left:5px;}
+
+.modal .btn-deposit{float:left; display:inline; margin:2px 0 0 10px; background:url(../static/images/btn_deposit_bg.png) no-repeat; width:51px; *width:68px; height:24px; font-size:12px; color:#007922; line-height:24px; padding-left:17px; cursor:pointer;}
+.modal .btn-deposit:hover{background-position:0 -24px; color:#ff7800;}
+
+.pt-pc-download-modal{position:fixed;}
+.pt-pc-download-modal .mod-forms label{width:110px;}
+.pt-pc-download-modal .btn-deposit{padding-left:15px; width:60px; background:url(../../images/btn_deposit_bg.png) no-repeat;}
+.pt-pc-download-modal .forms-btn-g .btn-reset{margin:10px 10px 0 120px; padding:0 30px;}
+.pt-pc-download-modal .forms-btn-g .btn-sub{margin-left:170px; padding:0; width:180px;}
+.pt-pc-download-modal .user-form{min-height:0;}
+.pt-pc-download-modal .pt-pc-download-form{margin:15px 0 0 25px;}
+.pt-pc-download-modal .pt-pc-download-form label{background:#eee; padding-right:10px; margin-right:0; height:40px; line-height:20px; border-left:1px solid #ddd; border-top:1px solid #ddd; border-bottom:1px solid #ddd;}
+.pt-pc-download-modal .pt-pc-download-form .txt{}
+.pt-pc-download-modal .pt-pc-download-form .txt .fl{font-size:22px; color:#ff7800; border:1px solid #ddd; padding:0 10px; height:40px; line-height:40px; width:240px; text-align:center;}
+.pt-pc-download-modal .pt-pc-download-form .btn-deposit{margin-top:8px;}
+.pt-pc-download-modal .forms-btn-g h4{margin:15px 0 0 120px;}
+
+.pt-pc-download-modal .pt-dl-wrap{margin-left:25px;}
+.pt-pc-download-modal .pt-dl-wrap dd{float:left; display:inline;}
+.pt-pc-download-modal .pt-dl-wrap dd.pt-dl-qr{width:98px;}
+.pt-pc-download-modal .pt-dl-wrap dd.pt-dl-qr img{border:1px solid #ccc; width:96px; height:96px;}
+.pt-pc-download-modal .pt-dl-wrap dd.pt-dl-qr p{color:#999; text-align:center; width:100%; height:20px; line-height:20px; overflow:hidden;}
+.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn{margin:0 43px; width:182px;}
+.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a{background:url(../../images/pt_dl_btn.png) no-repeat; width:182px; height:43px; line-height:200px; overflow:hidden; display:block;}
+.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-pc-btn:hover{background-position:0 -45px;}
+.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-android-btn{background-position:0 -100px; margin-top:10px;}
+.pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-android-btn:hover{background-position:0 -145px;}
+
+/* 用户中心-导航 */
+.user-ctr .items-tab,.ag-ctr .items-tab,.user-ctr .items-tab a{background:url(../static/images/hd_bg.png) no-repeat;}
+.user-ctr .items-tab,.ag-ctr .items-tab{background-repeat:repeat-x; height:65px;}
+.user-ctr .items-tab h2,.ag-ctr .items-tab h2{font-size:22px; line-height:65px; padding-left:20px;}
+.user-ctr .items-tab a{font-size:14px; line-height:normal; height:65px; background-position:right -65px; width:132px; display:inline; float:left; text-align:center; color:#2a2a2a; position:relative;}
+.user-ctr .items-tab a:hover{background-position:0 -130px; background-repeat:repeat-x;}
+.user-ctr .items-tab a.current,.user-ctr .items-tab a.current:hover{background-position:right -195px;}
+.user-ctr .items-tab .tip-dot{background-position:-183px -196px; width:14px; height:14px; position:absolute; top:4px; right:45px;}
+
+.user-ctr .items-tab a i{background:url(../static/images/userCenter.png) no-repeat; width:38px; height:26px; display:block; margin:8px 0 6px 46px; *margin-left:0px;}
+.user-ctr .items-tab .my-info{background-position:-61px 0;}
+.user-ctr .items-tab .my-wallet{background-position:-61px -48px;}
+.user-ctr .items-tab .my-accounts{background-position:-61px -99px;}
+.user-ctr .items-tab .system-news{background-position:-61px -146px;}
+.user-ctr .items-tab .my-promotions{background-position:-61px -193px;}
+.user-ctr .items-tab a:hover .my-info,.user-ctr .items-tab .current .my-info{background-position:0 0;}
+.user-ctr .items-tab a:hover .my-wallet,.user-ctr .items-tab .current .my-wallet{background-position:0 -48px;}
+.user-ctr .items-tab a:hover .my-accounts,.user-ctr .items-tab .current .my-accounts{background-position:0 -99px;}
+.user-ctr .items-tab a:hover .system-news,.user-ctr .items-tab .current .system-news{background-position:0 -146px;}
+.user-ctr .items-tab a:hover .my-promotions,.user-ctr .items-tab .current .my-promotions{background-position:0 -193px;}
+.user-ctr .item{padding:15px 20px;}
+.user-ctr .radio-l label span{width:65px; display:inline-block;}
+
+.item{padding:15px 0 15px 20px;}
+.item h3.title{font-size:14px; font-weight:bold;}
+.item .item-tab a{display:inline-block; color:#333; background:#ddd; padding:6px 18px; font-size:14px; margin-right:15px;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; position:relative;}
+.item .item-tab a:hover{color:#fff;}
+.item .item-tab a.current,.item .item-tab a.current:hover{color:#fff; font-weight:bold;}
+.item .item-tab a.current i{background-position:-34px -577px; width:15px; height:8px; position:absolute; display:block; top:32px; left:50%; margin-left:-8px;}
+.item .item-tab .tip-dot,.item .item-tab a:hover .tip-dot{background-position:-183px -196px; width:14px; height:14px; display:block; position:absolute; top:1px; right:3px;}
+.item .item-tab a.current .tip-dot{background-image:none;}
+
+/* 存款历史 title */
+.hd-cell{background:#222; color:#fff; height:36px; line-height:36px; display:block; margin-top:20px; padding-left:20px; font-size:14px; position:relative;}
+.hd-cell i{background-position:-55px -577px; width:15px; height:8px; position:absolute; bottom:-7px; left:41px;}
+
+/* 用户中心-表单 */
+.user-form{margin:20px 0; min-height:200px;}
+.user-form .steps{height:30px; background:#e3e3e3; line-height:30px; margin:30px 0 0 0;}
+.user-form .steps span{padding:0 25px;}
+.user-form .form-box{margin-top:20px; margin-right:0 !important;}
+
+/* 提款审核 */
+.audit-tip{padding:80px !important;}
+.modal-payment{padding:40px 50px !important;}
+.audit-tip i{background:url(../static/images/right_icon.gif) no-repeat; height:80px; width:80px; float:left;}
+.modal-payment i{background:url(../static/images/loading_green.gif) no-repeat;}
+.audit-tip div{margin-left:100px;}
+.audit-tip h4{font:20px/1 "Microsoft YaHei"; margin-top:10px;}
+.audit-tip p{color:#666; margin-top:20px;}
+
+/* 存款表单 */
+.deposit-form{margin-top:30px;}
+.deposit-form .field-label{font-size:14px; margin:10px 30px 0 20px;}
+.deposit-form .deposit-tab li{float:left; display:inline; margin:0 5px;}
+.deposit-form .deposit-tab span{display:block; border-left:2px solid #badbcb; border-top:2px solid #badbcb; border-right:2px solid #badbcb; height:38px; padding:0 20px; line-height:36px; font-size:14px; font-weight:bold; margin-bottom:-2px; position:relative; z-index:1; cursor:pointer;}
+.deposit-form .deposit-tab span.current{background:#fff; border-left:2px solid #2bb774; border-top:2px solid #2bb774; border-right:2px solid #2bb774; z-index:10;}
+.deposit-form .deposit-content,.user-form .form-box,.ag-withdraw .audit-tip{border:2px solid #2bb774; background:#fff; z-index:2; position:relative; padding:30px; margin-right:20px;}
+.deposit-form .deposit-content{margin-right:0 !important;}
+.deposit-form .deposit-content .field-tips,.user-ctr .agreement{color:#666; margin-left:130px; line-height:22px;}
+.deposit-form .deposit-content .field-warn{color:#cc000f; margin-left:130px; margin-top:10px; font-size:14px;}
+.deposit-form .deposit-content .bank-list{margin-left:130px;}
+.deposit-form .deposit-content .bank-list li{display:inline; float:left; margin-right:6px; cursor:pointer;}
+.deposit-form .deposit-content .bank-list .radio-bank{border:1px solid #ccc; padding:10px 8px;}
+.deposit-form .deposit-content .bank-list .radio-bank:hover,.deposit-form .deposit-content .bank-list .checked{border:2px solid #2bb774; padding:9px 7px;}
+.deposit-form .deposit-content .bank-list .radio-bank input{float:left; display:inline;}
+.bank-logo span{background:url(/images/bank_img.png) no-repeat; width:120px; height:22px; line-height:22px; font-size:14px; display:block; margin-left:22px;}
+.bank-logo span.bg-none{background:none;}
+.bank-logo span.logo-ICBC{background-position:0 0;}
+.bank-logo span.logo-CMB{background-position:0 -150px;}
+.bank-logo span.logo-CCB{background-position:0 -100px;}
+.bank-logo span.logo-ABC{background-position:0 -50px;}
+.bank-logo span.logo-BCM{background-position:-150px 0;}
+.bank-logo span.logo-BOC{background-position:-150px -50px;}
+.bank-logo span.logo-SPDB{background-position:-150px -100px;}
+.bank-logo span.logo-SDB{background-position:-150px -150px;}
+.bank-logo span.logo-CNCB{background-position:-300px 0;}
+.bank-logo span.logo-CMBC{background-position:-300px -50px;}
+.bank-logo span.logo-PSBC{background-position:-300px -100px;}
+.bank-logo span.logo-CIB{background-position:-300px -150px;}
+.bank-logo span.logo-HB{background-position:-450px 0;}
+.bank-logo span.logo-CEB{background-position:-450px -50px;}
+.bank-logo span.logo-NJCB{background-position:-450px -100px;}
+.bank-logo span.logo-GDB,.bank-logo span.logo-CGB{background-position:-450px -150px;}
+.bank-logo span.logo-PAB{background-position:-600px 0;}
+.bank-logo span.logo-GZB{background-position:-600px -50px;}
+.bank-logo span.logo-CCAB{background-position:-600px -150px;}
+.bank-logo span.logo-ZFB{background-position:-750px 0;}
+.bank-logo span.logo-CFT{background-position:-750px -50px;}
+.bank-logo span.logo-WXZF{background-position:-750px -100px;}
+.bank-logo span.logo-KLB{background-position:-750px -150px;}
+
+.set-bank-account{background:#f5f5f5; padding:20px 0;}
+.set-bank-account .mod-forms label{font-size:12px;}
+
+/* 用户中心-一键回收 */
+.recycle-btn{background-position:0 -278px; background-repeat:repeat-x; height:28px; line-height:28px; color:#000; width:120px; text-align:center; margin:10px auto 0; display:block; border:1px solid #bbb;-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; position:relative; font-size:12px; z-index:99;}
+.recycle-btn:hover{background-position:0 -309px;}
+.recycle-btn span{padding:8px 10px; line-height:22px; position:absolute; top:41px; left:0; width:220px; text-align:left; background:#2a2a2a; color:#fff; display:none;}
+.recycle-btn em{background-position:-182px -577px; width:15px; height:8px; position:absolute; top:-8px; left:55px;}
+.recycle-btn:hover span{display:block;}
+
+/* 用户中心-我的优惠 */
+.mod-pt .pt-hd{border-bottom:1px solid #222;}
+.mod-pt h3{font-size:14px; font-weight:normal; background:#222; width:150px; height:26px; line-height:26px; color:#fff; text-align:center; margin-top:20px;}
+.mod-pt .pt-wrap{padding:20px; border-bottom:1px solid #e1e1e1;}
+.mod-pt .pt-wrap .pt-main{width:650px;}
+.mod-pt .pt-wrap .pt-main h4{font-weight:normal; font:20px/30px "Microsoft YaHei";}
+.mod-pt .pt-wrap .pt-main p{font-size:14px; color:#666; line-height:22px;}
+.mod-pt .pt-wrap .btn-apply,.mod-pt .pt-wrap .btn-applied{background:#2bb774; border-radius:3px; width:120px; height:40px; line-height:40px; text-align:center; color:#fff; font-size:14px; margin-top:8px;}
+.mod-pt .pt-wrap .btn-apply:hover{background:#39cb85;}
+.mod-pt .pt-wrap .btn-applied{background:#ccc;}
+.mod-pt .pt-wrap .unfold,.mod-pt .pt-wrap .fold{margin-top:20px; display:block; border:1px solid #ccc; height:22px; width:80px; text-align:center; line-height:22px;}
+.mod-pt .pt-wrap .unfold i,.mod-pt .pt-wrap .fold i{background-position:-122px -578px; width:12px; height:7px; display:inline-block; margin-left:5px;}
+.mod-pt .pt-wrap .unfold:hover i{background-position:-143px -578px;}
+.mod-pt .pt-wrap .fold i{background-position:-122px -609px;}
+.mod-pt .pt-wrap .fold:hover i{background-position:-143px -609px;}
+.mod-pt .pt-info{margin-top:20px;color:#666; line-height:24px;}
+.mod-pt .pt-info ol,.mod-pt .pt-info ul{list-style-type:decimal;}
+.mod-pt .pt-info li{list-style-type:inherit; padding-left:5px; margin-left:15px;}
+.mod-pt .pt-info table{margin:15px 0; width:100%;}
+.mod-pt .pt-info table th,.mod-pt .pt-info table td{text-align:center; padding:5px 0;}
+.mod-pt .pt-info table th{background:#444; border:1px solid #666; color:#fff; height:26px;}
+.mod-pt .pt-info table td{padding:5px 10px; background:#fff; border:1px solid #ccc;}
+.mod-pt .pt-info table tr:nth-child(2n) td{background:#fafafa;}
+
+/* 翻页 */
+.page-wrap{left:50%; margin-top:30px; position:relative; float:left;}
+.page{left:-50%; position:relative;}
+.page a,.page span{float:left; height:20px; padding:3px 10px; border:1px solid #ccc; margin-left:4px; font-family:arial; line-height:20px; font-size:14px; overflow:hidden;}
+.page span{color:#ccc;}
+.page span.ellipsis{border:none; color:#222; line-height:15px;}
+.page .current {border:0; padding:4px 11px;}
+.page a{color:#222;}
+.page a:hover{border-width:1px; border-style:solid;}
+.page .current{font-weight:bold;}
+
+/* 代理中心 start */
+.ag-ctr .mod-forms label,.ag-ctr .mod-forms input,.ag-ctr .mod-forms select{font-size:12px;}
+.ag-ctr{background:#cdcbcc; padding:20px 0;}
+.ag-ctr .layout{background:#f1f1f1; padding-bottom:50px; overflow:hidden;}
+.ag-ctr .report-content{width:100% !important; max-width:1280px !important; min-width:1000px !important;}
+.ag-ctr .report-content .item{padding-right:20px;}
+.ag-ctr fieldset{border:1px solid #e3e3e3; margin:20px 20px 0; padding:10px;}
+.ag-ctr fieldset legend{font:16px/1.5 "Microsoft YaHei"; color:#444;}
+.ag-ctr .agency-info fieldset{float:left; display:inline-block; width:438px; min-height:355px;}
+.ag-ctr .agency-info fieldset.width938{width:938px;}
+.ag-ctr .user-form .forms-btn-g{margin-left:140px;}
+.ag-ctr .agreement{color:#666; margin-left:130px; line-height:22px;}
+
+/* 清算须知 */
+.ag-ctr .mod-settle{line-height:22px;}
+.ag-ctr .mod-settle h2{font:20px/1.5 "Microsoft YaHei";}
+.ag-ctr .mod-settle p{padding:10px 0; color:#666;}
+.ag-ctr .mod-settle p strong{color:#222;}
+.ag-ctr .mod-settle ol li{list-style-type:decimal; margin-left:15px; color:#666;}
+.ag-ctr .mod-settle .forms-btn-g{margin-left:0;}
+.ag-ctr .mod-forms-list .gender label{width:auto; margin-right:25px;}
+
+.content-hd{color:#666;  margin:20px 0 10px 20px;}
+.content-hd h3{font:16px/36px "Microsoft YaHei"; font-weight:normal;}
+.resource-dl img{cursor:pointer;}
+.form-t-4 th,.form-t-4 td{font-size:12px; padding:5px 0; text-align:center;}
+.bg-c-gray td{background:#e9f3f3;}
+.ag-withdraw .content-hd{width:900px;}
+.ag-withdraw .content-hd .more{font-size:14px; line-height:36px; color:#189e9e;}
+.ag-withdraw .tip{font-size:14px; margin:20px;}
+
+.transfer-btn a,.lock-btn a{height:24px; line-height:24px; width:65px; overflow:hidden; text-align:center; display:inline-block; border-radius:3px; margin:0 5px; color:#fff;}
+.lock-btn a{width:40px;}
+.transfer-btn .d-btn{background-position:-1px -120px; border:1px solid #2c9f06;}
+.transfer-btn .d-btn:hover{background-position:-81px -120px;}
+.transfer-btn .w-btn,.lock-btn a{background-position:-1px -146px; border:1px solid #bbb8b9; color:#222;}
+.transfer-btn .w-btn:hover,.lock-btn a:hover{background-position:-81px -146px;}
+.disable .d-btn,.disable .w-btn{background:#aaa; color:#bbb; border:1px solid #ccc; cursor:default;}
+.lock-btn .unlock{color:#cc000f;}
+/* 代理中心 end */
+
+/* 电子游戏 start */
+/* 推荐游戏 */
+.RubyClassicBlackjackGold{background:url(/images/games/mg/BTN_GoldSeries_ClassicBlackjack1.png);}
+.pureplatinum{background:url(/images/games/mg/BTN_PurePlatinum1.png);}
+.BreakAway{background:url(/images/games/mg/BTN_BreakAway1.png);}
+.Thunderstruck2{background:url(/images/games/mg/BTN_ThunderstruckTwo1.png);}
+.AsianBeauty{background:url(/images/games/mg/BTN_AsianBeauty1.png);}
+.EuropeanBJGold{background:url(/images/games/mg/BTN_EuroBlackjack1.png);}
+
+
+/* 高级游戏 */
+.AvalonII-L-QuestForTheGrail{background:url(/images/games/mg/BTN_AvalonII.png);}
+.TheDarkKnightRises{background:url(/images/games/mg/BTN_TheDarkKnightRises.png);}
+.LeaguesOfFortune{background:url(/images/games/mg/BTN_LeaguesOfFortune1.png);}
+.InItToWinIt{background:url(/images/games/mg/BTN_InItToWinIt.png);}
+.LooseCannon{background:url(/images/games/mg/BTN_LooseCannon1.png);}
+.Playboy{background:url(/images/games/mg/BTN_Playboy1.png);}
+.DrWattsUp{background:url(/images/games/mg/BTN_DrWattsUp1.png);}
+.UntamedCrownedEagle{background:url(/images/games/mg/BTN_UntamedCrownedEagle.png);}
+.GirlsWithGuns-L-JungleHeat{background:url(/images/games/mg/BTN_GirlswithGuns1.png);}
+.GirlswithGuns-L-FrozenDawn{background:url(/images/games/mg/BTN_GirlswithGuns2.png);}
+.BustTheBank{background:url(/images/games/mg/BTN_BustTheBank1.png);}
+.HighSociety{background:url(/images/games/mg/BTN_HighSociety.png);}
+.MysticDreams{background:url(/images/games/mg/BTN_MysticDreams1.png);}
+.SecretSanta{background:url(/images/games/mg/BTN_SecretSanta.png);}
+.RacingForPinks{background:url(/images/games/mg/BTN_RacingForPinks.png);}
+.StarlightKiss{background:url(/images/games/mg/BTN_StarlightKiss.png);}
+.LuckyKoi{background:url(/images/games/mg/BTN_LuckyKoi.png);}
+.DolphinQuest{background:url(/images/games/mg/BTN_DolphinQuest.png);}
+.Terminator2{background:url(/images/games/mg/BTN_Terminator2_1.png);}
+
+/* 奖金游戏 */
+.WheelOfWealthSpecialEdition{background:url(/images/games/mg/BTN_WheelofWealthSE1.png);}
+.BushTelegraph{background:url(/images/games/mg/BTN_BushTelegraph1.png);}
+.WhatonEarth{background:url(/images/games/mg/BTN_WhatonEarth1.png);}
+.TheTwistedCircus{background:url(/images/games/mg/BTN_TwistedCircus.png);}
+.MadHatters{background:url(/images/games/mg/BTN_MadHatters1.png);}
+
+.TombRaider{background:url(/images/games/mg/BTN_TombRaider2.png);}
+.TombRaider2{background:url(/images/games/mg/BTN_TombRaiderSotS1.png);}
+.MermaidsMillions{background:url(/images/games/mg/BTN_MermaidsMillions1.png);}
+.TheFinerReelsofLife{background:url(/images/games/mg/BTN_FinerReelsofLife.png);}
+.Cashville{background:url(/images/games/mg/BTN_Cashville1.png);}
+
+.WasabiSan{background:url(/images/games/mg/BTN_WasabiSan4.png);}
+.Cashanova{background:url(/images/games/mg/BTN_Cashanova1.png);}
+.DinoMight{background:url(/images/games/mg/BTN_DinoMight1.png);}
+.SkullDuggery{background:url(/images/games/mg/BTN_SkullDuggery1.png);}
+.ThunderstruckII{background:url(/images/games/mg/BTN_ThunderstruckTwo1.png);}
+
+.RoboJack{background:url(/images/games/mg/BTN_robojack1.png);}
+.PollenNation{background:url(/images/games/mg/BTN_PollenNation1.png);}
+.WitchesWealth{background:url(/images/games/mg/BTN_WitchesWealth1.png);}
+.MagicCharms{background:url(/images/games/mg/BTN_MagicCharms.png);}
+.SantasWildRide{background:url(/images/games/mg/BTN_SantasWildRide1.png);}
+
+.WheelofWealth{background:url(/images/games/mg/BTN_WheelOfWealth1.png);}
+.Halloweenies{background:url(/images/games/mg/BTN_Halloweenies1.png);}
+.Loaded{background:url(/images/games/mg/BTN_Loaded1.png);}
+.UntamedWolfPack{background:url(/images/games/mg/BTN_UntamedWolfPack1.png);}
+.UntamedBengalTiger{background:url(/images/games/mg/BTN_UntamedBengalTiger1.png);}
+
+.BreakDaBankAgain{background:url(/images/games/mg/BTN_BreakDaBankAgain1.png);}
+.Moonshine{background:url(/images/games/mg/BTN_Moonshine1.png);}
+.BigKahuna{background:url(/images/games/mg/BTN_BigKahuna1.png);}
+.HitMan{background:url(/images/games/mg/BTN_Hitman1.png);}
+.FootballStar{background:url(/images/games/mg/BTN_footballstar1.png);}
+
+/* 经典老虎机 */
+.SpectacularWheelOfWealth{background:url(/images/games/mg/BTN_SpectacularWheelOfWealth1.png);}
+.CashCrazy{background:url(/images/games/mg/BTN_CashCrazy9.png);}
+.Belissimo{background:url(/images/games/mg/BTN_Belissimo17.png);}
+.FlyingAce{background:url(/images/games/mg/BTN_FlyingAce2.png);}
+.GoldCoast{background:url(/images/games/mg/BTN_GoldCoast3.png);}
+
+.GoldenDragon{background:url(/images/games/mg/BTN_GoldenDragon6.png);}
+.RapidReels{background:url(/images/games/mg/BTN_RapidReels5.png);}
+.CoolBuck{background:url(/images/games/mg/BTN_CoolBuck1.png);}
+.JackpotExpress{background:url(/images/games/mg/BTN_JackpotExpress1.png);}
+.JingleBells{background:url(/images/games/mg/BTN_JingleBells6.png);}
+
+.RomanRiches{background:url(/images/games/mg/BTN_RomanRiches11.png);}
+.Fantastic7s{background:url(/images/games/mg/BTN_FantasticSevens1.png);}
+.BreakDaBank{background:url(/images/games/mg/BTN_BreakDaBank1.png);}
+.ZanyZebra{background:url(/images/games/mg/BTN_ZanyZebra1.png);}
+.TripleMagic{background:url(/images/games/mg/BTN_TripleMagic1.png);}
+
+.CouchPotato{background:url(/images/games/mg/BTN_CouchPotato2.png);}
+.DoubleMagic{background:url(/images/games/mg/BTN_DoubleMagic1.png);}
+.DoubleWammy{background:url(/images/games/mg/BTN_DoubleWammy1.png);}
+.FruitSlots{background:url(/images/games/mg/BTN_FruitSlots1.png);}
+.CashClams{background:url(/images/games/mg/BTN_CashClams2.png);}
+
+.FortuneCookie{background:url(/images/games/mg/BTN_FortuneCookie7.png);}
+.RockTheBoat{background:url(/images/games/mg/BTN_RocktheBoat18.png);}
+.Legacy{background:url(/images/games/mg/BTN_Legacy2.png);}
+.CosmicCat{background:url(/images/games/mg/BTN_CosmicCat1.png);}
+.JurassicJackpot{background:url(/images/games/mg/BTN_JurassicJackpot1.png);}
+
+
+/* 3D老虎机 */
+.ReelDrive{background:url(/images/games/mg/BTN_5ReelDrive1.png);}
+.HotShot{background:url(/images/games/mg/BTN_HotShot3.png);}
+.ImmortalRomance{background:url(/images/games/mg/BTN_ImmortalRomance1.png);}
+.GreatGriffin{background:url(/images/games/mg/BTN_GreatGriffin1.png);}
+.UntamedGiantPanda{background:url(/images/games/mg/BTN_UntamedGiantPanda.png);}
+
+.OrientalFortune{background:url(/images/games/mg/BTN_OrientalFortune2.png);}
+.CrazyChameleons{background:url(/images/games/mg/BTN_CrazyChameleons1.png);}
+.KaratePig{background:url(/images/games/mg/BTN_KaratePig1.png);}
+.SoManyMonsters{background:url(/images/games/mg/BTN_somanymonsters.png);}
+.MonsterMania{background:url(/images/games/mg/BTN_MonsterMania1.png);}
+
+.LadyInRed{background:url(/images/games/mg/BTN_LadyInRed2.png);}
+.RedHotDevil{background:url(/images/games/mg/BTN_RedHotDevil.png);}
+.GopherGold{background:url(/images/games/mg/BTN_GopherGold2.png);}
+.GoldenEra{background:url(/images/games/mg/BTN_GoldenEra.png);}
+.GeniesGems{background:url(/images/games/mg/BTN_GeniesGems2.png);}
+
+.Carnaval{background:url(/images/games/mg/BTN_Carnaval2.png);}
+.Cashapillar{background:url(/images/games/mg/BTN_Cashapillar1.png);}
+.ReelThunder{background:url(/images/games/mg/BTN_ReelThunder2.png);}
+.BigTop{background:url(/images/games/mg/BTN_BigTop1.png);}
+.WhatAHoot{background:url(/images/games/mg/BTN_WhataHoot3.png);}
+
+.BurningDesire{background:url(/images/games/mg/BTN_BurningDesire1.png);}
+.DeckTheHalls{background:url(/images/games/mg/BTN_DeckTheHalls1.png);}
+.Scrooge{background:url(/images/games/mg/BTN_Scrooge1.png);}
+.SoMuchSushi{background:url(/images/games/mg/BTN_somuchsushi.png);}
+.SunQuest{background:url(/images/games/mg/BTN_SunQuest3.png);}
+
+.SoMuchCandy{background:url(/images/games/mg/BTN_somuchcandy.png);}
+.TotemTreasure{background:url(/images/games/mg/BTN_TotemTreasure1.png);}
+.HappyNewYear{background:url(/images/games/mg/BTN_HappyNewYear3.png);}
+.RhymingReels-OldKingCole{background:url(/images/games/mg/BTN_RRKing1.png);}
+.TheOsbournes{background:url(/images/games/mg/BTN_TheOsbournes1.png);}
+
+.VinylCountdown{background:url(/images/games/mg/BTN_VinylCountdown4.png);}
+.MegaSpinsBreakDaBank{background:url(/images/games/mg/BTN_BreakdaBankAgainMegaSpin1.png);}
+.WinningWizards{background:url(/images/games/mg/BTN_WinningWizards1.png);}
+.LuckyFirecracker{background:url(/images/games/mg/BTN_LuckyFirecracker.png);}
+.MaxDamage{background:url(/images/games/mg/BTN_MaxDamageSlot.png);}
+
+
+/* 视频扑克 */
+.li>DeucesAndJoker{background:url(/images/games/mg/BTN_DeucesJoker1.png);}
+.DoubleDoubleBonus{background:url(/images/games/mg/BTN_DoubleDoubleBonus1.png);}
+.LouisianaDouble{background:url(/images/games/mg/BTN_LouisianaDouble1.png);}
+.JacksOrBetter{background:url(/images/games/mg/BTN_JacksOrBetter1.png);}
+.TensOrBetter{background:url(/images/games/mg/BTN_TensOrBetter1.png);}
+
+.DeucesWild{background:url(/images/games/mg/BTN_DeucesWild1.png);}
+
+/* 特色老虎机 */
+.TheJoyOfSix{background:url(/images/games/mg/BTN_JoyOfSix.png);}
+.Avalon{background:url(/images/games/mg/BTN_Avalon1.png);}
+.ReelGems{background:url(/images/games/mg/BTN_ReelGems1.png);}
+.SpringBreak{background:url(/images/games/mg/BTN_SpringBreak2.png);}
+.GoodToGo{background:url(/images/games/mg/BTN_GoodToGo2.png);}
+
+.RetroReelsDiamondGlitz{background:url(/images/games/mg/BTN_RRDiamondGlitz1.png);}
+.RetroReels{background:url(/images/games/mg/BTN_RetroReels1.png);}
+.AdventurePalace{background:url(/images/games/mg/BTN_AdventurePalace4.png);}
+.Munchkins{background:url(/images/games/mg/BTN_Munchkins2.png);}
+.Harveys{background:url(/images/games/mg/BTN_Harveys1.png);}
+
+.RivieraRiches{background:url(/images/games/mg/BTN_RivieraRiches1.png);}
+.SovereignOfTheSevenSeas{background:url(/images/games/mg/BTN_SovereignoftheSevenSeas.png);}
+.HoHoHo{background:url(/images/games/mg/BTN_Hohoho1.png);}
+.GoldFactory{background:url(/images/games/mg/BTN_GoldFactory1.png);}
+.ReelStrike{background:url(/images/games/mg/BTN_ReelStrike1.png);}
+
+.Kathmandu{background:url(/images/games/mg/BTN_Kathmandu1.png);}
+.CoolWolf{background:url(/images/games/mg/BTN_CoolWolf1.png);}
+.Thunderstruck{background:url(/images/games/mg/BTN_Thunderstruck1.png);}
+.AgentJaneBlonde{background:url(/images/games/mg/BTN_AgentJaneBlonde7.png);}
+.SecretAdmirer{background:url(/images/games/mg/BTN_SecretAdmirer1.png);}
+
+.MagicBoxes{background:url(/images/games/mg/BTN_MagicBoxes.png);}
+.LadiesNite{background:url(/images/games/mg/BTN_LadiesNite5.png);}
+.FishParty{background:url(/images/games/mg/BTN_FishParty1.png);}
+.HotInk{background:url(/images/games/mg/BTN_HotInk1.png);}
+.Elementals{background:url(/images/games/mg/BTN_Elementals2.png);}
+
+.BattlestarGalactica{background:url(/images/games/mg/BTN_BattlestarGalactica1.png);}
+.TallyHo{background:url(/images/games/mg/BTN_TallyHo1.png);}
+.WesternFrontier{background:url(/images/games/mg/BTN_WesternFrontier.png);}
+.LuckyWitch{background:url(/images/games/mg/BTN_LuckyWitch1.png);}
+.RhymingReelsHeartsTarts{background:url(/images/games/mg/BTN_RRHearts&Tarts1.png);}
+
+.SilverFang{background:url(/images/games/mg/BTN_SilverFang1.png);}
+
+/* 休闲游戏 */
+.PremierTrotting{background:url(/images/games/mg/BTN_PremierTrotting1.png);}
+.PremierRacing{background:url(/images/games/mg/BTN_PremierRacing1.png);}
+.ElectroBingo{background:url(/images/games/mg/BTN_ElectroBingo1.png);}
+.PharaohBingo{background:url(/images/games/mg/BTN_PharaohBingo1.png);}
+.CrownAndAnchor{background:url(/images/games/mg/BTN_CrownAndAnchor1.png);}
+
+.MayanBingo{background:url(/images/games/mg/BTN_MayanBingo1.png);}
+.EnchantedWoods{background:url(/images/games/mg/BTN_EnchantedWoods1.png);}
+.SambaBingo{background:url(/images/games/mg/BTN_SambaBingo1.png);}
+.FourByFour{background:url(/images/games/mg/BTN_FourByFour1.png);}
+.Germinator{background:url(/images/games/mg/BTN_Germinator1.png);}
+
+.MaxDamageAndTheAlienAttack{background:url(/images/games/mg/BTN_MaxDamage1.png);}
+
+/* 桌面游戏 */
+.Baccarat{background:url(/images/games/mg/BTN_Baccarat2.png);}
+.BaccaratGold{background:url(/images/games/mg/BTN_GoldSeries_Baccarat1.png);}
+.SuperFun21{background:url(/images/games/mg/BTN_SuperFun21Blackjack1.png);}
+.FrenchRoulette{background:url(/images/games/mg/BTN_FrenchRoulette1.png);}
+.MultiWheelRouletteGold{background:url(/images/games/mg/BTN_GoldSeries_MultiWheelRoulette1.png);}
+
+.HighLimitBaccarat{background:url(/images/games/mg/BTN_HighLimitBaccarat1.png);}
+.AmericanRoulette{background:url(/images/games/mg/BTN_USRoulette1.png);}
+.HighLimitEuropeanBlackjack{background:url(/images/games/mg/BTN_EuroBlackjackHighLimit1.png);}
+.EuropeanRouletteGold{background:url(/images/games/mg/BTN_GoldSeries_EuroRoulette1.png);}
+.PokerPursuit{background:url(/images/games/mg/BTN_PokerPursuit1.png);}
+
+.CyberstudPoker{background:url(/images/games/mg/BTN_Cyberstud1.png);}
+.SpanishBlackjack{background:url(/images/games/mg/BTN_SpanishBlackjack1.png);}
+
+/* 扑克游戏 */
+.DeucesAndJoker{background:url(/images/games/mg/BTN_DeucesJokerPowerPoker1.png);}
+.Jackspwrpoker{background:url(/images/games/mg/BTN_JacksorBetterPowerPoker1.png);}
+.DoubleJoker{background:url(/images/games/mg/BTN_DoubleJokerPowerPoker1.png);}
+.AcesAndFaces{background:url(/images/games/mg/BTN_AcesFacesPowerPoker1.png);}
+.JokerPoker{background:url(/images/games/mg/BTN_JokerPokerPowerPoker1.png);}
+
+/* PT-街机游戏 */
+.game_atw{background:url(/images/games/pt/atw.jpg);}
+.game_bowl{background:url(/images/games/pt/bowl.jpg);}
+.game_hr{background:url(/images/games/pt/hr.jpg);}
+.game_dctw{background:url(/images/games/pt/dctw.jpg);}
+.game_ghl{background:url(/images/games/pt/ghl.jpg);}
+.game_ghlj{background:url(/images/games/pt/ghlj.jpg);}
+.game_head{background:url(/images/games/pt/head.jpg);}
+.game_drts{background:url(/images/games/pt/drts.jpg);}
+.game_kn{background:url(/images/games/pt/kn.jpg);}
+.game_knx{background:url(/images/games/pt/knx.jpg);}
+.game_bls{background:url(/images/games/pt/bls.jpg);}
+.game_mro{background:url(/images/games/pt/mro.jpg);}
+.game_pso{background:url(/images/games/pt/pso.jpg);}
+.game_pop{background:url(/images/games/pt/pop.jpg);}
+.game_rps{background:url(/images/games/pt/rps.jpg);}
+.game_rcd{background:url(/images/games/pt/rcd.jpg);}
+
+.game_qbd{background:url(/images/games/pt/qbd.jpg);}
+.game_fsc{background:url(/images/games/pt/fsc.jpg);}
+.game_hsd{background:url(/images/games/pt/hsd.jpg);}
+.game_pbro{background:url(/images/games/pt/pbro.jpg);}
+
+/* PT-刮卡游戏 */
+.game_lwh{background:url(/images/games/pt/lwh.jpg);}
+.game_bbn{background:url(/images/games/pt/bbn.jpg);}
+.game_sbj{background:url(/images/games/pt/sbj.jpg);}
+.game_scs{background:url(/images/games/pt/scs.jpg);}
+.game_gts41{background:url(/images/games/pt/gts41.jpg);}
+.game_fbm{background:url(/images/games/pt/fbm.jpg);}
+.game_lom{background:url(/images/games/pt/lom.jpg);}
+.game_sro{background:url(/images/games/pt/sro.jpg);}
+.game_ssa{background:url(/images/games/pt/ssa.jpg);}
+.game_gtshlksc{background:url(/images/games/pt/gtshlksc.jpg);}
+.game_ttcsc{background:url(/images/games/pt/ttcsc.jpg);}
+.game_gts49{background:url(/images/games/pt/gts49.jpg);}
+
+.game_essc{background:url(/images/games/pt/essc.jpg);}
+.game_irm3sc{background:url(/images/games/pt/irm3.jpg);}
+.game_irmn3sc{background:url(/images/games/pt/irmn3sc.jpg);}
+.game_kkgsc{background:url(/images/games/pt/kkgsc.jpg);}
+.game_pks{background:url(/images/games/pt/pks.jpg);}
+.game_gtstrmsc{background:url(/images/games/pt/gtstrmsc.jpg);}
+.game_gtsttlsc{background:url(/images/games/pt/gtsttlsc.jpg);}
+.game_gtswvsc{background:url(/images/games/pt/gtswvsc.jpg);}
+.game_gts42{background:url(/images/games/pt/gts42.jpg);}
+
+/* PT-老虎机 */
+.game_8bs{background:url(/images/games/pt/8bs.jpg);}
+.game_hb{background:url(/images/games/pt/hb.jpg);}
+.game_al{background:url(/images/games/pt/al.jpg);}
+.game_ah2{background:url(/images/games/pt/ah2.jpg);}
+.game_bl{background:url(/images/games/pt/bl.jpg);}
+.game_bt{background:url(/images/games/pt/bt.jpg);}
+.game_bld{background:url(/images/games/pt/bld.jpg);}
+.game_bob{background:url(/images/games/pt/bob.jpg);}
+.game_cam{background:url(/images/games/pt/cam.jpg);}
+.game_ct{background:url(/images/games/pt/ct.jpg);}
+.game_cm{background:url(/images/games/pt/cm.jpg);}
+.game_cifr{background:url(/images/games/pt/cifr.jpg);}
+.game_c7{background:url(/images/games/pt/c7.jpg);}
+.game_drd{background:url(/images/games/pt/drd.jpg);}
+.game_dt{background:url(/images/games/pt/dt.jpg);}
+.game_gs{background:url(/images/games/pt/gs.jpg);}
+.game_dlm{background:url(/images/games/pt/dlm.jpg);}
+.game_gtsdgk{background:url(/images/games/pt/gtsdgk.jpg);}
+.game_eas{background:url(/images/games/pt/eas.jpg);}
+.game_elr{background:url(/images/games/pt/elr.jpg);}
+.game_fnf{background:url(/images/games/pt/fnf.jpg);}
+.game_fam3{background:url(/images/games/pt/fam3.jpg);}
+.game_gtsftf{background:url(/images/games/pt/gtsftf.jpg);}
+.game_fbr{background:url(/images/games/pt/fbr.jpg);}
+.game_fow{background:url(/images/games/pt/fow.jpg);}
+.game_fth{background:url(/images/games/pt/fth.jpg);}
+.game_foy{background:url(/images/games/pt/foy.jpg);}
+.game_fmn{background:url(/images/games/pt/fmn.jpg);}
+.game_fff{background:url(/images/games/pt/fff.jpg);}
+.game_fm{background:url(/images/games/pt/fm.jpg);}
+.game_ges{background:url(/images/games/pt/ges.jpg);}
+.game_ghr{background:url(/images/games/pt/ghr.jpg);}
+.game_gc{background:url(/images/games/pt/gc.jpg);}
+.game_grel{background:url(/images/games/pt/grel.jpg);}
+.game_glg{background:url(/images/games/pt/atw.jpg);}
+.game_gos{background:url(/images/games/pt/glg.jpg);}
+.game_bib{background:url(/images/games/pt/bib.jpg);}
+.game_gro{background:url(/images/games/pt/gro.jpg);}
+.game_hlf{background:url(/images/games/pt/hlf.jpg);}
+.game_hh{background:url(/images/games/pt/hh.jpg);}
+.game_hk{background:url(/images/games/pt/hk.jpg);}
+.game_gts50{background:url(/images/games/pt/gts50.jpg);}
+.game_iceh{background:url(/images/games/pt/iceh.jpg);}
+.game_irm2{background:url(/images/games/pt/irm2.jpg);}
+.game_jb{background:url(/images/games/pt/jb.jpg);}
+.game_kkg{background:url(/images/games/pt/kkg.jpg);}
+.game_lm{background:url(/images/games/pt/lm.jpg);}
+.game_ms{background:url(/images/games/pt/ms.jpg);}
+.game_mcb{background:url(/images/games/pt/mcb.jpg);}
+.game_nk{background:url(/images/games/pt/nk.jpg);}
+.game_op{background:url(/images/games/pt/op.jpg);}
+.game_pl{background:url(/images/games/pt/pl.jpg);}
+.game_pnp{background:url(/images/games/pt/pnp.jpg);}
+.game_pwz{background:url(/images/games/pt/pwz.jpg);}
+.game_qop{background:url(/images/games/pt/qop.jpg);}
+.game_ssl{background:url(/images/games/pt/ssl.jpg);}
+.game_rnr{background:url(/images/games/pt/rnr.jpg);}
+.game_rky{background:url(/images/games/pt/rky.jpg);}
+.game_sc{background:url(/images/games/pt/sc.jpg);}
+.game_ssp{background:url(/images/games/pt/ssp.jpg);}
+.game_sib{background:url(/images/games/pt/sib.jpg);}
+.game_spidc{background:url(/images/games/pt/spidc.jpg);}
+.game_sf{background:url(/images/games/pt/sf.jpg);}
+.game_cnpr{background:url(/images/games/pt/cnpr.jpg);}
+.game_tst{background:url(/images/games/pt/tst.jpg);}
+.game_avng{background:url(/images/games/pt/avng.jpg);}
+.game_mmy{background:url(/images/games/pt/mmy.jpg);}
+.game_trm{background:url(/images/games/pt/trm.jpg);}
+.game_ts{background:url(/images/games/pt/ts.jpg);}
+.game_ttc{background:url(/images/games/pt/ttc.jpg);}
+.game_ta{background:url(/images/games/pt/ta.jpg);}
+.game_tp{background:url(/images/games/pt/tp.jpg);}
+.game_tr{background:url(/images/games/pt/tr.jpg);}
+.game_trl{background:url(/images/games/pt/trl.jpg);}
+.game_ub{background:url(/images/games/pt/ub.jpg);}
+.game_er{background:url(/images/games/pt/er.jpg);}
+.game_wsffr{background:url(/images/games/pt/wsffr.jpg);}
+.game_wan{background:url(/images/games/pt/wan.jpg);}
+.game_whc{background:url(/images/games/pt/whc.jpg);}
+.game_wis{background:url(/images/games/pt/wis.jpg);}
+.game_gtswng{background:url(/images/games/pt/gtswng.jpg);}
+.game_wvm{background:url(/images/games/pt/wvm.jpg);}
+.game_wlg{background:url(/images/games/pt/wlg.jpg);}
+.game_xmn{background:url(/images/games/pt/xmn.jpg);}
+.game_zcjb{background:url(/images/games/pt/zcjb.jpg);}
+
+.game_bld50{background:url(/images/games/pt/bld50.jpg);}
+.game_ashbgt{background:url(/images/games/pt/ashbgt.jpg);}
+.game_dt2{background:url(/images/games/pt/dt2.jpg);}
+.game_evj{background:url(/images/games/pt/evj.jpg);}
+.game_fnf{background:url(/images/games/pt/fnf.jpg);}
+.game_fnf50{background:url(/images/games/pt/fnf50.jpg);}
+.game_ashfmf{background:url(/images/games/pt/ashfmf.jpg);}
+.game_fnfrj{background:url(/images/games/pt/fnfrj.jpg);}
+.game_gtsgoc{background:url(/images/games/pt/gtsgoc.jpg);}
+.game_glr{background:url(/images/games/pt/glr.jpg);}
+.game_glrj{background:url(/images/games/pt/glrj.jpg);}
+.game_irm3{background:url(/images/games/pt/irm3.jpg);}
+.game_irm50{background:url(/images/games/pt/irm50.jpg);}
+.game_irmn3{background:url(/images/games/pt/irmn3.jpg);}
+.game_gtsjhw{background:url(/images/games/pt/gtsjhw.jpg);}
+.game_gts51{background:url(/images/games/pt/gts51.jpg);}
+.game_gtsmrln{background:url(/images/games/pt/gtsmrln.jpg);}
+.game_gtsstg{background:url(/images/games/pt/gtsstg.jpg);}
+.game_hlk2{background:url(/images/games/pt/hlk2.jpg);}
+.game_hlk50{background:url(/images/games/pt/hlk50.jpg);}
+.game_lvb{background:url(/images/games/pt/lvb.jpg);}
+.game_ttl{background:url(/images/games/pt/ttl.jpg);}
+.game_tfs{background:url(/images/games/pt/tfs.jpg);}
+.game_xmn50{background:url(/images/games/pt/xmn50.jpg);}
+
+/* PT-桌面／纸牌游戏 */
+.game_bj21d_mh{background:url(/images/games/pt/bj21d_mh.jpg);}
+.game_ro3d{background:url(/images/games/pt/ro3d.jpg);}
+.game_bja{background:url(/images/games/pt/bja.jpg);}
+.game_rodz{background:url(/images/games/pt/rodz.jpg);}
+.game_ba{background:url(/images/games/pt/ba.jpg);}
+.game_s21{background:url(/images/games/pt/s21.jpg);}
+.game_bjs{background:url(/images/games/pt/bjs.jpg);}
+.game_car{background:url(/images/games/pt/car.jpg);}
+.game_cheaa{background:url(/images/games/pt/cheaa.jpg);}
+.game_rouk{background:url(/images/games/pt/rouk.jpg);}
+.game_cr{background:url(/images/games/pt/cr.jpg);}
+.game_ro{background:url(/images/games/pt/ro.jpg);}
+.game_frr{background:url(/images/games/pt/frr.jpg);}
+.game_bjhd_mh5{background:url(/images/games/pt/bjhd_mh5.jpg);}
+.game_lbj{background:url(/images/games/pt/lbj.jpg);}
+.game_pg{background:url(/images/games/pt/pg.jpg);}
+.game_pfbj_mh5{background:url(/images/games/pt/pfbj_mh5.jpg);}
+.game_rodz_g{background:url(/images/games/pt/rodz_g.jpg);}
+.game_ro_g{background:url(/images/games/pt/ro_g.jpg);}
+.game_frr_g{background:url(/images/games/pt/frr_g.jpg);}
+.game_rop_g{background:url(/images/games/pt/rop_g.jpg);}
+.game_pba{background:url(/images/games/pt/pba.jpg);}
+.game_pbj{background:url(/images/games/pt/pbj.jpg);}
+.game_rd{background:url(/images/games/pt/rd.jpg);}
+.game_rop{background:url(/images/games/pt/rop.jpg);}
+.game_sb{background:url(/images/games/pt/sb.jpg);}
+.game_tqp{background:url(/images/games/pt/tqp.jpg);}
+.game_wv{background:url(/images/games/pt/wv.jpg);}
+
+.game_rom{background:url(/images/games/pt/rom.jpg);}
+
+
+/* PT-视频扑克 */
+.game_jb10p{background:url(/images/games/pt/jb10p.jpg);}
+.game_hljb{background:url(/images/games/pt/hljb.jpg);}
+.game_af{background:url(/images/games/pt/af.jpg);}
+.game_dw{background:url(/images/games/pt/dw.jpg);}
+.game_po{background:url(/images/games/pt/po.jpg);}
+.game_jp{background:url(/images/games/pt/jp.jpg);}
+.game_mj{background:url(/images/games/pt/mj.jpg);}
+.game_tob{background:url(/images/games/pt/tob.jpg);}
+
+.game_af25{background:url(/images/games/pt/af25.jpg);}
+.game_jb50{background:url(/images/games/pt/jb50.jpg);}
+
+/* PT-真人游戏 */
+.game_7bal{background:url(/images/games/pt/7bal.jpg);}
+.game_bjl{background:url(/images/games/pt/bjl.jpg);}
+.game_rofl{background:url(/images/games/pt/rofl.jpg);}
+.game_chel{background:url(/images/games/pt/chel.jpg);}
+.game_plba{background:url(/images/games/pt/plba.jpg);}
+.game_ubjl{background:url(/images/games/pt/ubjl.jpg);}
+.game_vbal{background:url(/images/games/pt/vbal.jpg);}
+
+/* PT-小游戏 */
+.game_mfdt{background:url(/images/games/pt/mfdt.jpg);}
+
+/* BBIN-游戏厅 */
+.Game_5001,.Game_5063{background:url(/images/games/bbin/Game_5001.png);}
+.Game_5002,.Game_5064{background:url(/images/games/bbin/Game_5002.png);}
+.Game_5003,.Game_5065{background:url(/images/games/bbin/Game_5003.png);}
+.Game_5004,.Game_5066{background:url(/images/games/bbin/Game_5004.png);}
+.Game_5011{background:url(/images/games/bbin/Game_5011.png);}
+.Game_5012{background:url(/images/games/bbin/Game_5012.png);}
+.Game_5013{background:url(/images/games/bbin/Game_5013.png);}
+.Game_5014{background:url(/images/games/bbin/Game_5014.png);}
+.Game_5015{background:url(/images/games/bbin/Game_5015.png);}
+.Game_5016{background:url(/images/games/bbin/Game_5016.png);}
+.Game_5017{background:url(/images/games/bbin/Game_5017.png);}
+.Game_5018{background:url(/images/games/bbin/Game_5018.png);}
+.Game_5019{background:url(/images/games/bbin/Game_5019.png);}
+.Game_5020{background:url(/images/games/bbin/Game_5020.png);}
+.Game_5025{background:url(/images/games/bbin/Game_5025.png);}
+.Game_5026{background:url(/images/games/bbin/Game_5026.png);}
+.Game_5027{background:url(/images/games/bbin/Game_5027.png);}
+.Game_5028{background:url(/images/games/bbin/Game_5028.png);}
+.Game_5029{background:url(/images/games/bbin/Game_5029.png);}
+.Game_5030{background:url(/images/games/bbin/Game_5030.png);}
+.Game_5034{background:url(/images/games/bbin/Game_5034.png);}
+.Game_5035{background:url(/images/games/bbin/Game_5035.png);}
+.Game_5039{background:url(/images/games/bbin/Game_5039.png);}
+.Game_5040{background:url(/images/games/bbin/Game_5040.png);}
+.Game_5041{background:url(/images/games/bbin/Game_5041.png);}
+.Game_5042{background:url(/images/games/bbin/Game_5042.png);}
+.Game_5047{background:url(/images/games/bbin/Game_5047.png);}
+.Game_5048{background:url(/images/games/bbin/Game_5048.png);}
+.Game_5049{background:url(/images/games/bbin/Game_5049.png);}
+.Game_5050{background:url(/images/games/bbin/Game_5050.png);}
+.Game_5057{background:url(/images/games/bbin/Game_5057.png);}
+.Game_5058{background:url(/images/games/bbin/Game_5058.png);}
+.Game_5059{background:url(/images/games/bbin/Game_5059.png);}
+.Game_5060{background:url(/images/games/bbin/Game_5060.png);}
+.Game_5061{background:url(/images/games/bbin/Game_5061.png);}
+.Game_5062{background:url(/images/games/bbin/Game_5062.png);}
+.Game_5070{background:url(/images/games/bbin/Game_5070.png);}
+.Game_5073{background:url(/images/games/bbin/Game_5073.png);}
+.Game_5076{background:url(/images/games/bbin/Game_5076.png);}
+.Game_5077{background:url(/images/games/bbin/Game_5077.png);}
+.Game_5078{background:url(/images/games/bbin/Game_5078.png);}
+.Game_5079{background:url(/images/games/bbin/Game_5079.png);}
+.Game_5080{background:url(/images/games/bbin/Game_5080.png);}
+.Game_5083{background:url(/images/games/bbin/Game_5083.png);}
+.Game_5084{background:url(/images/games/bbin/Game_5084.png);}
+.Game_5086{background:url(/images/games/bbin/Game_5086.png);}
+.Game_5088{background:url(/images/games/bbin/Game_5088.png);}
+.Game_5089{background:url(/images/games/bbin/Game_5089.png);}
+.Game_5091{background:url(/images/games/bbin/Game_5091.png);}
+.Game_5092{background:url(/images/games/bbin/Game_5092.png);}
+.Game_5093{background:url(/images/games/bbin/Game_5093.png);}
+.Game_5094{background:url(/images/games/bbin/Game_5094.png);}
+.Game_5095{background:url(/images/games/bbin/Game_5095.png);}
+.Game_5101{background:url(/images/games/bbin/Game_5101.png);}
+.Game_5102{background:url(/images/games/bbin/Game_5102.png);}
+.Game_5103{background:url(/images/games/bbin/Game_5103.png);}
+.Game_5104{background:url(/images/games/bbin/Game_5104.png);}
+.Game_5106{background:url(/images/games/bbin/Game_5106.png);}
+.Game_5115{background:url(/images/games/bbin/Game_5115.png);}
+.Game_5116{background:url(/images/games/bbin/Game_5116.png);}
+.Game_5117{background:url(/images/games/bbin/Game_5117.png);}
+.Game_5118{background:url(/images/games/bbin/Game_5118.png);}
+.Game_5131{background:url(/images/games/bbin/Game_5131.png);}
+.Game_5201{background:url(/images/games/bbin/Game_5201.png);}
+.Game_5202{background:url(/images/games/bbin/Game_5202.png);}
+.Game_5203{background:url(/images/games/bbin/Game_5203.png);}
+.Game_5204{background:url(/images/games/bbin/Game_5204.png);}
+.Game_5401{background:url(/images/games/bbin/Game_5401.png);}
+.Game_5402{background:url(/images/games/bbin/Game_5402.png);}
+.Game_5403{background:url(/images/games/bbin/Game_5403.png);}
+.Game_5404{background:url(/images/games/bbin/Game_5404.png);}
+.Game_5405{background:url(/images/games/bbin/Game_5405.png);}
+.Game_5407{background:url(/images/games/bbin/Game_5407.png);}
+.Game_5601{background:url(/images/games/bbin/Game_5601.png);}
+.Game_5701{background:url(/images/games/bbin/Game_5701.png);}
+.Game_5703{background:url(/images/games/bbin/Game_5703.png);}
+.Game_5704{background:url(/images/games/bbin/Game_5704.png);}
+.Game_5705{background:url(/images/games/bbin/Game_5705.png);}
+.Game_5706{background:url(/images/games/bbin/Game_5706.png);}
+.Game_5707{background:url(/images/games/bbin/Game_5707.png);}
+.Game_5708{background:url(/images/games/bbin/Game_5708.png);}
+.Game_5801{background:url(/images/games/bbin/Game_5801.png);}
+.Game_5802{background:url(/images/games/bbin/Game_5802.png);}
+.Game_5803{background:url(/images/games/bbin/Game_5803.png);}
+.Game_5804{background:url(/images/games/bbin/Game_5804.png);}
+.Game_5805{background:url(/images/games/bbin/Game_5805.png);}
+.Game_5806{background:url(/images/games/bbin/Game_5806.png);}
+.Game_5808{background:url(/images/games/bbin/Game_5808.png);}
+.Game_5809{background:url(/images/games/bbin/Game_5809.png);}
+.Game_5810{background:url(/images/games/bbin/Game_5810.png);}
+.Game_5811{background:url(/images/games/bbin/Game_5811.png);}
+.Game_5821{background:url(/images/games/bbin/Game_5821.png);}
+.Game_5823{background:url(/images/games/bbin/Game_5823.png);}
+.Game_5824{background:url(/images/games/bbin/Game_5824.png);}
+.Game_5825{background:url(/images/games/bbin/Game_5825.png);}
+.Game_5826{background:url(/images/games/bbin/Game_5826.png);}
+.Game_5827{background:url(/images/games/bbin/Game_5827.png);}
+.Game_5828{background:url(/images/games/bbin/Game_5828.png);}
+.Game_5831{background:url(/images/games/bbin/Game_5831.png);}
+.Game_5832{background:url(/images/games/bbin/Game_5832.png);}
+.Game_5833{background:url(/images/games/bbin/Game_5833.png);}
+.Game_5835{background:url(/images/games/bbin/Game_5835.png);}
+.Game_5836{background:url(/images/games/bbin/Game_5836.png);}
+.Game_5837{background:url(/images/games/bbin/Game_5837.png);}
+.Game_5901{background:url(/images/games/bbin/Game_5901.png);}
+.Game_5902{background:url(/images/games/bbin/Game_5902.png);}
+.Game_5903{background:url(/images/games/bbin/Game_5903.png);}
+.Game_5888{background:url(/images/games/bbin/Game_5888.png);}
+.Game_15006{background:url(/images/games/bbin/Game_15006.png);}
+.Game_15016{background:url(/images/games/bbin/Game_15016.png);}
+.Game_15018{background:url(/images/games/bbin/Game_15018.png);}
+.Game_15019{background:url(/images/games/bbin/Game_15019.png);}
+.Game_15021{background:url(/images/games/bbin/Game_15021.png);}
+.Game_15022{background:url(/images/games/bbin/Game_15022.png);}
+.Game_15024{background:url(/images/games/bbin/Game_15024.png);}
+.Game_15027{background:url(/images/games/bbin/Game_15027.png);}
+/* 电子游戏 end */
