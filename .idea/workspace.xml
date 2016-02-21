@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="" />
+    <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\Game.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\api.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\base.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\base64.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\css.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\error.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\header_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\introduct_bank.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.marquee.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.sideFloat.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.slide.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\jsbn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\kz.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\liveCasino.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\messenger-theme-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\messenger.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\messenger.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\prng4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\pt_dl_android_qr.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\respond.src.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\rng.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\rsa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\second_img.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1_files\welcome_banner_01.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/博艺/clientdown/博亿-1.html" afterPath="$PROJECT_DIR$/博艺/clientdown/博亿-1.html" />
+    </list>
     <ignored path="ImitationProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,81 +53,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.392858">
-              <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.5">
-              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.178572">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/agent-home/博亿 - home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.285715">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/agent-model/博亿 - home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.071429">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="博亿-1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="博亿-1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/博艺/clientdown/博亿-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8637993">
-              <caret line="415" column="26" selection-start-line="415" selection-start-column="26" selection-end-line="415" selection-end-column="26" />
+            <state vertical-scroll-proportion="-1.3571428">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/博艺/clientdown/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23835126">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -128,7 +100,6 @@
         <option value="$PROJECT_DIR$/博艺/clientdown/博亿.html" />
         <option value="$PROJECT_DIR$/博艺/libs/css.css" />
         <option value="$PROJECT_DIR$/博艺/libs/base.css" />
-        <option value="$PROJECT_DIR$/博艺/clientdown/index.html" />
         <option value="$PROJECT_DIR$/博艺/promotions/index.html" />
         <option value="$PROJECT_DIR$/博艺/promotions/博亿.html" />
         <option value="$PROJECT_DIR$/博艺/agent/博亿 - home.html" />
@@ -141,6 +112,7 @@
         <option value="$PROJECT_DIR$/博艺/agent-model/博亿 - home.html" />
         <option value="$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html" />
         <option value="$PROJECT_DIR$/博艺/clientdown/博亿-1.html" />
+        <option value="$PROJECT_DIR$/博艺/clientdown/index.html" />
       </list>
     </option>
   </component>
@@ -264,20 +236,20 @@
       <recent name="D:\Project\soul\ImitationProject\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/promotions/model/index.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration default="false" name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/agent-model/index.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/agent-agreement/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/agent-home/index.html">
+    <configuration default="false" name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/agent-policy/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/agent-policy/index.html">
+    <configuration default="false" name="index.html (3)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/clientdown/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="博亿-1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/博艺/clientdown/博亿-1.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -319,19 +291,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.博亿-1.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (3)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.博亿-1.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -349,24 +321,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13656716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -455,6 +427,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -469,6 +442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03242321">
           <caret line="1" column="101" selection-start-line="1" selection-start-column="83" selection-end-line="1" selection-end-column="101" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -483,17 +457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5017857">
           <caret line="183" column="84" selection-start-line="183" selection-start-column="84" selection-end-line="183" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/clientdown/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2857143">
-          <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -525,54 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.392858">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.5">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.178572">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-home/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.285715">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-model/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/博艺/agent-policy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.007169">
@@ -581,18 +497,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.5716844">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state vertical-scroll-proportion="1.2043011">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-model/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4767025">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-home/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8172043">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7616488">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.221843">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42114696">
+          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/clientdown/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="116" column="29" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/博艺/clientdown/博亿-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8637993">
-          <caret line="415" column="26" selection-start-line="415" selection-start-column="26" selection-end-line="415" selection-end-column="26" />
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/clientdown/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23835126">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
           <folding />
         </state>
       </provider>
