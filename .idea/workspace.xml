@@ -2,8 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/博艺/gulpfile.js" afterPath="$PROJECT_DIR$/博艺/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\agency-style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\agent.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\base.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\base64.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\error.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\header_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\introduct_bank.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\jquery.marquee.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\jquery.sideFloat.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\jsbn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\messenger-theme-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\messenger.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\messenger.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\prng4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\rng.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home_files\rsa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\agency-style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\agent.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\agent_banner_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\base.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\base64.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\error.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\header_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\introduct_bank.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\jquery.marquee.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\jquery.sideFloat.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\jsbn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\messenger-theme-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\messenger.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\messenger.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\prng4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\rng.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home_files\rsa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\agency-style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\agent.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\base.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\base64.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\error.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\header_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\introduct_bank.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\jquery.marquee.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\jquery.sideFloat.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\jsbn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\messenger-theme-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\messenger.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\messenger.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\prng4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\rng.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home_files\rsa.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\agency-style.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\agent.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\base.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\base64.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\error.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\header_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\introduct_bank.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\jquery.blockUI.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\jquery.marquee.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\jquery.sideFloat.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\jquery.validate.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\jsbn.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\messenger-theme-flat.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\messenger.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\messenger.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\prng4.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\rng.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home_files\rsa.js" afterPath="" />
     </list>
     <ignored path="ImitationProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,6 +228,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="博艺" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-policy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="博艺" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="博艺" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="博艺" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-agreement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -263,9 +414,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13690476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13690476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -458,38 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72759855">
-          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5913978">
-          <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-home/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.034050178">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/博艺/agent-model/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/博艺/agent-home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.75">
@@ -518,6 +637,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10215054">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55734766">
+          <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-home/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1702509">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/博艺/agent-model/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="31" />
           <folding />
         </state>
       </provider>
