@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<!-- saved from url=(0049)http://mkt.kzonlinegame.com/vender.aspx?lang=zhcn -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="shortcut icon">
+<title>体育平台</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="google-site-verification" content="">
+<meta name="viewport" content="width=1000">
+
+<script type="text/javascript">
+//--------Site Const---------------
+var SiteMode = 2;
+var Deposit_SiteMode = 123; //Deposit site use only
+var DomainName = "kzonlinegame.com";
+var IsLogin = false;
+var UserLang = "zhcn";
+var SkinRootPath = "template/IBO/";
+var imgServerURL = "";
+var SiteId = "4212300";
+</script>
+<script type="text/javascript" src="ieupdate.js"></script>
+<script type="text/javascript" src="jquery.min(1).js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<script language="JavaScript" type="text/javascript" src="common.js"></script>
+<script language="JavaScript" type="text/javascript" src="streaming.js"></script>
+
+<script type="text/javascript">
+//--------Odds Display---------------
+var DisplayMode = '3';
+var hash_TmplLoaded = new Array(); // hashtable for keeping template loaded flag (value: true / false)
+//--------Streaming ---------------
+var StreamingFrame = null; //streaming window handle
+var IsUserStreaming = false;
+//--------Menu---------------
+var deeplink = false;
+var LastSelectedSport = -1;//-1;
+var LastSelectedMArket = null;
+var LastSelectedBettype;
+var LastSelectedMenu= 0; // Default All = 0
+var LastSelectedOdds = '';
+//--------Racing---------------
+var CanSeeHorse=false;
+var CanSeeGreyhounds=false;
+var CanSeeHarness=false;
+var CanSeeHorseFixOdds=true;
+//-------------------------------
+var MenuData_topmenu="";
+var ALogflag=false;
+var ScoreMsg='{{ScoreDiv}}';
+//--------Number Game---------------
+var CanSeeNumberGame=true;
+var CanBetNumberGame=false;
+//--------Virtual sport------------
+var CanSeeVirtualSports=true; 
+var CanBetVirtualSports=false;
+//-------AUS Racing Two Pools-----
+var SelectRacingCountry;
+//-------check turn to Mobile-----
+var checkMobile='false';
+var checkWindow='false';
+//-------title wording-------------
+var RES_StatisticInfo = '统计资讯';
+var RES_LiveInfo = '滚球资讯';
+var RES_ScoreMap = '盈利预测图';
+//----Keno----
+var KenoMsg = "在享受快乐彩的乐趣之前，请先入金到您的账号";
+var CanBetKeno = false;
+//--------SitePermission--------
+var unClickSportRadar=false;
+var unClickStatsInfo=false;
+var CanSeeSportStreaming=false;
+var CanSeeStatsInfo=false;
+var CanSeeSportRadar=false;
+var ShowPersonalMsgBtn=false;
+var IsPopWideMsgWin=true;
+var IsInnerFrame=true;
+var IsNewCashSite=false;
+var EventBGColor_Even="#F5F5F5";
+var EventBGColor_Odd="#E5E5E5";
+var LiveBGColor_Even="#FBF0F0";
+var LiveBGColor_Odd="#F9E6E6";
+var IsCssControl=true;
+var IsNewDropdownList=true;
+var IsShowHeader=false;
+var EnableVirtualSportList="180,181,182,183,184,185,186";
+var SupportBonusSystem=false;
+var DateColor="#003399";
+var HourLinkColor="#003399";
+var EnableArrowOddsChange=false;
+var EnableGetClientIP=false;
+var EnableLAS=false;
+var CanSeeWordCupMenu=false;
+var CanSeeKeno=false;
+var CanSeeWordCupBar=false;
+var CanSeeESport=true;
+var CanBetESport=true;
+var CanSeeLiveInfo=false;
+var EnableDoPlaceBetTransaction=false;
+var GetServiesIframeURL="";
+var CanSeeEuroFooter=false;
+var IsCentralLocation=false;
+var IsSetleftMenuTooltip=false;
+//--------Enable WebCentral.Config--------
+
+function changeLocation()
+{
+    if (IsNewCashSite)
+    {
+        var width = document.getElementById("basicFrame").clientWidth;
+        document.getElementById("basicFrame").cols = (width-1000)/2 + "," + ((width-1000)/2 + 1000);// + width;
+    }
+}
+
+var windowsHandle = new Array();
+function openWindowsHandle(winName ,Condition,msg, url , winpara ,iscallback,callbackfunc){
+   if(!iscallback && userBrowser() == "Firefox"){
+       setTimeout(function(){openWindowsHandle(winName,Condition,msg,url,winpara,true,callbackfunc)} ,1 );
+       return ;
+   }
+    
+	if (Condition) {
+	    var isNewOpen=false;
+		if (windowsHandle[winName] == null || windowsHandle[winName].closed 
+               || (userBrowser()=="Safari" && windowsHandle[winName].length ==0)) {
+			var strURL = url;
+			if(winpara==null) winpara="";
+			windowsHandle[winName] = window.open(strURL , winName, winpara);
+			isNewOpen=true;
+			if(windowsHandle[winName] ==null) alert(RES_BlockPopMsg);
+		} else {
+			windowsHandle[winName].focus();
+		}
+		if(callbackfunc!=null) callbackfunc(windowsHandle[winName],isNewOpen);
+		
+	} else {
+		alert(msg);
+	}
+}
+function closeAllWindows(){
+   for(var key in windowsHandle){
+      if(windowsHandle[key]!=null){
+         windowsHandle[key].close();
+      }
+   }
+}
+
+function getOpenWindowsHandle(key){
+  return windowsHandle[key];
+}
+
+function checkMobileAgent(){
+    var userAgentInfo=navigator.userAgent;
+    var flag=false;
+    if(userAgentInfo.match(/Android|iPhone|iPad|iPod/i)){
+        flag=true;
+    }
+    return flag;
+}
+
+function turntoMobile()
+{
+    if(checkMobileAgent()){
+        var isturntoMobile = getCookie("isturntoMobile");  
+        if(isturntoMobile == null || isturntoMobile == 'undefined')
+        {
+            location.replace("./TurntoMobile.aspx");
+        }
+        if(isturntoMobile == "true")
+        {
+            location.replace("http://smart." + DomainName + "/");
+        }
+    }
+}
+
+if(checkMobile == "true") {
+	turntoMobile();
+}
+
+function checkWindowInfo() {
+    if (window.top !== window.self){
+     alert('Unauthorized Site (Situs Palsu)');  
+     window.top.location.href = document.URL;
+    }
+}
+$(document).ready(function (){
+    if(checkWindow == "true")
+        checkWindowInfo();
+    changeLocation();
+    $(document).find("frame").each(function(index, domEle)
+    {
+        if($(this).attr('id') == "basicFrame")
+            return false;
+        if (this.attachEvent) {
+             this.attachEvent("onload",
+             function() {
+                 $('body', window.frames[$(domEle).attr('id')].document).attr("lang", UserLang);
+             });
+         } else {
+             this.onload = function() {
+                 $('body', this.contentWindow.document).attr("lang", UserLang);
+             };
+         }
+    });
+});
+
+var RES_SPORTS = new Array(162);
+RES_SPORTS[0] = "全部";
+RES_SPORTS[1] = "足球";
+RES_SPORTS[2] = "篮球";
+RES_SPORTS[3] = "美式足球";
+RES_SPORTS[4] = "冰上曲棍球";
+RES_SPORTS[5] = "网球";
+RES_SPORTS[6] = "排球";
+RES_SPORTS[7] = "斯诺克/台球";
+RES_SPORTS[8] = "棒球";
+RES_SPORTS[9] = "羽毛球";
+RES_SPORTS[10] = "高尔夫球";
+RES_SPORTS[11] = "赛车";
+RES_SPORTS[12] = "游泳";
+RES_SPORTS[13] = "政治";
+RES_SPORTS[14] = "水球";
+RES_SPORTS[15] = "跳水";
+RES_SPORTS[16] = "拳击";
+RES_SPORTS[17] = "射箭";
+RES_SPORTS[18] = "乒乓球";
+RES_SPORTS[19] = "举重";
+RES_SPORTS[20] = "皮划艇";
+RES_SPORTS[21] = "体操";
+RES_SPORTS[22] = "田径";
+RES_SPORTS[23] = "马术";
+RES_SPORTS[24] = "手球";
+RES_SPORTS[25] = "飞镖";
+RES_SPORTS[26] = "橄榄球";
+RES_SPORTS[27] = "板球";
+RES_SPORTS[28] = "曲棍球";
+RES_SPORTS[29] = "冬季运动";
+RES_SPORTS[30] = "壁球";
+RES_SPORTS[31] = "娱乐";
+RES_SPORTS[32] = "篮网球";
+RES_SPORTS[33] = "自行车";
+RES_SPORTS[34] = "击剑";
+RES_SPORTS[35] = "柔道";
+RES_SPORTS[36] = "现代五项";
+RES_SPORTS[37] = "划船";
+RES_SPORTS[38] = "帆船";
+RES_SPORTS[39] = "射击";
+RES_SPORTS[40] = "跆拳道";
+RES_SPORTS[41] = "铁人三项";
+RES_SPORTS[42] = "角力";
+RES_SPORTS[43] = "电子竞技";
+RES_SPORTS[44] = "泰拳";
+RES_SPORTS[99] = "其他";
+RES_SPORTS[154] = "赛马固定赔率";
+RES_SPORTS[161] = "百练赛";
+
+</script>
+</head>
+
+
+<frameset cols="0,*" frameborder="no" id="basicFrame" border="0" framespacing="0" onload="changeLocation();" onresize="changeLocation();">
+<frame src="left.html" name="bodyleftFrame" scrolling="No" noresize="noresize" id="bodyleftFrame">
+<frameset cols="*, 0" frameborder="no" border="0" framespacing="0">
+    <frameset name="2stframe" id="2stframe" rows="0,*,0" cols="*" framespacing="0" frameborder="no" border="0">
+    <!-- Template Frame for Odds Display -->
+        <frame src="head.html" name="topFrame" scrolling="No" noresize="noresize" id="topFrame" title="topFrame">
+	         <frameset name="3stframe" id="3stframe" cols="198,*" framespacing="0" frameborder="no" border="0">
+		<frame src="homeleft.html" name="leftFrame" scrolling="auto" noresize="noresize" id="leftFrame">
+		<frame src="UnderOver.html" name="mainFrame" scrolling="auto" noresize="noresize" id="mainFrame">
+	</frameset>
+	    <frame name="RoutineJobs" id="RoutineJobs" src="" scrolling="No">
+    </frameset>
+    <frameset rows="0,0, 0,0,0,0,0,0,0,0,0, 0,0,0,0,0,0,0, 0,0, 0,0,0,0,0,0,0,0,0,0,0">
+		<frame id="UnderOver_tmpl_1">
+		<frame id="UnderOver_tmpl_3" src="underover_tmpl.html">
+
+		<frame id="UnderOver_tmpl_1F">
+		<frame id="UnderOver_tmpl_1H">
+
+
+		<frame id="1X2_tmpl">
+		<frame id="CorrectScore_tmpl">
+        <frame id="CorrectScore_tmpl_H">
+	    <frame id="HTFTOE_tmpl">
+        <frame id="Oe_tmpl">
+        <frame id="Tg_tmpl">
+		<frame id="HTFT_tmpl">
+		<frame id="FGLG_tmpl">
+
+		<frame id="NBA_tmpl">
+		<frame id="Tennis_tmpl">
+		<frame id="Baseball_tmpl">
+		<frame id="Cricket_tmpl">
+		<frame id="Bingo_tmpl">
+		<frame id="BingoFull_tmpl">
+		<frame id="MorePop_tmpl">
+
+		<frame id="Finance_tmpl">
+		<frame id="Horse_tmpl">
+
+		<frame id="Greyhounds_tmpl">
+		<frame id="Harness_tmpl">
+		<frame id="Outright_tmpl">
+		<frame id="VirtualSports_tmpl">
+        <frame id="VirtualHorse_tmpl">
+		<frame id="Menu_tmpl">
+
+                <frame id="League_tmpl">
+        <frame id="AUS_Horse_tmpl">
+		<frame id="AUS_Greyhounds_tmpl">
+		<frame id="AUS_Harness_tmpl">
+	</frameset>
+</frameset>
+</frameset>
+<noframes></noframes>
+
+</html>
