@@ -1,0 +1,41 @@
+<!--include "../include/header.html"-->
+<div class="content">
+    <div class="mod-live-casino">
+        <div class="mod-banner">
+            <!--焦点图-->
+            <div class="slide-wrap" id="slides">
+                <ul>
+                    <li style="display:block;"><img src="../images/live_casino_banner_01.png"></li>
+                </ul>
+            </div>
+            
+            <!-- 公告 -->
+            <div class="notice"><div class="layout"><div class="marquee"></div></div></div>
+<script type="text/javascript">
+    //公告滚动
+    $(document).ready(function(){
+        $('.marquee').marquee({
+            duration:30000,
+            gap:100,
+            delayBeforeStart:-10000,
+            direction: 'left',
+            duplicated: true,
+            pauseOnHover:true
+        });
+    });
+</script>            <!--end 公告 -->
+            <!--end 焦点图-->
+        </div>
+        <div class="l-c-platform layout m-t-30">
+            <ul class="clearfix">
+                <li class="bb-play-btn"><a href="javascript:void(0);" onclick="load_bbin_ld(1,9,&#39;&#39;);"><span>BB真人厅</span></a></li>
+                <li class="ag-play-btn"><a href="javascript:void(0);" onclick="get_ag_gc(1,3);"><span>AG真人厅</span></a></li>
+                <li class="gd-play-btn"><a href="javascript:void(0);" onclick="get_gd_gc(1,5,&quot;&quot;);"><span>AG真人厅</span></a></li>
+                <li class="pt-play-btn"><a href="javascript:void(0);" onclick="load_pt(&#39;451819984710&#39;,1,&#39;plba&#39;);"><span>PT真人厅</span></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<input type="hidden" id="is_login" value=""><!--footer-->
+<!--include "../include/footer.html"-->
+<script type="text/javascript" src="../js/game/Game.js"></script>
