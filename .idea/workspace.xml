@@ -18,16 +18,16 @@
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\LotteryGame\index.html" afterPath="$PROJECT_DIR$/LotteryGame/index.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\LotteryGame\彩票游戏.html" afterPath="$PROJECT_DIR$/LotteryGame/彩票游戏.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\index.html" afterPath="$PROJECT_DIR$/agent-agreement/index.html" />
-      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\博亿 - home.html" afterPath="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-agreement/瑞盈 - home.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\index.html" afterPath="$PROJECT_DIR$/agent-home/index.html" />
-      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\博亿 - home.html" afterPath="$PROJECT_DIR$/agent-home/博亿 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-home/瑞盈 - home.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\index.html" afterPath="$PROJECT_DIR$/agent-model/index.html" />
-      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\博亿 - home.html" afterPath="$PROJECT_DIR$/agent-model/博亿 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-model/瑞盈 - home.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\index.html" afterPath="$PROJECT_DIR$/agent-policy/index.html" />
-      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\博亿 - home.html" afterPath="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-policy/瑞盈 - home.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\index.html" afterPath="$PROJECT_DIR$/clientdown/index.html" />
-      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿-1.html" afterPath="$PROJECT_DIR$/clientdown/博亿-1.html" />
-      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\博亿.html" afterPath="$PROJECT_DIR$/clientdown/博亿.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\瑞盈-1.html" afterPath="$PROJECT_DIR$/clientdown/瑞盈-1.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\瑞盈.html" afterPath="$PROJECT_DIR$/clientdown/瑞盈.html" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\agent_banner_01.jpg" afterPath="$PROJECT_DIR$/images/agent_banner_01.jpg" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\api.php" afterPath="$PROJECT_DIR$/images/api.php" />
       <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\banner_bg.jpg" afterPath="$PROJECT_DIR$/images/banner_bg.jpg" />
@@ -281,8 +281,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
+      <file leaf-file-name="瑞盈 - home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-model/瑞盈 - home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.857142">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
@@ -291,8 +291,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
+      <file leaf-file-name="瑞盈 - home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-policy/瑞盈 - home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.857142">
               <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
@@ -301,8 +301,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
+      <file leaf-file-name="瑞盈.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientdown/瑞盈.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
@@ -396,40 +396,40 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/博艺/博亿.html" />
+        <option value="$PROJECT_DIR$/博艺/瑞盈.html" />
         <option value="$PROJECT_DIR$/modules/header.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/博艺/index/index.html" />
         <option value="$PROJECT_DIR$/../bdwork/soul/soulChat/gulpfile.js" />
         <option value="$PROJECT_DIR$/博艺/gulpfiles.js" />
-        <option value="$PROJECT_DIR$/博艺/dev/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/博艺/dev/clientdown/瑞盈.html" />
         <option value="$PROJECT_DIR$/博艺/index.html" />
         <option value="$PROJECT_DIR$/博艺/header.html" />
-        <option value="$PROJECT_DIR$/博艺/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/博艺/clientdown/瑞盈.html" />
         <option value="$PROJECT_DIR$/博艺/libs/css.css" />
         <option value="$PROJECT_DIR$/博艺/libs/base.css" />
         <option value="$PROJECT_DIR$/博艺/promotions/index.html" />
-        <option value="$PROJECT_DIR$/博艺/promotions/博亿.html" />
-        <option value="$PROJECT_DIR$/博艺/agent/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/promotions/瑞盈.html" />
+        <option value="$PROJECT_DIR$/博艺/agent/瑞盈 - home.html" />
         <option value="$PROJECT_DIR$/博艺/gulpfile.js" />
-        <option value="$PROJECT_DIR$/博艺/promotions/model/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/promotions/model/瑞盈 - home.html" />
         <option value="$PROJECT_DIR$/博艺/footer.html" />
-        <option value="$PROJECT_DIR$/博艺/clientdown/博亿-1.html" />
+        <option value="$PROJECT_DIR$/博艺/clientdown/瑞盈-1.html" />
         <option value="$PROJECT_DIR$/博艺/clientdown/index.html" />
         <option value="$PROJECT_DIR$/博艺/promotions/博艺.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-home/博亿 -test.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-home/瑞盈 -test.html" />
         <option value="$PROJECT_DIR$/博艺/libs/agency-style.css" />
         <option value="$PROJECT_DIR$/博艺/agent-header.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-home/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-model/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-agreement/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-home/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-model/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-policy/瑞盈 - home.html" />
         <option value="$PROJECT_DIR$/include/agent-header.html" />
-        <option value="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-home/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-model/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/agent-agreement/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/agent-home/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/agent-model/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/agent-policy/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/clientdown/瑞盈.html" />
         <option value="$PROJECT_DIR$/LotteryGame/彩票游戏.html" />
         <option value="$PROJECT_DIR$/OneArmBandit/老虎机.html" />
         <option value="$PROJECT_DIR$/promotions/博艺.html" />
@@ -792,7 +792,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿-1.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/瑞盈-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="31" />
@@ -957,7 +957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿-1.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/瑞盈-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="31" />
@@ -1013,7 +1013,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-agreement/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-agreement/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.857142">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="23" />
@@ -1021,7 +1021,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-home/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-home/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.535714">
           <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
@@ -1029,7 +1029,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-model/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.857142">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
@@ -1037,7 +1037,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-policy/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.857142">
           <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
@@ -1053,7 +1053,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/瑞盈.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
