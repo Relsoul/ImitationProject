@@ -1,7 +1,268 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="" />
+    <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\OneArmBandit\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\OneArmBandit\老虎机.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\SportingEvents\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\SportingEvents\体育赛事.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\footer.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\header.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\promotions\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\promotions\博艺.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\zesx\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\博艺\zesx\真人视讯.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\LotteryGame\index.html" afterPath="$PROJECT_DIR$/LotteryGame/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\LotteryGame\彩票游戏.html" afterPath="$PROJECT_DIR$/LotteryGame/彩票游戏.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\index.html" afterPath="$PROJECT_DIR$/agent-agreement/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-agreement\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-agreement/瑞盈 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\index.html" afterPath="$PROJECT_DIR$/agent-home/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-home\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-home/瑞盈 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\index.html" afterPath="$PROJECT_DIR$/agent-model/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-model\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-model/瑞盈 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\index.html" afterPath="$PROJECT_DIR$/agent-policy/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\agent-policy\瑞盈 - home.html" afterPath="$PROJECT_DIR$/agent-policy/瑞盈 - home.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\index.html" afterPath="$PROJECT_DIR$/clientdown/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\瑞盈-1.html" afterPath="$PROJECT_DIR$/clientdown/瑞盈-1.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\clientdown\瑞盈.html" afterPath="$PROJECT_DIR$/clientdown/瑞盈.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\agent_banner_01.jpg" afterPath="$PROJECT_DIR$/images/agent_banner_01.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\api.php" afterPath="$PROJECT_DIR$/images/api.php" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\banner_bg.jpg" afterPath="$PROJECT_DIR$/images/banner_bg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\btn_deposit_bg.png" afterPath="$PROJECT_DIR$/images/games/btn_deposit_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\close.png" afterPath="$PROJECT_DIR$/images/games/close.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\common.js" afterPath="$PROJECT_DIR$/images/common.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\common_spirits.png" afterPath="$PROJECT_DIR$/images/games/common_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\content_bg.jpg" afterPath="$PROJECT_DIR$/images/games/content_bg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\cookie.js" afterPath="$PROJECT_DIR$/images/cookie.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\footer\footer_bg.png" afterPath="$PROJECT_DIR$/images/footer/footer_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\footer\footer_icons.png" afterPath="$PROJECT_DIR$/images/footer/footer_icons.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5020.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5020.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5070.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5070.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5073.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5073.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5095.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5095.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5106.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5106.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5405.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5405.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5407.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5407.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5703.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5703.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5704.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5704.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5705.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5705.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5706.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5706.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5707.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5707.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5835.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5835.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\bbin\Game_5901.png" afterPath="$PROJECT_DIR$/images/games/bbin/Game_5901.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\btn_deposit_bg.png" afterPath="$PROJECT_DIR$/images/btn_deposit_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\close.png" afterPath="$PROJECT_DIR$/images/close.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\common_spirits.png" afterPath="$PROJECT_DIR$/images/common_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\content_bg.jpg" afterPath="$PROJECT_DIR$/images/content_bg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_banner_01.jpg" afterPath="$PROJECT_DIR$/images/games_banner_01.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_banner_02.jpg" afterPath="$PROJECT_DIR$/images/games_banner_02.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_banner_03.jpg" afterPath="$PROJECT_DIR$/images/games_banner_03.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_banner_04.jpg" afterPath="$PROJECT_DIR$/images/games_banner_04.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_banner_05.jpg" afterPath="$PROJECT_DIR$/images/games_banner_05.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_banner_bg.jpg" afterPath="$PROJECT_DIR$/images/games_banner_bg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\games_item_li_bg.png" afterPath="$PROJECT_DIR$/images/games_item_li_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\hd_menu_spirits.png" afterPath="$PROJECT_DIR$/images/hd_menu_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_AgentJaneBlonde7.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_AgentJaneBlonde7.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_AsianBeauty1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_AsianBeauty1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_Avalon1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_Avalon1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_BreakAway1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_BreakAway1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_EuroBlackjack1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_EuroBlackjack1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_FinerReelsofLife.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_FinerReelsofLife.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_GoldSeries_EuroRoulette1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_GoldSeries_EuroRoulette1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_HotInk1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_HotInk1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_KaratePig1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_KaratePig1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_LuckyKoi.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_LuckyKoi.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_MermaidsMillions1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_MermaidsMillions1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_Playboy1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_Playboy1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_PurePlatinum1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_PurePlatinum1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_RRDiamondGlitz1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_RRDiamondGlitz1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_ReelGems1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_ReelGems1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_RetroReels1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_RetroReels1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_Terminator2_1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_Terminator2_1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_Thunderstruck1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_Thunderstruck1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_ThunderstruckTwo1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_ThunderstruckTwo1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_TwistedCircus.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_TwistedCircus.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\mg\BTN_footballstar1.png" afterPath="$PROJECT_DIR$/images/games/mg/BTN_footballstar1.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\8bs.jpg" afterPath="$PROJECT_DIR$/images/games/pt/8bs.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ah2.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ah2.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\al.jpg" afterPath="$PROJECT_DIR$/images/games/pt/al.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\api.png" afterPath="$PROJECT_DIR$/images/games/pt/api.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ashbgt.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ashbgt.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ashfmf.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ashfmf.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\atw.jpg" afterPath="$PROJECT_DIR$/images/games/pt/atw.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\avng.jpg" afterPath="$PROJECT_DIR$/images/games/pt/avng.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\bl.jpg" afterPath="$PROJECT_DIR$/images/games/pt/bl.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\bld.jpg" afterPath="$PROJECT_DIR$/images/games/pt/bld.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\bld50.jpg" afterPath="$PROJECT_DIR$/images/games/pt/bld50.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\bt.jpg" afterPath="$PROJECT_DIR$/images/games/pt/bt.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\c7.jpg" afterPath="$PROJECT_DIR$/images/games/pt/c7.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\cam.jpg" afterPath="$PROJECT_DIR$/images/games/pt/cam.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\cifr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/cifr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\cm.jpg" afterPath="$PROJECT_DIR$/images/games/pt/cm.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\cnpr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/cnpr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ct.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ct.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\dlm.jpg" afterPath="$PROJECT_DIR$/images/games/pt/dlm.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\drd.jpg" afterPath="$PROJECT_DIR$/images/games/pt/drd.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\dt.jpg" afterPath="$PROJECT_DIR$/images/games/pt/dt.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\dt2.jpg" afterPath="$PROJECT_DIR$/images/games/pt/dt2.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\eas.jpg" afterPath="$PROJECT_DIR$/images/games/pt/eas.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\elr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/elr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\er.jpg" afterPath="$PROJECT_DIR$/images/games/pt/er.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\evj.jpg" afterPath="$PROJECT_DIR$/images/games/pt/evj.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fbr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fbr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fff.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fff.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fm.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fm.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fmn.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fmn.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fnf.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fnf.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fnf50.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fnf50.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fnfrj.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fnfrj.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fow.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fow.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\foy.jpg" afterPath="$PROJECT_DIR$/images/games/pt/foy.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\fth.jpg" afterPath="$PROJECT_DIR$/images/games/pt/fth.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gc.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gc.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ghr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ghr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\glg.jpg" afterPath="$PROJECT_DIR$/images/games/pt/glg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\glr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/glr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\glrj.jpg" afterPath="$PROJECT_DIR$/images/games/pt/glrj.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\grel.jpg" afterPath="$PROJECT_DIR$/images/games/pt/grel.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gs.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gs.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gts50.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gts50.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gts51.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gts51.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtsdgk.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtsdgk.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtsftf.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtsftf.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtsgoc.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtsgoc.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtsjhw.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtsjhw.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtsmrln.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtsmrln.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtsstg.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtsstg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\gtswng.jpg" afterPath="$PROJECT_DIR$/images/games/pt/gtswng.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\hb.jpg" afterPath="$PROJECT_DIR$/images/games/pt/hb.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\hh.jpg" afterPath="$PROJECT_DIR$/images/games/pt/hh.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\hk.jpg" afterPath="$PROJECT_DIR$/images/games/pt/hk.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\hlf.jpg" afterPath="$PROJECT_DIR$/images/games/pt/hlf.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\hlk2.jpg" afterPath="$PROJECT_DIR$/images/games/pt/hlk2.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\hlk50.jpg" afterPath="$PROJECT_DIR$/images/games/pt/hlk50.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\iceh.jpg" afterPath="$PROJECT_DIR$/images/games/pt/iceh.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\irm2.jpg" afterPath="$PROJECT_DIR$/images/games/pt/irm2.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\irm3.jpg" afterPath="$PROJECT_DIR$/images/games/pt/irm3.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\irm50.jpg" afterPath="$PROJECT_DIR$/images/games/pt/irm50.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\irmn3.jpg" afterPath="$PROJECT_DIR$/images/games/pt/irmn3.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\jb.jpg" afterPath="$PROJECT_DIR$/images/games/pt/jb.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\kkg.jpg" afterPath="$PROJECT_DIR$/images/games/pt/kkg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\lvb.jpg" afterPath="$PROJECT_DIR$/images/games/pt/lvb.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\mcb.jpg" afterPath="$PROJECT_DIR$/images/games/pt/mcb.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\mmy.jpg" afterPath="$PROJECT_DIR$/images/games/pt/mmy.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ms.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ms.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\nk.jpg" afterPath="$PROJECT_DIR$/images/games/pt/nk.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\op.jpg" afterPath="$PROJECT_DIR$/images/games/pt/op.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\pl.jpg" afterPath="$PROJECT_DIR$/images/games/pt/pl.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\pnp.jpg" afterPath="$PROJECT_DIR$/images/games/pt/pnp.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\rky.jpg" afterPath="$PROJECT_DIR$/images/games/pt/rky.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\rnr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/rnr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\sc.jpg" afterPath="$PROJECT_DIR$/images/games/pt/sc.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\sib.jpg" afterPath="$PROJECT_DIR$/images/games/pt/sib.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\spidc.jpg" afterPath="$PROJECT_DIR$/images/games/pt/spidc.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ssl.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ssl.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ssp.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ssp.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ta.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ta.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\tfs.jpg" afterPath="$PROJECT_DIR$/images/games/pt/tfs.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\tp.jpg" afterPath="$PROJECT_DIR$/images/games/pt/tp.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\tr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/tr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\trm.jpg" afterPath="$PROJECT_DIR$/images/games/pt/trm.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ts.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ts.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\tst.jpg" afterPath="$PROJECT_DIR$/images/games/pt/tst.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ttc.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ttc.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ttl.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ttl.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\ub.jpg" afterPath="$PROJECT_DIR$/images/games/pt/ub.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\wan.jpg" afterPath="$PROJECT_DIR$/images/games/pt/wan.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\wis.jpg" afterPath="$PROJECT_DIR$/images/games/pt/wis.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\wlg.jpg" afterPath="$PROJECT_DIR$/images/games/pt/wlg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\wsffr.jpg" afterPath="$PROJECT_DIR$/images/games/pt/wsffr.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\wvm.jpg" afterPath="$PROJECT_DIR$/images/games/pt/wvm.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\xmn.jpg" afterPath="$PROJECT_DIR$/images/games/pt/xmn.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\xmn50.jpg" afterPath="$PROJECT_DIR$/images/games/pt/xmn50.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games\pt\zcjb.jpg" afterPath="$PROJECT_DIR$/images/games/pt/zcjb.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_banner_01.jpg" afterPath="$PROJECT_DIR$/images/games/games_banner_01.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_banner_02.jpg" afterPath="$PROJECT_DIR$/images/games/games_banner_02.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_banner_03.jpg" afterPath="$PROJECT_DIR$/images/games/games_banner_03.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_banner_04.jpg" afterPath="$PROJECT_DIR$/images/games/games_banner_04.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_banner_05.jpg" afterPath="$PROJECT_DIR$/images/games/games_banner_05.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_banner_bg.jpg" afterPath="$PROJECT_DIR$/images/games/games_banner_bg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\games_item_li_bg.png" afterPath="$PROJECT_DIR$/images/games/games_item_li_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\hd_menu_spirits.png" afterPath="$PROJECT_DIR$/images/games/hd_menu_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\header\header_bg.png" afterPath="$PROJECT_DIR$/images/header/header_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\header\header_spirits.png" afterPath="$PROJECT_DIR$/images/header/header_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\header\nav_drop_bg.png" afterPath="$PROJECT_DIR$/images/header/nav_drop_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\home_bg_x.jpg" afterPath="$PROJECT_DIR$/images/home/home_bg_x.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\home_content_bg.png" afterPath="$PROJECT_DIR$/images/home/home_content_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\home_jackpot.png" afterPath="$PROJECT_DIR$/images/home/home_jackpot.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\home_link_bg.jpg" afterPath="$PROJECT_DIR$/images/home/home_link_bg.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\home_online_chat.png" afterPath="$PROJECT_DIR$/images/home/home_online_chat.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\home_reg.png" afterPath="$PROJECT_DIR$/images/home/home_reg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\img_game.png" afterPath="$PROJECT_DIR$/images/home/img_game.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\img_live.png" afterPath="$PROJECT_DIR$/images/home/img_live.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\img_lottery.png" afterPath="$PROJECT_DIR$/images/home/img_lottery.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\img_promotion.png" afterPath="$PROJECT_DIR$/images/home/img_promotion.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\img_sport.png" afterPath="$PROJECT_DIR$/images/home/img_sport.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\introduct_bank.png" afterPath="$PROJECT_DIR$/libs/introduct_bank.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\home\introduct_spirits.png" afterPath="$PROJECT_DIR$/images/home/introduct_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\ieupdate.js" afterPath="$PROJECT_DIR$/images/ieupdate.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\introduct_bank.png" afterPath="$PROJECT_DIR$/images/introduct_bank.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\jquery.min(1).js" afterPath="$PROJECT_DIR$/images/jquery.min(1).js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\live_casino\l_c_ag.jpg" afterPath="$PROJECT_DIR$/images/live_casino/l_c_ag.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\live_casino\l_c_bb.jpg" afterPath="$PROJECT_DIR$/images/live_casino/l_c_bb.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\live_casino\l_c_gd.jpg" afterPath="$PROJECT_DIR$/images/live_casino/l_c_gd.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\live_casino\l_c_pt.jpg" afterPath="$PROJECT_DIR$/images/live_casino/l_c_pt.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\live_casino_banner_01.png" afterPath="$PROJECT_DIR$/images/live_casino_banner_01.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\lottery_banner_01.png" afterPath="$PROJECT_DIR$/images/lottery_banner_01.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\lottery_bb_icon.png" afterPath="$PROJECT_DIR$/images/lottery_bb_icon.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\lottery_lb_icon.png" afterPath="$PROJECT_DIR$/images/lottery_lb_icon.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\lottery_sgwin_icon.png" afterPath="$PROJECT_DIR$/images/lottery_sgwin_icon.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\mobile\browser_dl.png" afterPath="$PROJECT_DIR$/images/mobile/browser_dl.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\mobile_pt_spirits.png" afterPath="$PROJECT_DIR$/images/mobile_pt_spirits.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\notice_bg.png" afterPath="$PROJECT_DIR$/images/notice_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\point.png" afterPath="$PROJECT_DIR$/images/point.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\progressive_bg .png" afterPath="$PROJECT_DIR$/images/progressive_bg .png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\progressive_bg.png" afterPath="$PROJECT_DIR$/images/progressive_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\pt_dl_android_qr.png" afterPath="$PROJECT_DIR$/images/pt_dl_android_qr.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\pt_dl_btn.png" afterPath="$PROJECT_DIR$/images/pt_dl_btn.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\pt_pc_download.png" afterPath="$PROJECT_DIR$/images/pt_pc_download.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\second_img.png" afterPath="$PROJECT_DIR$/images/second_img.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\side_contact_right.png" afterPath="$PROJECT_DIR$/images/side_contact_right.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\streaming.js" afterPath="$PROJECT_DIR$/images/streaming.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\transparent_80_bg.png" afterPath="$PROJECT_DIR$/images/transparent_80_bg.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\vender.html" afterPath="$PROJECT_DIR$/images/vender.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\images\welcome_banner_01.png" afterPath="$PROJECT_DIR$/images/welcome_banner_01.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\index\index.html" afterPath="$PROJECT_DIR$/index/index.html" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\js\game\Game.js" afterPath="$PROJECT_DIR$/libs/Game.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\Game.js" afterPath="$PROJECT_DIR$/js/game/Game.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\agency-style.css" afterPath="$PROJECT_DIR$/libs/agency-style.css" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\base.css" afterPath="$PROJECT_DIR$/libs/base.css" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\base64.js" afterPath="$PROJECT_DIR$/libs/base64.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\css.css" afterPath="$PROJECT_DIR$/libs/css.css" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\error.js" afterPath="$PROJECT_DIR$/libs/error.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\header_logo.png" afterPath="$PROJECT_DIR$/libs/header_logo.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\home_banner_01.jpg" afterPath="$PROJECT_DIR$/libs/home_banner_01.jpg" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\introduct_bank.png" afterPath="$PROJECT_DIR$/images/home/introduct_bank.png" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\jquery.marquee.min.js" afterPath="$PROJECT_DIR$/libs/jquery.marquee.min.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\jquery.min.js" afterPath="$PROJECT_DIR$/libs/jquery.min.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\jquery.reveal.js" afterPath="$PROJECT_DIR$/libs/jquery.reveal.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\jquery.sideFloat.js" afterPath="$PROJECT_DIR$/libs/jquery.sideFloat.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\jquery.slide.js" afterPath="$PROJECT_DIR$/libs/jquery.slide.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\jsbn.js" afterPath="$PROJECT_DIR$/libs/jsbn.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\kz.js" afterPath="$PROJECT_DIR$/libs/kz.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\main.css" afterPath="$PROJECT_DIR$/libs/main.css" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\messenger-theme-flat.css" afterPath="$PROJECT_DIR$/libs/messenger-theme-flat.css" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\messenger.css" afterPath="$PROJECT_DIR$/libs/messenger.css" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\messenger.min.js" afterPath="$PROJECT_DIR$/libs/messenger.min.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\prng4.js" afterPath="$PROJECT_DIR$/libs/prng4.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\respond.src.js" afterPath="$PROJECT_DIR$/libs/respond.src.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\rng.js" afterPath="$PROJECT_DIR$/libs/rng.js" />
+      <change type="MOVED" beforePath="D:\Project\soul\ImitationProject\博艺\libs\rsa.js" afterPath="$PROJECT_DIR$/libs/rsa.js" />
+    </list>
+>>>>>>> 330e8396d1bd83f3d12c6792d194f108909a8103
     <ignored path="ImitationProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +282,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
+      <file leaf-file-name="瑞盈 - home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-model/瑞盈 - home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.857142">
               <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
@@ -31,8 +292,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="博亿 - home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
+      <file leaf-file-name="瑞盈 - home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/agent-policy/瑞盈 - home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-14.857142">
               <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
@@ -41,8 +302,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
+      <file leaf-file-name="瑞盈.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/clientdown/瑞盈.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
@@ -136,40 +397,40 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/博艺/博亿.html" />
+        <option value="$PROJECT_DIR$/博艺/瑞盈.html" />
         <option value="$PROJECT_DIR$/modules/header.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/博艺/index/index.html" />
         <option value="$PROJECT_DIR$/../bdwork/soul/soulChat/gulpfile.js" />
         <option value="$PROJECT_DIR$/博艺/gulpfiles.js" />
-        <option value="$PROJECT_DIR$/博艺/dev/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/博艺/dev/clientdown/瑞盈.html" />
         <option value="$PROJECT_DIR$/博艺/index.html" />
         <option value="$PROJECT_DIR$/博艺/header.html" />
-        <option value="$PROJECT_DIR$/博艺/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/博艺/clientdown/瑞盈.html" />
         <option value="$PROJECT_DIR$/博艺/libs/css.css" />
         <option value="$PROJECT_DIR$/博艺/libs/base.css" />
         <option value="$PROJECT_DIR$/博艺/promotions/index.html" />
-        <option value="$PROJECT_DIR$/博艺/promotions/博亿.html" />
-        <option value="$PROJECT_DIR$/博艺/agent/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/promotions/瑞盈.html" />
+        <option value="$PROJECT_DIR$/博艺/agent/瑞盈 - home.html" />
         <option value="$PROJECT_DIR$/博艺/gulpfile.js" />
-        <option value="$PROJECT_DIR$/博艺/promotions/model/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/promotions/model/瑞盈 - home.html" />
         <option value="$PROJECT_DIR$/博艺/footer.html" />
-        <option value="$PROJECT_DIR$/博艺/clientdown/博亿-1.html" />
+        <option value="$PROJECT_DIR$/博艺/clientdown/瑞盈-1.html" />
         <option value="$PROJECT_DIR$/博艺/clientdown/index.html" />
         <option value="$PROJECT_DIR$/博艺/promotions/博艺.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-home/博亿 -test.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-home/瑞盈 -test.html" />
         <option value="$PROJECT_DIR$/博艺/libs/agency-style.css" />
         <option value="$PROJECT_DIR$/博艺/agent-header.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-agreement/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-home/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-model/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/博艺/agent-policy/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-agreement/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-home/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-model/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/博艺/agent-policy/瑞盈 - home.html" />
         <option value="$PROJECT_DIR$/include/agent-header.html" />
-        <option value="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-home/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-model/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/agent-agreement/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/agent-home/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/agent-model/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/agent-policy/瑞盈 - home.html" />
+        <option value="$PROJECT_DIR$/clientdown/瑞盈.html" />
         <option value="$PROJECT_DIR$/LotteryGame/彩票游戏.html" />
         <option value="$PROJECT_DIR$/OneArmBandit/老虎机.html" />
         <option value="$PROJECT_DIR$/promotions/博艺.html" />
@@ -382,7 +643,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿-1.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/瑞盈-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="31" />
@@ -547,7 +808,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿-1.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/瑞盈-1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="31" />
@@ -603,7 +864,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-agreement/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-agreement/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.857142">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="23" />
@@ -611,7 +872,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-home/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-home/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.535714">
           <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
@@ -619,7 +880,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-model/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.857142">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
@@ -627,7 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-policy/瑞盈 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.857142">
           <caret line="57" column="23" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
@@ -643,7 +904,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/瑞盈.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
