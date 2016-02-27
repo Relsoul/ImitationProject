@@ -45,13 +45,21 @@
 .mod-games .hd-menu .bb-menu{background-position:-665px -128px;}
 .mod-games .hd-menu .bb-menu.current{background-position:-665px -192px;}
 
-.mod-lottery .hd-menu li{width:183px; height:64px; padding-left:150px;}
+.mod-lottery .hd-menu li{width:182px; height:64px; padding-left:150px;}
 .mod-lottery .hd-menu .bb-menu{background-position:-332px 0;}
 .mod-lottery .hd-menu .bb-menu.current{background-position:-332px -64px;}
 .mod-lottery .hd-menu .sgwin-menu{background-position:0 -256px; width:182px;}
 .mod-lottery .hd-menu .sgwin-menu.current{background-position:0 -320px;}
 .mod-lottery .hd-menu .lb-menu{background-position:-665px -256px;}
 .mod-lottery .hd-menu .lb-menu.current{background-position:-665px -320px;}
+
+.mod-lottery .hd-menu .lib-menu{background-position:-665px -256px;}
+.mod-lottery .hd-menu .lib-menu.current{background-position:-665px -320px;}
+.mod-lottery .hd-menu .yungu-menu{background-position:-665px -256px;}
+.mod-lottery .hd-menu .yungu-menu.current{background-position:-665px -320px;}
+.mod-lottery .hd-menu .im-menu{background-position:-665px -256px;}
+.mod-lottery .hd-menu .im-menu.current{background-position:-665px -320px;}
+
 
 .mod-games .hd-menu h2,.mod-lottery .hd-menu h2{font:24px/64px "Microsoft YaHei";}
 
@@ -120,6 +128,15 @@
 .lotto-items .lb-item .lb-05{background-position:-315px 0;}
 .lotto-items .lb-item .lb-06{background-position:-525px 0;}
 
+.lotto-items .lib-item .img{background:url(../images/lottery_sgwin_icon.png) no-repeat;}
+.lotto-items .lib-item .lib-01{background-position:0 0;}
+
+.lotto-items .yungu-item .img{background:url(../images/lottery_sgwin_icon.png) no-repeat;}
+.lotto-items .yungu-item .yungu-01{background-position:0 0;}
+.lotto-items .yungu-item .yungu-02{background-position:-210px 0;}
+
+.lotto-items .im-item .img{background:url(../images/lottery_sgwin_icon.png) no-repeat;}
+.lotto-items .im-item .im-01{background-position:-105px 0;}
 
 /*电子游艺*/
 .mod-games .mod-banner{background:url(../images/games_banner_bg.jpg) no-repeat center top; height:250px; padding:125px 0 0;}
