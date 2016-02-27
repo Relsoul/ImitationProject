@@ -62,10 +62,8 @@
 
         //动态计算header下子菜单高度
         header.dynamicCalu(".games-drop")
-
-
-
-
+        header.dynamicCalu(".lottery-drop")
+        header.dynamicCalu(".l-c-drop")
     }
 
 
