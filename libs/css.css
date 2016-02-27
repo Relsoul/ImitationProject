@@ -37,7 +37,7 @@
 .hd-menu .current,.hd-menu .current:hover{color:#d0b679; background-color:#0d002b; border-bottom-color:#0d002b;}
 .hd-menu .current h2{color:#fff;}
 
-.mod-games .hd-menu li{width:183px; height:64px; padding-left:150px;}
+.mod-games .hd-menu li{width:182px; height:64px; padding-left:150px;}
 .mod-games .hd-menu .pt-menu{background-position:0 -128px; width:182px;}
 .mod-games .hd-menu .pt-menu.current{background-position:0 -192px;}
 .mod-games .hd-menu .mg-menu{background-position:-332px -128px;}
