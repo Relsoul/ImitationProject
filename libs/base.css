@@ -947,3 +947,9 @@ span.valid-tips{background-position:0 0; width:18px; padding:0;}
 .Game_15024{background:url(../images/games/bbin/Game_15024.png);}
 .Game_15027{background:url(../images/games/bbin/Game_15027.png);}
 /* 电子游戏 end */
+.games-item ul.clearfix li em{
+    width: 180px;
+    height: 120px;
+    display: block;
+    margin: 2px auto;
+}
