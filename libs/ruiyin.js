@@ -32,12 +32,17 @@
     };
 
     var header=function(){
-        var dynamicCalu=function(id){
+        var dynamicCalu=function(id,val){
+            var val=val||0
             var a_length=$(id).children("a").length;
             var a_width=$(id).children("a").width();
             var span_length=$(id).children("span").length;
             var span_width=$(id).children("span").width();
-            var result_width=a_width*a_length+span_length*span_width
+            if(span_length<=0||!span_length){
+                span_length=0;
+                span_width=0;
+            }
+            var result_width=(a_width*a_length)+(span_length*span_width)+val
             $(id).width(result_width)
             //console.log(result_width)
         };
@@ -46,6 +51,28 @@
             dynamicCalu:dynamicCalu
         }
     }()
+
+    var Tab=function(){
+        var elem_id;
+
+        var elemEvent=function(){
+            return function(){
+                var target_id=$(this).attr("target_act");
+                $(this).siblings().removeClass("current");
+                $(this).addClass("current");
+                $("#"+target_id).removeClass("hide");
+                $("#"+target_id).siblings().addClass("hide");
+            }
+        }
+
+
+        return{
+            init:function(elem_id){
+                elem_id=elem_id;
+                $(elem_id).on("click","a",elemEvent())
+            }
+        }
+    }
 
 
 
@@ -61,9 +88,16 @@
         sideber.init("#sideChatRight", 500);
 
         //动态计算header下子菜单高度
-        header.dynamicCalu(".games-drop")
-        header.dynamicCalu(".lottery-drop")
-        header.dynamicCalu(".l-c-drop")
+        header.dynamicCalu(".games-drop");
+        header.dynamicCalu(".lottery-drop");
+        header.dynamicCalu(".l-c-drop");
+        header.dynamicCalu("#sports",5);
+
+        //体育赛事选项卡切换模块
+        if($("#sports").length>0){
+            var sportsTab=Tab();
+            sportsTab.init("#sports","#sports>a")
+        }
     }
 
 
