@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/css.css" afterPath="$PROJECT_DIR$/libs/css.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liveCasino/index.html" afterPath="$PROJECT_DIR$/liveCasino/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/index.html" afterPath="$PROJECT_DIR$/sports/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/ruiyin.js" afterPath="$PROJECT_DIR$/libs/ruiyin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/体育赛事.html" afterPath="$PROJECT_DIR$/sports/体育赛事.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liveCasino/真人视讯.html" afterPath="$PROJECT_DIR$/liveCasino/真人视讯.html" />
     </list>
     <ignored path="ImitationProject.iws" />
@@ -105,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/libs/css.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -127,8 +125,8 @@
       <file leaf-file-name="真人视讯.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/liveCasino/真人视讯.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="-27.0">
+              <caret line="42" column="138" selection-start-line="42" selection-start-column="138" selection-end-line="42" selection-end-column="138" />
               <folding />
             </state>
           </provider>
@@ -138,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/liveCasino/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.19655173">
-              <caret line="290" column="24" selection-start-line="290" selection-start-column="24" selection-end-line="290" selection-end-column="24" />
+              <caret line="300" column="37" selection-start-line="300" selection-start-column="37" selection-end-line="300" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -208,13 +206,13 @@
         <option value="$PROJECT_DIR$/promotions/博艺.html" />
         <option value="$PROJECT_DIR$/game/index.html" />
         <option value="$PROJECT_DIR$/libs/base.css" />
-        <option value="$PROJECT_DIR$/libs/css.css" />
         <option value="$PROJECT_DIR$/game/老虎机.html" />
         <option value="$PROJECT_DIR$/sports/index.html" />
         <option value="$PROJECT_DIR$/libs/ruiyin.js" />
         <option value="$PROJECT_DIR$/sports/体育赛事.html" />
-        <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
         <option value="$PROJECT_DIR$/liveCasino/index.html" />
+        <option value="$PROJECT_DIR$/libs/css.css" />
+        <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
       </list>
     </option>
   </component>
@@ -786,14 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.821428">
@@ -848,10 +838,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libs/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/liveCasino/真人视讯.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="-27.0">
+          <caret line="42" column="138" selection-start-line="42" selection-start-column="138" selection-end-line="42" selection-end-column="138" />
           <folding />
         </state>
       </provider>
@@ -859,7 +857,7 @@
     <entry file="file://$PROJECT_DIR$/liveCasino/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19655173">
-          <caret line="290" column="24" selection-start-line="290" selection-start-column="24" selection-end-line="290" selection-end-column="24" />
+          <caret line="300" column="37" selection-start-line="300" selection-start-column="37" selection-end-line="300" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

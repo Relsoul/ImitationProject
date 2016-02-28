@@ -67,7 +67,7 @@
 /*真人娱乐*/
 .mod-live-casino{padding-bottom:30px;}
 .l-c-platform{background:#0d002b; padding-bottom:20px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
-.l-c-platform li{float:left; display:inline; width:458px; height:224px; cursor:pointer; margin:20px 16px 0;}
+.l-c-platform li{float:left; display:inline; width:218px; height:224px; cursor:pointer; margin:20px 16px 0;}
 .l-c-platform li a{display:block; width:100%; height:100%; text-indent:-9999em; cursor:pointer;}
 .l-c-platform li.bb-play-btn a{background:url(../images/live_casino/l_c_bb.jpg) no-repeat;}
 .l-c-platform li.ag-play-btn a{background:url(../images/live_casino/l_c_ag.jpg) no-repeat;}
