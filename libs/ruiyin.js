@@ -33,7 +33,10 @@
 
     var header=function(){
         var dynamicCalu=function(id,val){
-            var val=val||0
+            var val=val||0;
+            if(!$(id).length){
+                return false
+            }
             var a_length=$(id).children("a").length;
             var a_width=$(id).children("a").width();
             var span_length=$(id).children("span").length;
@@ -51,6 +54,7 @@
             dynamicCalu:dynamicCalu
         }
     }()
+
 
     var Tab=function(){
         var elem_id;
@@ -92,6 +96,7 @@
         header.dynamicCalu(".lottery-drop");
         header.dynamicCalu(".l-c-drop");
         header.dynamicCalu("#sports",5);
+        header.dynamicCalu(".sports-drop");
 
         //体育赛事选项卡切换模块
         if($("#sports").length>0){
