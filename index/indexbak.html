@@ -1,0 +1,76 @@
+<!--include "../include/header.html"-->
+
+
+<div class="content">
+    <div class="mod-home">
+        <div class="mod-banner">
+            <!--焦点图-->
+            <div class="slide-wrap" id="slides">
+                <ul>
+                    <li style="display:block;"><img src="../images/home_banner_01.jpg"></li>
+                </ul>
+            </div>
+            <!-- 公告 -->
+            <div class="notice">
+                <div class="layout">
+                    <div class="marquee">
+                        <div style="width: 100000px; margin-left: 765px; animation: marqueeAnimation-756598 146.711s linear -10s running;"
+                             class="js-marquee-wrapper">
+                            <div class="js-marquee" style="margin-right: 100px; float: left;"></div>
+                            <div class="js-marquee" style="margin-right: 100px; float: left;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                //公告滚动
+                $(document).ready(function () {
+                    $('.marquee').marquee({
+                        duration: 30000,
+                        gap: 100,
+                        delayBeforeStart: -10000,
+                        direction: 'left',
+                        duplicated: true,
+                        pauseOnHover: true
+                    });
+                });
+            </script>
+
+            <!--end 公告 -->
+            <!--end 焦点图-->
+        </div>
+
+        <div class="home-content layout">
+            <div class="home-entry clearfix">
+                <div class="entry-live"><a href="../liveCasino/index.html"></a></div>
+                <div class="entry-sport"><a href="../sports/index.html"></a></div>
+                <div class="entry-lottery"><a href="../lottery/index.html"></a></div>
+                <div class="entry-game"><a href="../game/index.html"></a></div>
+                <div class="entry-promotion"><a href="../promotions/index.html"></a></div>
+            </div>
+            <div class="home-link">
+                <ul>
+                    <li class="home-reg"><a href="../home/register.html">立即开户</a></li>
+                    <li class="home-jackpot"><a href="../game/index.html" id="jackpot">31,789,435.08</a></li>
+                    <li class="home-online-chat"><a href="javascript:void(0);"
+                                                    onclick="alert('敬请期待');">在线客服</a>
+                    </li>
+                </ul>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        setInterval(function () {
+                            var t = new Date().getTime() + "";
+                            var k = parseInt(t.substr(t.length - 9, 9) * 4);
+                            k = k / 100;
+                            k = parseFloat(k).toLocaleString();
+                            $("#jackpot").html(k);
+                        }, 600);
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--include "../include/footer.html"-->

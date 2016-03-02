@@ -37,28 +37,51 @@
 .hd-menu .current,.hd-menu .current:hover{color:#d0b679; background-color:#0d002b; border-bottom-color:#0d002b;}
 .hd-menu .current h2{color:#fff;}
 
-.mod-games .hd-menu li{width:182px; height:64px; padding-left:150px;}
-.mod-games .hd-menu .pt-menu{background-position:0 -128px; width:182px;}
-.mod-games .hd-menu .pt-menu.current{background-position:0 -192px;}
-.mod-games .hd-menu .mg-menu{background-position:-332px -128px;}
-.mod-games .hd-menu .mg-menu.current{background-position:-332px -192px;}
-.mod-games .hd-menu .bb-menu{background-position:-665px -128px;}
-.mod-games .hd-menu .bb-menu.current{background-position:-665px -192px;}
+
+ .hd-menu li{width:182px; height:64px; padding-left:150px;}
+ .hd-menu .bbin-menu{background-position:-334px -0px; width:182px;}
+ .hd-menu .bbin-menu.current{background-position:-334px -67px;}
+
+ .hd-menu .ag-menu{background-position:-1px -0px; width:182px;}
+ .hd-menu .ag-menu.current{background-position:-1px -65px;}
+
+ .hd-menu .mg-menu{background-position:-665px -0px; width:182px;}
+ .hd-menu .mg-menu.current{background-position:-665px -65px;}
+
+ .hd-menu .gpi-menu{background-position:-665px -126px; width:182px;}
+ .hd-menu .gpi-menu.current{background-position:-665px -195px;}
+
+ .hd-menu .bbtech-menu{background-position:-666px -320px; width:182px;}
+ .hd-menu .bbtech-menu.current{background-position:-665px -256px;}
+
+ .hd-menu .pt-menu{background-position:-1px -130px; width:182px;}
+ .hd-menu .pt-menu.current{background-position:-1px -194px;}
+
+ .hd-menu .gos-menu{background-position:-1px -390px; width:182px;}
+ .hd-menu .gos-menu.current{background-position:-1px -451px;}
+
+ .hd-menu .bs-menu{background-position:-334px -390px; width:182px;}
+ .hd-menu .bs-menu.current{background-position:-334px -451px;}
+
+ .hd-menu .png-menu{background-position:-665px -390px; width:182px;}
+ .hd-menu .png-menu.current{background-position:-665px -451px;}
+
+ .hd-menu .kg-menu{background-position:-665px -512px; width:182px;}
+ .hd-menu .kg-menu.current{background-position:-665px -575px;}
+
+ .hd-menu .lb-menu{background-position:-1px -390px; width:182px;}
+ .hd-menu .lb-menu.current{background-position:-1px -451px;}
+
+ .hd-menu .im-menu{background-position:-1px -640px; width:182px;}
+ .hd-menu .im-menu.current{background-position:-1px -704px;}
+
+ .hd-menu .yungu-menu{background-position:-334px -776px; width:182px;}
+ .hd-menu .yungu-menu.current{background-position:-334px -849px;}
+
+
 
 .mod-lottery .hd-menu li{width:182px; height:64px; padding-left:150px;}
-.mod-lottery .hd-menu .bb-menu{background-position:-332px 0;}
-.mod-lottery .hd-menu .bb-menu.current{background-position:-332px -64px;}
-.mod-lottery .hd-menu .sgwin-menu{background-position:0 -256px; width:182px;}
-.mod-lottery .hd-menu .sgwin-menu.current{background-position:0 -320px;}
-.mod-lottery .hd-menu .lb-menu{background-position:-665px -256px;}
-.mod-lottery .hd-menu .lb-menu.current{background-position:-665px -320px;}
 
-.mod-lottery .hd-menu .lib-menu{background-position:-665px -256px;}
-.mod-lottery .hd-menu .lib-menu.current{background-position:-665px -320px;}
-.mod-lottery .hd-menu .yungu-menu{background-position:-665px -256px;}
-.mod-lottery .hd-menu .yungu-menu.current{background-position:-665px -320px;}
-.mod-lottery .hd-menu .im-menu{background-position:-665px -256px;}
-.mod-lottery .hd-menu .im-menu.current{background-position:-665px -320px;}
 
 
 .mod-games .hd-menu h2,.mod-lottery .hd-menu h2{font:24px/64px "Microsoft YaHei";}

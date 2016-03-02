@@ -50,8 +50,22 @@
             //console.log(result_width)
         };
 
+         var setSubMenuClick=function(id){
+             $(id).on("click","a",function(e){
+                 var _click_elem=$(this).attr("href");
+                 var hash=_click_elem.match(/#[a-zA-Z0-9_-]+/gi);
+                 if(!hash){
+                     return false;
+                 }
+                 hash=hash[0].substr(1)
+                 $("."+hash+"-menu").click()
+             })
+
+         }
+
         return{
-            dynamicCalu:dynamicCalu
+            dynamicCalu:dynamicCalu,
+            setSubMenuClick:setSubMenuClick
         }
     }()
 
@@ -97,6 +111,11 @@
         header.dynamicCalu(".l-c-drop");
         header.dynamicCalu("#sports",5);
         header.dynamicCalu(".sports-drop");
+
+        // set header when click * sub-menu  goto * this page and set this page relevant sub-menu current
+
+        header.setSubMenuClick(".games-drop");
+        header.setSubMenuClick(".lottery-drop");
 
         //体育赛事选项卡切换模块
         if($("#sports").length>0){
