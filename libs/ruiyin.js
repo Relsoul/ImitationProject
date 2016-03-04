@@ -3,21 +3,21 @@
  */
 (function ($, window) {
     var sidebarScroll = function () {
-        var _id, _time
+        var _id, _time;
         var _scrollEvent = function () {
             return function () {
-                var _scroll_val = $(this).scrollTop()
-                var result = (window.innerHeight - $(_id).height()) / 2 + _scroll_val
+                var _scroll_val = $(this).scrollTop();
+                var result = (window.innerHeight - $(_id).height()) / 2 + _scroll_val;
                 //console.log("body height", window.innerHeight, "scrool", $(this).scrollTop(), "sidebar height", $(_id).height(),"result_val",result)
                 $(_id).stop().animate({
                     top: "+" + (result)
                 }, _time)
             }
-        }
+        };
 
         var _idScroll = function () {
             $(window).on("scroll", _scrollEvent())
-        }
+        };
 
         return {
             init: function (id, time) {
@@ -45,8 +45,8 @@
                 span_length=0;
                 span_width=0;
             }
-            var result_width=(a_width*a_length)+(span_length*span_width)+val
-            $(id).width(result_width)
+            var result_width=(a_width*a_length)+(span_length*span_width)+val;
+            $(id).width(result_width);
             //console.log(result_width)
         };
 
@@ -57,17 +57,17 @@
                  if(!hash){
                      return false;
                  }
-                 hash=hash[0].substr(1)
+                 hash=hash[0].substr(1);
                  $("."+hash+"-menu").click()
              })
 
-         }
+         };
 
         return{
             dynamicCalu:dynamicCalu,
             setSubMenuClick:setSubMenuClick
         }
-    }()
+    }();
 
 
     var Tab=function(){
@@ -81,7 +81,7 @@
                 $("#"+target_id).removeClass("hide");
                 $("#"+target_id).siblings().addClass("hide");
             }
-        }
+        };
 
 
         return{
@@ -89,6 +89,19 @@
                 elem_id=elem_id;
                 $(elem_id).on("click","a",elemEvent())
             }
+        }
+    };
+
+    var LoginCurrent=function(id){
+        var login_tab_id=id;
+        var current_number=location.hash?location.hash.substr(1):0;
+        var setLoginCurrent=function(){
+            $(login_tab_id).removeClass("current");
+            $(login_tab_id).eq(current_number).addClass("current");
+        }
+
+        return{
+            setLoginCurrent:setLoginCurrent
         }
     }
 
@@ -122,9 +135,16 @@
             var sportsTab=Tab();
             sportsTab.init("#sports","#sports>a")
         }
-    }
+
+        //set loginTab form url hash
+        if($(".layout .items-tab a").length>0){
+            var login=LoginCurrent(".layout .items-tab a");
+            login.setLoginCurrent()
+        }
+
+    };
 
 
     init()
 
-})($, window)
+})($, window);

@@ -1,0 +1,250 @@
+<!--include "../include/login-header.html"-->
+
+<div class="user_right">
+
+    <script type="text/javascript">
+        //会员中心安全指数
+        $(function () {
+            $(".dial").knob({ width: 110, height: 110, lineCap: "round", thickness: ".1", angleOffset: 180, readOnly: true, displayInput: false, fgColor: "#1fae4b", bgColor: "#eeeeee" });
+            var p = $("#info-complete").attr("data-complete");
+            var i = 0;
+            var t = setInterval(function () {
+                i += 5;
+                if (i >= p) { i = p; clearInterval(t); }
+                $(".dial").val(i).trigger("change");
+                $("#info-complete").html(i + "%");
+            }, 30);
+
+            $("#healthoption").bind("change", function () {
+                $.post("handler/userhandler.ashx", {action:"sethealth",healthoption:$("#healthoption").val()}, function (message) {
+                    alert(message);
+                });
+            });
+        });
+    </script>
+    <div class="user_top">
+        <div class="safe_box">
+            <div class="safe_o">
+                <h3>个人中心</h3>
+                <p>安全指数</p>
+                <span id="info-complete" data-complete="25">25%</span>
+            </div>
+            <div style="display:inline;width:110px;height:110px;"><canvas width="110" height="110"></canvas><input type="text" value="25" class="dial" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div>
+        </div>
+        <div class="safe_data">
+            <div class="user_name">
+                <h2>您好！ rwlz123123</h2>
+                <span class="text">欢迎您注册使用瑞盈通MMA账户资金管理。</span></div>
+            <div class="info">
+                <ul>
+                    <li>
+                        <label class="b_title">用户等级：</label><span class="l_title">R0</span></li>
+                    <li>
+                        <label class="b_title">上次登录：</label><span class="l_title"> 3/4/2016 4:37:39 PM</span></li>
+                    <li>
+                        <label class="b_title">账户认证：</label><span class="l_title">
+
+                      <a title="未通过实名认证，需要认证请联系客服" class="rz_btn_red" href="javascript:">未认证,请联系客服</a>
+
+                                                        </span></li>
+                    <li>
+                        <label class="b_title">钱包余额：</label><span class="s_title"><b> 0.00元</b> <a href="http://www.rwin88.com/useraccount.aspx?action=deposit">充值</a><a href="http://www.rwin88.com/useraccount.aspx?action=withdraw">提款</a><a href="http://www.rwin88.com/useraccount.aspx?action=transfer">平台转帐</a></span></li>
+                    <li>
+                        <label class="b_title">健康设置：</label><span class="l_title">
+                    <select id="healthoption" class="input_text">
+                        <option value="0" selected="">正常</option>
+                        <option value="1">禁登2周</option>
+                        <option value="2">禁登1个月</option>
+                        <option value="3">禁登2个月</option>
+                        <option value="4">禁登3个月</option>
+                        <option value="5">禁登6个月</option>
+                    </select>
+                        <a title="选择的期限内不允许登陆网站，请谨慎设置" href="javascript:">禁止登录功能，谨慎设置！</a>
+                                                        </span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="user_sidebox" style="border: none;">
+        <div class="information_cut">
+            <div class="cut_nav">
+                <ul>
+                    <li class="hover">
+                        <div class="arrow-right3" style="display: block"></div>
+                        <a href="javascript:void(0);" onclick="ChangeCutnav(0)">编辑资料</a></li>
+                    <li>
+                        <div class="arrow-right3"></div>
+                        <a href="javascript:void(0);" onclick="ChangeCutnav(1)">修改密码</a></li>
+                    <li>
+                        <div class="arrow-right3"></div>
+                        <a href="javascript:void(0);" onclick="ChangeCutnav(2)">绑定银行</a></li>
+                    <li>
+                        <div class="arrow-right3"></div>
+                        <a href="javascript:void(0);" onclick="ChangeCutnav(3)">绑定手机</a></li>
+                </ul>
+            </div>
+            <div class="cut_box">
+                <dl class="block">
+                    <div class="cut_list">
+                        <div class="cut_title">
+                            <h2>个人信息</h2>
+                        </div>
+                        <div class="cut_table">
+                            <ul>
+                                <li>
+                                    <label class="b_title">真实姓名：</label><span class="l_title"><input name="txtTrueName" id="txtTrueName" class="input_text" type="text"></span><span class="tips">*设定后不能修改，如需要修改请联系客服</span></li>
+                                <li>
+                                    <label class="b_title">出生日期：</label><span class="l_title"><input name="txtBirthDay" id="txtBirthDay" class="input_text" type="text" placeholder="格式：2014/5/29"></span><span class="tips">*设定后不能修改，格式为：年 / 月 / 日</span></li>
+                            </ul>
+                        </div>
+                        <div class="cut_title">
+                            <h2>登录资料</h2>
+                        </div>
+                        <div class="cut_table">
+                            <ul>
+                                <li>
+                                    <label class="b_title">登陆ID：</label><span class="l_title"><input name="txtUserName" class="input_text" value="" id="txtUserName" readonly="readonly" type="text"></span></li>
+                                <li>
+                                    <label class="b_title">结算货币：</label><span class="l_title"><input name="txtCurrency" id="txtCurrency" class="input_text" value="人民币" readonly="readonly" type="text"></span></li>
+                                <li>
+                                    <label class="b_title">当前密码：</label><span class="l_title"><input name="txtCurPwd" id="txtCurPwd" class="input_text" type="password"></span><span class="tips">*为了您的资料安全验证，请重新输入一次登陆密码</span></li>
+                            </ul>
+                        </div>
+                        <div class="cut_title">
+                            <h2>联系资料</h2>
+                        </div>
+                        <div class="cut_table">
+                            <ul><li>
+                                <label class="b_title">Email：</label><span class="l_title"><input name="txtEmail" id="txtEmail" class="input_text" type="text" readonly="readonly"></span><span class="tips">*设定后不能修改，如需要修改请联系客服</span></li>
+                                <li>
+                                    <label class="b_title">联系QQ：</label><span class="l_title"><input name="txtQQ" id="txtQQ" class="input_text" type="text"></span><span class="tips">*设定后不能修改，如需要修改请联系客服</span></li>
+                            </ul>
+                        </div>
+                        <div class="cut_title">
+                            <h2>验证码</h2>
+                        </div>
+                        <div class="cut_table">
+                            <ul>
+                                <li>
+                                    <label class="b_title">图片验证码：</label><span class="l_title"><input name="txtCodeImgEdit" id="txtCodeImgEdit" style="width: 80px" class="input_text" type="text"></span><span style="float:left;"><img src="./CreateCodeImageE.ashx" id="imgE" onclick="this.src=&#39;/handler/CreateCodeImageE.ashx?r=&#39; + Math.random();" alt="图片验证码"></span><span class="tips"></span>
+                                </li>
+                                <li>
+                                    <label class="b_title">手机验证码：</label><span class="l_title"><input name="txtCode" id="txtCode" style="width: 80px" class="input_text" type="text"></span><span style="float:left;"><a id="sendSM1" style="background-color: #1FAE4B; color: white;cursor: pointer; padding: 2px 5px;" href="javascript:">获取验证码</a></span><span class="tips"></span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="cut_btn">
+                            <a href="javascript:void(0)" onclick="return changeInformation();">确认提交</a>
+                        </div>
+                    </div>
+                </dl>
+                <dl>
+                    <div class="cut_list">
+                        <div class="cut_title">
+                            <h2>修改密码</h2>
+                        </div>
+                        <div class="cut_table">
+                            <ul>
+                                <li>
+                                    <label class="b_title">当前密码：</label><span class="l_title"><input name="txtOldPwd" id="txtOldPwd" class="input_text" type="password"></span></li>
+                                <li>
+                                    <label class="b_title">新密码：</label><span class="l_title"><input name="txtNewPwd" class="input_text" type="password" id="txtNewPwd"></span></li>
+                                <li>
+                                    <label class="b_title">确认密码：</label><span class="l_title"><input name="txtReNewPwd" class="input_text" type="password" id="txtReNewPwd"></span></li>
+                            </ul>
+                        </div>
+                        <div class="cut_btn">
+                            <a href="javascript:void(0)" onclick="return doChangePwd();">确认修改</a>
+                        </div>
+                    </div>
+                </dl>
+                <dl>
+                    <div class="cut_list">
+                        <div class="cut_title">
+                            <h2>绑定银行</h2>
+                        </div>
+                        <div class="cut_table">
+                            <ul>
+                                <li>
+                                    <label class="b_title">银行名称：</label><span class="l_title">
+                                                <select id="bankid" name="bankid"><option value="0">选择银行</option><option value="1">工商银行</option><option value="2">农业银行</option><option value="3">建设银行</option><option value="4">交通银行</option><option value="5">中国银行</option><option value="6">招商银行</option><option value="7">上海浦发银行</option><option value="8">中信银行</option><option value="9">光大银行</option><option value="10">北京银行</option><option value="11">兴业银行</option><option value="12">南京银行</option><option value="13">中国民生银行</option><option value="14">平安银行</option><option value="15">东亚银行</option><option value="16">渤海银行</option><option value="17">宁波银行</option><option value="18">深圳发展银行</option><option value="19">中国邮政</option><option value="20">北京农村商业银行</option><option value="21">广发银行</option><option value="22">上海农村商业银行</option><option value="23">重庆农村商业银行</option><option value="24">贵州农村信用社</option><option value="25">支付宝</option></select>
+                                            </span></li>
+                                <li>
+                                    <label class="b_title">省市：</label><span class="l_title"><select id="province"><option value="省份">省份</option><option value="北京">北京</option><option value="上海">上海</option><option value="天津">天津</option><option value="重庆">重庆</option><option value="河北">河北</option><option value="山西">山西</option><option value="内蒙古">内蒙古</option><option value="辽宁">辽宁</option><option value="吉林">吉林</option><option value="黑龙江">黑龙江</option><option value="江苏">江苏</option><option value="浙江">浙江</option><option value="安徽">安徽</option><option value="福建">福建</option><option value="江西">江西</option><option value="山东">山东</option><option value="河南">河南</option><option value="湖北">湖北</option><option value="湖南">湖南</option><option value="广东">广东</option><option value="广西">广西</option><option value="海南">海南</option><option value="四川">四川</option><option value="贵州">贵州</option><option value="云南">云南</option><option value="西藏">西藏</option><option value="陕西">陕西</option><option value="甘肃">甘肃</option><option value="宁夏">宁夏</option><option value="青海">青海</option><option value="新疆">新疆</option><option value="香港">香港</option><option value="澳门">澳门</option><option value="台湾">台湾</option><option value="其它">其它</option></select>&nbsp;&nbsp;<select id="city"><option value="城市">城市</option></select></span></li>
+                                <li>
+                                    <label class="b_title">开户名：</label><span class="l_title" id="accountHolder"></span></li>
+                                <li>
+                                    <label class="b_title">开户行：</label><span class="l_title"><input name="openingBank" id="openingBank" class="input_text" type="text"></span></li>
+                                <li>
+                                    <label class="b_title">银行帐号：</label><span class="l_title"><input name="bankAccount" id="bankAccount" class="input_text" type="text"></span></li>
+                                <li>
+                                    <label class="b_title">确认帐号：</label><span class="l_title"><input name="bankAccountRe" id="bankAccountRe" class="input_text" type="text"></span></li>
+                            </ul>
+                        </div>
+                        <div class="cut_btn">
+                            <a href="javascript:void(0)" onclick="return addUserBankAccount();">确认绑定</a>
+                        </div>
+                    </div>
+                    <div class="bheight10"></div>
+                    <div class="cut_list">
+                        <div class="cut_title">
+                            <h2>已绑定银行卡</h2>
+                        </div>
+                        <div class="cut_con">
+                            <table>
+                                <thead>
+                                <tr>
+                                    <td>银行名称</td>
+                                    <td>支行</td>
+                                    <td>银行账号</td>
+                                    <td>开户名</td>
+                                    <td>操作</td>
+                                </tr>
+                                </thead>
+                                <tbody id="banklist"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </dl>
+
+                <dl>
+                    <div class="cut_list">
+                        <div class="cut_title">
+                            <h2>绑定手机</h2>
+                        </div>
+                        <div id="bind" style="display: block;">
+                            <div class="cut_table">
+                                <ul>
+                                    <li>
+                                        <label class="b_title">手机号码：</label><span class="l_title"><input name="txtPhone" id="txtPhone" class="input_text" type="text"></span><span class="tips" id="phonetip">请输入11位手机号</span></li>
+                                    <li>
+                                        <label class="b_title">图片验证码：</label><span class="l_title"><input name="txtCodeImgBind" id="txtCodeImgBind" style="width: 80px" class="input_text" type="text"></span><span style="float:left;"><img src="./GetImgCode.ashx" id="imgB" onclick="this.src=&#39;/handler/GetImgCode.ashx?r=&#39; + Math.random();" alt="图片验证码"></span><span class="tips"></span>
+                                    </li>
+                                    <li id="liVerCode">
+                                        <label class="b_title">短信验证码：</label><span class="l_title"><input name="txtVerCode" id="txtVerCode" class="input_text" type="text" style="width: 80px"></span><span style="float:left;"><a id="sendSM" style="background-color: #1FAE4B; color: white;cursor: pointer; padding: 2px 5px;" href="javascript:">获取验证码</a></span><span class="tips"></span></li>
+
+                                </ul>
+                            </div>
+                            <div class="cut_btn">
+                                <a href="javascript:void(0)" onclick="return bindPhone();">确认绑定</a>
+                            </div>
+                        </div>
+                        <div id="binded" style="display: none">
+                            <div class="cut_table">
+                                <ul>
+                                    <li>
+                                        <label class="b_title">已绑定号码：</label> <span class="l_title" id="spanphone"></span> <a onclick="$(&#39;#bind&#39;).css({&#39;display&#39;:&#39;block&#39;});$(&#39;#binded&#39;).css({&#39;display&#39;:&#39;none&#39;})" style="background-color: #1FAE4B; color: white;cursor: pointer; padding: 2px 5px;" href="javascript:">重新绑定</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!--footer-->
+<!--include "../include/login-footer.html"-->

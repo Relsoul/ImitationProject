@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://www.rwin88.com/Message.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	消息中心
+</title><meta http-equiv="Page-Enter" content="blendTrans(Duration=1)"><meta http-equiv="Page-Exit" content="blendTrans(Duration=1)"><meta name="google-translate-customization" content="db063174d44c6f52-0dfcd8721fd241a9-g6460c337a3bfa2a9-f">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="shortcut icon" href="http://www.rwin88.com/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="./消息中心_files/base.css"><link rel="stylesheet" href="./消息中心_files/common.css">
+    <script type="text/javascript" src="./消息中心_files/jquery-1.7.2.min.js"></script>    
+    <script type="text/javascript" src="./消息中心_files/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="./消息中心_files/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./消息中心_files/jquery.validate.message_cn.js"></script>
+    <script type="text/javascript" src="./消息中心_files/LoginHandler.js"></script>
+    <script type="text/javascript" src="./消息中心_files/register.js"></script>    
+    <script type="text/javascript" src="./消息中心_files/jquery.blockUI.js"></script>    
+    
+    <script type="text/javascript" src="./消息中心_files/ReportMessage.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            getReportRecord(1, "noterecord", "divNoteRecord");
+        });
+        //执行全选/反选检查[全部]
+        function doCheckAllBoxes(obj) {
+            if (obj.checked) {
+                $("input[class='checkboxes']").each(function () {
+                    //this.parentNode.className = "checked";
+                    $(this).attr("checked", true);
+                });
+            } else {
+                $("input[class='checkboxes']").each(function () {
+                    //this.parentNode.className = "";
+                    $(this).attr("checked", false);
+                });
+            }
+        }
+
+        //获取选择项返回数组
+        function GetCheckedItem() {
+            var items = new Array();
+            $("input[class='checkboxes']").each(function (i) {
+                if ($(this).attr("checked") == "checked") {
+                    items.push($(this).val());
+                }
+            }
+	        );
+            return items;
+        }
+        
+        function doNav(pageIndex, dataSource, divHolderId) {
+            getReportRecord(pageIndex, dataSource, divHolderId);
+        }
+        
+        function doDeleteNoteRecord() {
+            var items = GetCheckedItem();
+            if (items.length == 0) {
+                alert("请选择要删除的数据项");
+                return false;
+            }
+            if (confirm("确定要删除选择的数据项吗？")) {
+                var idList = "";
+                for (var i = 0; i < items.length; i++) {
+                    if (idList != "") {
+                        idList = idList + ",";
+                    }
+                    
+                    idList = idList + items[i];
+                }
+                doRemoveNoteData(idList);
+                getReportRecord(1, "noterecord", "divNoteRecord");
+                return true;
+            } else {
+                return false;
+            }
+        }
+    </script>
+
+    <style>
+.history-date h2,.log_box input.span1,.log_box input.span2,.log_box input.span3,.type_btn,.playbtn,.downloadbtn{behavior:url(css/PIE.htc);}
+
+        .success{color: green}
+        .error{color: red}
+    </style>
+    <script type="text/javascript">
+        var code = 'RUIWIN';
+
+        $(function () {
+            $(".forget .btn_close3").bind('click', function () {
+                $(".forget_info_table table").eq(0).css({ "display": "block" });
+                $(".forget_info_table table").eq(1).css({ "display": "none" });
+                $("#forgetUsername").val("");
+            });
+            $(".forget_info_table .type_btn").eq(0).unbind().bind('click', function () {
+                $.post("/handler/userhandler.ashx", { action: "retrievepassword", username: "rw"+$("#forgetUsername").val(), answer: $("#forgetAnswer").val(), code: $("#forgetCode").val() }, function (txt) {
+                    if (txt == "true") {
+                        $(".forget_info_table table").eq(0).css({ "display": "none" });
+                        $(".forget_info_table table").eq(1).css({ "display": "block" });
+                    } else {
+                        alert(txt);
+                    }
+                });
+               
+            });
+            $(".forget_info_table .type_btn").eq(1).unbind().bind('click', function () {
+                if ($("#forgetPassword").val() != $("#forgetRePassword").val()) {
+                    alert("两次输入密码不一致");
+                    return;
+                }
+                $.post("/handler/userhandler.ashx", { action: "updatapassword", password: $("#forgetPassword").val() }, function (txt) {
+                    if (txt == "true") {
+                        $(".forget_info_table table").eq(0).css({ "display": "block" });
+                        $(".forget_info_table table").eq(1).css({ "display": "none" });
+                        $("#forgetUsername").val("");
+                        alert("密码已经重置，请用新密码登陆");
+                        CloseForget();
+                    } else {
+                        alert(txt);
+                    }
+                });
+            });
+            $("#forgetUsername").bind("change", function () {
+                $.post("/handler/userhandler.ashx", { action: "getquestion", username: "rw" + $("#forgetUsername").val() }, function (txt) {
+                    if (txt != "false") {
+                        $("#forgetQuestion").text(txt);
+                    }
+                });
+            });
+        });
+
+        function gotomall() {
+            if ($.cookie("username")) {
+                window.location.href = "/usermalls.aspx";
+            } else {
+                alert("请先登录");
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="box">
+    </div>
+    <!--quick log-->
+    <div class="quick_nav">
+        <div class="quick_nav_box">
+            <div class="times"><a href="http://www.rwin88.com/Index.aspx" class="tophome" title="瑞盈首页">首页</a> <a href="javascript:void(0)" class="phone_c" title="手机体育">手机体育 <img src="./消息中心_files/jian.gif" align="absmiddle"></a> <a href="javascript:void(0)" class="gamerbox_c" title="Gamerbox">Gamerbox <img src="./消息中心_files/jian.gif" align="absmiddle"></a></div>
+            <div class="hide_sphone"><a href="http://s.188sb.info/" target="_blank"><img src="./消息中心_files/sports_phone.jpg"></a></div>
+            <div class="hide_gamerbox"><a href="http://m.188sb.info/" target="_blank"><img src="./消息中心_files/gamerbox_pic.jpg"></a></div>
+            
+            <div class="log_success">
+                <ul>
+                    <li><a href="http://www.rwin88.com/Message.aspx#" title=""><span class="logo-user"></span><span>rwlz123123</span></a></li>
+                    <li><a class="new-msg" href="./消息中心_files/消息中心.html" title="您有3未读消息">(3)</a></li>
+                    <li><a href="http://www.rwin88.com/UserCenter.aspx" title="">个人中心</a></li>
+                    <li><a href="http://www.rwin88.com/UserAccount.aspx" title="">钱包管理</a></li>
+                    <li><a href="http://www.rwin88.com/UserMalls.aspx" title="">每日优惠</a></li>
+                    <li class="last"><a href="javascript:void(0)" title="" onclick="doLogout()">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <!--header begin-->
+        <div class="header">
+            <div class="logo"><a href="http://www.rwin88.com/index.aspx"><img src="./消息中心_files/logo.png"></a></div>
+            <div class="nav">
+                <a href="http://www.rwin88.com/Sports.aspx" class="nav_1">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">体育</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/LiveCasino.aspx" class="nav_2">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">娱乐场</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/lottery.aspx" class="nav_3">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">彩票</div>
+                    <div class="green_bg"></div>
+                </a>                
+                <a href="http://www.rwin88.com/slot.aspx" class="nav_5">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">老虎机</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/promotions.aspx" class="nav_6">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">优惠</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://gamerbox.rwin88.com/" target="_blank" class="nav_4">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">戳戳乐</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/club.aspx" class="nav_7">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">CLUB</div>
+                    <div class="green_bg"></div>
+                </a>
+				<a href="javascript:" onclick="window.open(&#39;http://messenger.providesupport.com/messenger/0pq5bbm879x650dtaf52u9k528.html?ps_l=http%3A//www.rwin88.com/index2.aspx&#39;,&#39;在线客服&#39;,&#39;height=608,width=496,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no&#39;)" class="nav_8">
+
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text" style="color:#024d29">优宝客服</div>
+                    <div class="green_bg"></div>
+                </a>
+                <div class="ts_wc"></div>
+            </div>
+            <div class="kefu">
+                <a href="javascript:" onclick="window.open(&#39;https://ruiwins.liaonow.com&#39;,&#39;在线客服&#39;,&#39;height=608,width=496,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no&#39;)">
+                    <div class="toll_img"></div>
+                    <div class="toll_info"></div>
+                </a>
+            </div>            
+        </div>
+
+        <div class="container_box">
+            <div class="index_content">
+                
+    <div class="user_box">
+        
+<script type="text/javascript">
+    $(function () {
+        var url = document.location.href;
+        var arrUrlPart = url.split("/");
+        var len = arrUrlPart.length;
+        var pageName = arrUrlPart[len - 1];
+        var pagePrex = pageName.split(".")[0].toLowerCase();
+        $("#li_" + pagePrex).addClass("on").append($("<div class='arrow-right2'></div>"));
+    })
+</script>
+<script type="text/javascript" src="./消息中心_files/jquery.knob.js"></script>
+
+<div class="user_left">
+    <div class="left_new"></div>
+    <ul>
+        <li id="li_usercenter"><a href="http://www.rwin88.com/UserCenter.aspx">
+            <span class="logo-bell"></span>
+            <span class="bd">
+                <span class="t-1">账户首页</span>
+                <span class="t-2">个人账户详细</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_usermodify"><a href="http://www.rwin88.com/UserModify.aspx">
+            <span class="logo-lock"></span>
+            <span class="bd">
+                <span class="t-1">安全设置</span>
+                <span class="t-2">账户资料修改</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_message" class="on">
+            <a href="./消息中心_files/消息中心.html">
+                <span class="logo-message"></span>
+                <span class="bd">
+                    <span class="t-1">消息中心</span>
+                    <span class="t-2">与我相关的消息</span>
+                </span>
+                <span class="logo-sj8-r"></span>
+            </a><div class="arrow-right2"></div></li>
+        <li id="li_useraccount"><a href="http://www.rwin88.com/UserAccount.aspx">
+            <span class="logo-money"></span>
+            <span class="bd">
+                <span class="t-1">钱包管理</span>
+                <span class="t-2">充值提款转账中心</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_userreport"><a href="http://www.rwin88.com/UserReport.aspx">
+            <span class="logo-report"></span>
+            <span class="bd">
+                <span class="t-1">报表中心</span>
+                <span class="t-2">查看近期操作记录</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_userpromotion"><a href="http://www.rwin88.com/UserPromotion.aspx">
+            <span class="logo-promotion"></span>
+            <span class="bd">
+                <span class="t-1">优惠中心</span>
+                <span class="t-2">各大平台优惠申请</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_usermalls"><a href="http://www.rwin88.com/UserMalls.aspx">
+            <span class="logo-mall"></span>
+            <span class="bd">
+                <span class="t-1">每日优惠</span>
+                <span class="t-2">积分兑换共享优惠</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+    </ul>
+</div>
+
+        <div class="user_right">
+            
+<script type="text/javascript">
+    //会员中心安全指数
+    $(function () {
+        $(".dial").knob({ width: 110, height: 110, lineCap: "round", thickness: ".1", angleOffset: 180, readOnly: true, displayInput: false, fgColor: "#1fae4b", bgColor: "#eeeeee" });
+        var p = $("#info-complete").attr("data-complete");
+        var i = 0;
+        var t = setInterval(function () {
+            i += 5;
+            if (i >= p) { i = p; clearInterval(t); }
+            $(".dial").val(i).trigger("change");
+            $("#info-complete").html(i + "%");
+        }, 30);
+
+        $("#healthoption").bind("change", function () {
+            $.post("handler/userhandler.ashx", {action:"sethealth",healthoption:$("#healthoption").val()}, function (message) {
+                alert(message);
+            });
+        });
+    });
+</script>
+<div class="user_top">
+    <div class="safe_box">
+        <div class="safe_o">
+            <h3>个人中心</h3>
+            <p>安全指数</p>
+            <span id="info-complete" data-complete="25">25%</span>
+        </div>
+        <div style="display:inline;width:110px;height:110px;"><canvas width="110" height="110"></canvas><input type="text" value="25" class="dial" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div>
+    </div>
+    <div class="safe_data">
+        <div class="user_name">
+            <h2>您好！ rwlz123123</h2>
+            <span class="text">欢迎您注册使用瑞盈通MMA账户资金管理。</span></div>
+        <div class="info">
+            <ul>
+                <li>
+                    <label class="b_title">用户等级：</label><span class="l_title">R0</span></li>
+                <li>
+                    <label class="b_title">上次登录：</label><span class="l_title"> 3/4/2016 4:37:39 PM</span></li>
+                <li>
+                    <label class="b_title">账户认证：</label><span class="l_title">
+                                                            
+                      <a title="未通过实名认证，需要认证请联系客服" class="rz_btn_red" href="javascript:">未认证,请联系客服</a>
+                        
+                                                        </span></li>
+                <li>
+                    <label class="b_title">钱包余额：</label><span class="s_title"><b> 0.00元</b> <a href="http://www.rwin88.com/useraccount.aspx?action=deposit">充值</a><a href="http://www.rwin88.com/useraccount.aspx?action=withdraw">提款</a><a href="http://www.rwin88.com/useraccount.aspx?action=transfer">平台转帐</a></span></li>
+                <li>
+                    <label class="b_title">健康设置：</label><span class="l_title">
+                    <select id="healthoption" class="input_text">
+                        <option value="0" selected="">正常</option>
+                        <option value="1">禁登2周</option>
+                        <option value="2">禁登1个月</option>
+                        <option value="3">禁登2个月</option>
+                        <option value="4">禁登3个月</option>
+                        <option value="5">禁登6个月</option>
+                    </select>
+                        <a title="选择的期限内不允许登陆网站，请谨慎设置" href="javascript:">禁止登录功能，谨慎设置！</a>
+                                                        </span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            <div class="user_sidebox" style="border: none;">
+                <div class="s_title">
+                    <h2 class="user_u">消息中心</h2>
+                </div>
+                <div class="m_content">
+                    <div class="message_box">
+                        <div class="mess_nav">
+                            <h2>收件箱</h2>
+                        </div>
+                        <div class="mess_content" id="divNoteRecord"><ul><li>
+                                    <div class="label">
+                                        <input type="checkbox" value="782428" class="checkboxes"></div>
+                                    <div class="content">
+                                        <p><a href="http://www.rwin88.com/Message.aspx###" onclick="openShutManager(this,&#39;p_msg_782428&#39;,false,&#39;&#39;,&#39;&#39;);changeStatus(&#39;divIsRead_782428&#39;)">春节礼金(点击查看详情)</a></p>
+                                        <p id="p_msg_782428" style="display: none">
+                                            R1以上会员(含)春节礼金将于2/10中午12:00开始进行派发,预计于2/11晚上8点前派发完毕,请所有R1以上会员随时关注您的钱包;祝所有会员,猴年大吉、运气猴赛雷。
+                                        </p>
+                                    </div>
+                                    <div class="date">2016-02-06 16:02:17</div>
+                                    <div id="divIsRead_782428" class="new"><a href="javascript:void(0)" title="未读">新消息</a></div>
+                                </li><li>
+                                    <div class="label">
+                                        <input type="checkbox" value="684918" class="checkboxes"></div>
+                                    <div class="content">
+                                        <p><a href="http://www.rwin88.com/Message.aspx###" onclick="openShutManager(this,&#39;p_msg_684918&#39;,false,&#39;&#39;,&#39;&#39;);changeStatus(&#39;divIsRead_684918&#39;)">春节公告(点击查看详情)</a></p>
+                                        <p id="p_msg_684918" style="display: none">
+                                            春风送暖猴年好,"瑞"气"盈"门鹊语香！值此辞旧迎新之际,瑞盈向会员们提前拜年并送上新春的祝福,感谢会员们长期以来的支持!【春假时间:2016/2/7 00:00~2/10 08:00,瑞盈与您相约初三上午8点】注:2/6投注返水将于2/10下午6点统一派发
+                                        </p>
+                                    </div>
+                                    <div class="date">2016-02-06 15:59:16</div>
+                                    <div id="divIsRead_684918" class="new"><a href="javascript:void(0)" title="未读">新消息</a></div>
+                                </li><li>
+                                    <div class="label">
+                                        <input type="checkbox" value="605867" class="checkboxes"></div>
+                                    <div class="content">
+                                        <p><a href="http://www.rwin88.com/Message.aspx###" onclick="openShutManager(this,&#39;p_msg_605867&#39;,false,&#39;&#39;,&#39;&#39;);changeStatus(&#39;divIsRead_605867&#39;)">很遗憾,您的存款单被拒绝！(点击查看详情)</a></p>
+                                        <p id="p_msg_605867" style="display: none">
+                                            您的存款单被拒绝(金额RMB:1333.00,拒绝原因:目前支持支付宝或三方存款)。如有疑问请联系在线客服咨询。
+                                        </p>
+                                    </div>
+                                    <div class="date">2016-01-14 22:04:38</div>
+                                    <div id="divIsRead_605867" class="new"><a href="javascript:void(0)" title="未读">新消息</a></div>
+                                </li></ul>
+
+<div class="allselect">
+                                <input type="checkbox" onclick="doCheckAllBoxes(this)" id="all" name="all">
+                                <label for="all"><a>全选</a></label>
+                                <a href="javascript:void(0)" onclick="return doDeleteNoteRecord();">删除</a>
+                                <span style="text-align: left;padding-left: 100px;border-right:none;">Showing 1 to 3 of 3 entries</span>
+                                <span style="text-align: right;padding-right: 20px;border-left:none;"><a href="http://www.rwin88.com/Message.aspx#">首页</a>
+<a href="http://www.rwin88.com/Message.aspx#"> <span class="hidden-480">上一页</span></a>
+<a href="http://www.rwin88.com/Message.aspx#"><span class="hidden-480">下一页</span>  </a>
+<a href="http://www.rwin88.com/Message.aspx#">尾页</a>
+</span>
+                            </div></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+                <div class="foot_index">
+                    <div class="inst_side">
+                        <h2>监管机构</h2>
+                        <a href="http://www.gicc.ph/" target="_blank"><img src="./消息中心_files/Gicc.jpg"></a>
+                        <h2>实地合作</h2>
+                        <img src="./消息中心_files/Resorts.jpg"><img src="./消息中心_files/Solaire.jpg"><img src="./消息中心_files/city.jpg">
+                        <h2>合作伙伴</h2>
+                        <img src="./消息中心_files/EA.jpg"><img src="./消息中心_files/188bet.jpg"><img src="./消息中心_files/microgaming.jpg"><img src="./消息中心_files/KG.jpg"><img src="./消息中心_files/AutoPay.jpg"><img src="./消息中心_files/BBIN.jpg"><img src="./消息中心_files/a1.jpg"><img src="./消息中心_files/GameCare.jpg"><img src="./消息中心_files/18jia.jpg">
+                    </div>
+                    <div class="quick_side">
+                        <div class="side_content">
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>玩家帮助</h2>
+                                    <div class="letter">Game guide</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=deposit">如何存款</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=withdrawal">如何提款</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=games-faq">常见问题</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>优惠活动</h2>
+                                    <div class="letter">Promotion</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/promotions.aspx">优惠活动主页</a></li>
+                                        <li><a href="http://www.rwin88.com/club.aspx">VIP专属小秘</a></li>
+                                        <li><a href="http://www.rwin88.com/Message.aspx#">商品兑换</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>博彩责任</h2>
+                                    <div class="letter">Gambling</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=privacy-policy">隐私权政策</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=terms-and-conditions">规则与条款</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=responsible-gambling">博彩责任</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>关于我们</h2>
+                                    <div class="letter">About us</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=aboutus">关于我们</a></li>
+                                        <li><a href="http://lago.rwin88.com/" target="_blank">拉勾宝联盟</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=contact">客户之声</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+							<div class="copyright" style="width:190px"><a href="javascript:void(0);" onclick="ShowJob()" title="找工作就点这里">
+                                    <img src="./消息中心_files/job_img2.jpg"></a>
+                                <p style="margin-top:10px">Copyright © 2013-2016 Rwin88 All Rights Reserved.</p>
+                            </div>
+
+                            <div class="job_box" style=" width:210px">
+                                <p>
+                                    亚洲最好，最丰富的产品<br>
+                                    一分钟存款/十分钟提款<br>
+                                    政府颁发的执照，良好的口碑
+                                </p>
+								
+                                <p>
+                                    <a href="javascript:void(0);" class="footico ficon-IE" title="IE9.0"></a>
+                                    <a href="javascript:void(0);" class="footico ficon-firefox" title="Firefox3.0"></a>
+                                    <a href="javascript:void(0);" class="footico ficon-chrome" title="Chrome"></a>
+                                    <a href="javascript:void(0);" class="footico ficon-safari" title="safari"></a>
+                                </p>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--注册-->
+    <div class="reg_box">
+        <form id="registerform" name="registerform" novalidate="novalidate">
+        <div id="RegFloat">
+            <div class="reg" id="RegInfo">
+                <div class="btn_close"></div>
+                <div class="reg_info">
+                    <div class="reg_info_table">
+                         <table style="display: none">
+                             <tbody><tr>
+                                <td width="220"><span class="text">公测邀请码：</span></td>
+                                 <td width="220">&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <span class="reg_text"><input type="text" style="width: 180px;color: #3b2316; border: none; clear:left" name="yqma" id="yqma"></span></td>
+                                <td>&nbsp;<span class="red">请向客服询问邀请码</span></td>
+                            </tr>
+                             <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">创建瑞盈账号</a></td>
+                            </tr>
+
+                             <tr>
+                                <td style="padding-top:10px;" colspan="2" align="center">
+                                    <div>
+                                        <div style="float:left;width:300px;padding-right:10px;overflow:hidden; text-align:left;"><strong>公测日期: 2014年3月10日~2014年4月7日</strong><br>
+                                                参与公测的玩家可免费获得”<font color="red"><strong>公测礼包</strong></font>”，助您VIP升级暢快领先一步!</div>
+                                        <div style="float:right;overflow:hidden;"><img src="./消息中心_files/libao.png"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                        <table style="display:block;">
+                            <tbody><tr>
+                                <td width="220"><span class="text">用户账号：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="reg_text">rw<input type="text" style="width: 180px;color: #3b2316; border: none; clear:left" name="username" id="username"></span></td>
+                                <td>&nbsp;<span class="red">*</span> 请以rw开头+数字或字母組合(7-12位)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">登入密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="reg_text" name="password" id="password"></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入6-12位密码</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">确认密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="reg_text" name="repassword" id="repassword"></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入6-12位密码</td>
+                            </tr>                            
+                            <tr>
+                                <td><span class="text">推广代码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="reg_text" name="agentcode" id="agentcode"></td>
+                                <td>&nbsp;<span class="red">*</span> 建议使用默认代码</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">创建瑞盈账号</a></td>
+                            </tr>
+                        </tbody></table>
+                        
+                        <table style="display:none;"> 
+                            <tbody><tr>
+                                <td width="220"><span class="text">邮箱地址：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" class="reg_text" name="email" id="email"></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入正确邮箱地址</td>
+                            </tr>                           
+                            <tr>
+                                <td><span class="text">安全问题：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <select name="securityissues" id="securityissues" class="reg_text" style=" height: 30px; width: 220px"><option>请选择</option><option value="1">您的出生地是？</option><option value="2">您的出生日期是？</option><option value="3">您最熟悉的人的名字？</option><option value="4">您的偶像是？</option><option value="5">您的幸运数字是？</option></select></td>
+                                <td>&nbsp;<span class="red">*</span> 请选择安全问题</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">问题答案：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><input id="securityanswer" name="securityanswer" maxlength="15" class="reg_text"></td>
+                                <td>&nbsp;<span class="red">*</span> 请填写安全问题答案</td>
+                            </tr>                            
+                            <tr>
+                                <td><span class="text">验证码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" class="reg_text code_text" name="code" id="code"><a class="code_img" href="http://www.rwin88.com/Message.aspx#"><img src="./消息中心_files/CreateCodeImage.ashx"></a></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入验证码，点击图片刷新</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">下一步</a></td>
+                            </tr>
+                        </tbody></table>
+
+
+                        <table style="display:none;"> 
+                            <tbody><tr style="line-height:22px!important;">
+                                <td colspan="2"><span class="text">恭喜您, 您即将成为瑞盈会员, 为了确保您的帐户数据完全正确, 请仔细核对以下您的账户信息:</span></td>
+                            </tr>
+                            <tr style="line-height:24px!important;">
+                                <td style="padding:10px;" colspan="2">
+                                    <strong>用户账号：</strong> <label id="lbusername"></label><br>
+                                    <strong>登入密码：</strong> <label id="lbpassword"></label><br>
+                                    <strong>推广代理：</strong> <label id="lbagentcode"></label><br>
+                                    <strong>邮箱地址：</strong> <label id="lbemail"></label><br>
+                                    <strong>安全问题：</strong> <label id="lbquestion"></label><br>
+                                    <strong>安全答案：</strong> <label id="lbanswer"></label><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="20"><input name="rule" type="checkbox" value="" id="rule" style="margin-top:10px;"></td>
+                                <td><span class="text">本人同意并接受所有<a href="http://www.rwin88.com/Message.aspx#" style="color:#3b2316; text-decoration:underline;">规则与条款</a></span></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top:10px;" align="center" colspan="2"><a href="javascript:" id="submitbutton" class="type_btn">确认开通</a></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </form>
+    </div>
+
+    <!--忘记密码-->
+    <div class="forget_box">
+        <div id="ForgetFloat">
+            <div class="forget">
+                <div class="btn_close3"></div>
+                <div class="forget_info">
+                    <div class="forget_info_table">
+                         <table>
+                             <tbody><tr>
+                                <td width="220"><span class="text">输入用户名：</span></td>
+                                 <td width="220">&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <span class="forget_text">rw<input type="text" style="width: 180px;color: #3b2316; border: none; clear:left" id="forgetUsername"></span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td width="220"><span class="text">安全问题：</span></td>
+                                 <td width="220">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><span class="forget_text" id="forgetQuestion"></span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">请填写安全问题答案：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><input id="forgetAnswer" maxlength="15" class="forget_text"></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td><span class="text">验证码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                              <tr>
+                                <td>
+                                    <input type="text" class="forget_text code_text" name="code" id="forgetCode"><a class="code_img" href="http://www.rwin88.com/Message.aspx#"><img src="./消息中心_files/CreateCodeImage.ashx"></a></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入验证码，点击图片刷新</td>
+                            </tr>
+                             <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">下一步</a></td>
+                            </tr>
+                        </tbody></table>
+
+                        <table style="display:none;"> 
+                            <tbody><tr>
+                                <td><span class="text">输入新密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="forget_text" id="forgetPassword"></td>
+                                <td>&nbsp;</td>
+                            </tr>                           
+                            <tr>
+                                <td><span class="text">请再输入一次新密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="forget_text" id="forgetRePassword"></td>
+                                <td>&nbsp;</td>
+                            </tr> 
+                                                       
+                            
+                            <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">确认提交</a></td>
+                            </tr>
+                        </tbody></table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="index_jobbox">
+        <div id="get_job">
+            <div class="btn_close2"></div>
+            <div class="job_content">
+                <p>RWIN88瑞盈要以F.A.M.I.L.Y.的价值观，<br>
+                     创造人与人之间凝聚的力量，带领有梦想、有目标、勇于挑战的您一起进化。<br>
+                     RWIN88瑞盈核心价值：<br>
+                   「家」是所有关系的起点，所有人都从「家」开始学习社会化，同担责任、共享欢乐、勇敢筑梦。<br>
+                     如果您对加入RWIN88瑞盈有兴趣及意向, 请将您最新的个人简历（word文档或PDF格式）<br>
+                     发送到<a href="mailto:info@rwin88.com" target="_blank"> info#rwin88.com</a>（发邮件请记得将“#”换成“@”）。</p>
+            </div>
+        </div>        
+    </div>
+    <div id="wscrolltop"><h5>Top</h5><div class="scrico"></div></div>
+
+<script type="text/javascript" src="./消息中心_files/action.js"></script>
+
+<script type="text/javascript" src="./消息中心_files/stats" charset="UTF-8"></script>
+
+
+
+</body></html>

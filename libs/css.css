@@ -100,10 +100,30 @@
 .l-c-platform{background:#0d002b; padding-bottom:20px; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;}
 .l-c-platform li{float:left; display:inline; width:218px; height:224px; cursor:pointer; margin:20px 16px 0;}
 .l-c-platform li a{display:block; width:100%; height:100%; text-indent:-9999em; cursor:pointer;}
-.l-c-platform li.bb-play-btn a{background:url(../images/live_casino/l_c_bb.jpg) no-repeat;}
-.l-c-platform li.ag-play-btn a{background:url(../images/live_casino/l_c_ag.jpg) no-repeat;}
-.l-c-platform li.pt-play-btn a{background:url(../images/live_casino/l_c_pt.jpg) no-repeat;}
-.l-c-platform li.gd-play-btn a{background:url(../images/live_casino/l_c_gd.jpg) no-repeat;}
+.bbin-play-btn a{background:url(../images/CompleteIcons/normal/bbin.jpg)}
+.ag-play-btn a{background:url(../images/CompleteIcons/normal/AG.jpg) }
+.mg-play-btn a{background:url(../images/CompleteIcons/normal/mg.jpg) }
+.pt-play-btn a{background:url(../images/CompleteIcons/normal/pt.jpg)}
+.vivo-play-btn a{background:url(../images/CompleteIcons/normal/vivo.jpg)}
+.gpi-play-btn a{background:url(../images/CompleteIcons/normal/gpi.jpg)}
+.oubo-play-btn a{background:url(../images/CompleteIcons/normal/欧博.jpg)}
+.taishan-play-btn a{background:url(../images/CompleteIcons/normal/泰山.jpg)}
+.gd-play-btn a{background:url(../images/CompleteIcons/normal/gd.jpg)}
+.one88-play-btn a{background:url(../images/CompleteIcons/normal/188.jpg)}
+.hy-play-btn a{background:url(../images/CompleteIcons/normal/hy.jpg)}
+
+.bbin-play-btn a:hover{background:url(../images/CompleteIcons/hover/bbin.jpg)}
+.ag-play-btn a:hover{background:url(../images/CompleteIcons/hover/AG.jpg) }
+.mg-play-btn a:hover{background:url(../images/CompleteIcons/hover/mg.jpg) }
+.pt-play-btn a:hover{background:url(../images/CompleteIcons/hover/pt.jpg)}
+.vivo-play-btn a:hover{background:url(../images/CompleteIcons/hover/vivo.jpg)}
+.gpi-play-btn a:hover{background:url(../images/CompleteIcons/hover/gpi.jpg)}
+.oubo-play-btn a:hover{background:url(../images/CompleteIcons/hover/欧博.jpg)}
+.taishan-play-btn a:hover{background:url(../images/CompleteIcons/hover/泰山.jpg)}
+.gd-play-btn a:hover{background:url(../images/CompleteIcons/hover/gd.jpg)}
+.one88-play-btn a:hover{background:url(../images/CompleteIcons/hover/188.jpg)}
+.hy-play-btn a:hover{background:url(../images/CompleteIcons/hover/hy.jpg)}
+
 .l-c-platform li a:hover{background-position:0 -224px;}
 
 /*彩票投注*/

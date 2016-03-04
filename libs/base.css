@@ -205,15 +205,15 @@ span.valid-tips{background-position:0 0; width:18px; padding:0;}
 .pt-pc-download-modal .pt-dl-wrap .pt-dl-btn a.pt-dl-android-btn:hover{background-position:0 -145px;}
 
 /* 用户中心-导航 */
-.user-ctr .items-tab,.ag-ctr .items-tab,.user-ctr .items-tab a{background:url(../static/images/hd_bg.png) no-repeat;}
+.user-ctr .items-tab,.ag-ctr .items-tab,.user-ctr .items-tab a{background:url(../images/hd_bg.png) no-repeat;}
 .user-ctr .items-tab,.ag-ctr .items-tab{background-repeat:repeat-x; height:65px;}
-.user-ctr .items-tab h2,.ag-ctr .items-tab h2{font-size:22px; line-height:65px; padding-left:20px;}
+.user-ctr .items-tab h2,.ag-ctr .items-tab h2{font-size:22px; line-height:30px; padding-left:20px;}
 .user-ctr .items-tab a{font-size:14px; line-height:normal; height:65px; background-position:right -65px; width:132px; display:inline; float:left; text-align:center; color:#2a2a2a; position:relative;}
 .user-ctr .items-tab a:hover{background-position:0 -130px; background-repeat:repeat-x;}
 .user-ctr .items-tab a.current,.user-ctr .items-tab a.current:hover{background-position:right -195px;}
 .user-ctr .items-tab .tip-dot{background-position:-183px -196px; width:14px; height:14px; position:absolute; top:4px; right:45px;}
 
-.user-ctr .items-tab a i{background:url(../static/images/userCenter.png) no-repeat; width:38px; height:26px; display:block; margin:8px 0 6px 46px; *margin-left:0px;}
+.user-ctr .items-tab a i{background:url(../images/userCenter.png) no-repeat; width:38px; height:26px; display:block; margin:8px 0 6px 46px; *margin-left:0px;}
 .user-ctr .items-tab .my-info{background-position:-61px 0;}
 .user-ctr .items-tab .my-wallet{background-position:-61px -48px;}
 .user-ctr .items-tab .my-accounts{background-position:-61px -99px;}

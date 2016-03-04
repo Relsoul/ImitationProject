@@ -1,0 +1,120 @@
+<!--include "../include/login-header.html"-->
+                    <div class="user_right">
+
+
+                        <script type="text/javascript">
+                            //会员中心安全指数
+                            $(function () {
+                                $(".dial").knob({ width: 110, height: 110, lineCap: "round", thickness: ".1", angleOffset: 180, readOnly: true, displayInput: false, fgColor: "#1fae4b", bgColor: "#eeeeee" });
+                                var p = $("#info-complete").attr("data-complete");
+                                var i = 0;
+                                var t = setInterval(function () {
+                                    i += 5;
+                                    if (i >= p) { i = p; clearInterval(t); }
+                                    $(".dial").val(i).trigger("change");
+                                    $("#info-complete").html(i + "%");
+                                }, 30);
+
+                                $("#healthoption").bind("change", function () {
+                                    $.post("handler/userhandler.ashx", {action:"sethealth",healthoption:$("#healthoption").val()}, function (message) {
+                                        alert(message);
+                                    });
+                                });
+                            });
+
+                        </script>
+                        <div class="user_top">
+                            <div class="safe_box">
+                                <div class="safe_o">
+                                    <h3>个人中心</h3>
+                                    <p>安全指数</p>
+                                    <span id="info-complete" data-complete="25">25%</span>
+                                </div>
+                                <div style="display:inline;width:110px;height:110px;"><canvas width="110" height="110"></canvas><input type="text" value="25" class="dial" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div>
+                            </div>
+                            <div class="safe_data">
+                                <div class="user_name">
+                                    <h2>您好！ rwlz123123</h2>
+                                    <span class="text">欢迎您注册使用瑞盈通MMA账户资金管理。</span></div>
+                                <div class="info">
+                                    <ul>
+                                        <li>
+                                            <label class="b_title">用户等级：</label><span class="l_title">R0</span></li>
+                                        <li>
+                                            <label class="b_title">上次登录：</label><span class="l_title"> 3/4/2016 4:37:39 PM</span></li>
+                                        <li>
+                                            <label class="b_title">账户认证：</label><span class="l_title">
+
+                      <a title="未通过实名认证，需要认证请联系客服" class="rz_btn_red" href="javascript:">未认证,请联系客服</a>
+
+                                                        </span></li>
+                                        <li>
+                                            <label class="b_title">钱包余额：</label><span class="s_title"><b> 0.00元</b> <a href="http://www.rwin88.com/useraccount.aspx?action=deposit">充值</a><a href="http://www.rwin88.com/useraccount.aspx?action=withdraw">提款</a><a href="http://www.rwin88.com/useraccount.aspx?action=transfer">平台转帐</a></span></li>
+                                        <li>
+                                            <label class="b_title">健康设置：</label><span class="l_title">
+                    <select id="healthoption" class="input_text">
+                        <option value="0" selected="">正常</option>
+                        <option value="1">禁登2周</option>
+                        <option value="2">禁登1个月</option>
+                        <option value="3">禁登2个月</option>
+                        <option value="4">禁登3个月</option>
+                        <option value="5">禁登6个月</option>
+                    </select>
+                        <a title="选择的期限内不允许登陆网站，请谨慎设置" href="javascript:">禁止登录功能，谨慎设置！</a>
+                                                        </span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="user_sidebox">
+                            <div class="s_title"><h2 class="user_u">个人资料</h2> <span><a href="http://www.rwin88.com/UserModify.aspx">编辑个人资料</a></span></div>
+                            <div class="s_content">
+                                <ul>
+                                    <li><label class="b_title">真实姓名：</label><span class="l_title"></span><span class="tips">*设定后不能修改，如需要修改请联系客服</span></li>
+                                    <li><label class="b_title">出生日期：</label><span class="l_title">未知</span><span class="tips">*设定后不能修改，如需要修改请联系客服</span></li>
+                                    <li><label class="b_title">电话号码：</label><span class="l_title"></span><span class="tips"><a href="http://www.rwin88.com/UserCenter.aspx#"></a></span></li>
+                                    <li><label class="b_title">Email：</label><span class="l_title">123123fdsw@qq.com</span><span class="tips"><a href="http://www.rwin88.com/UserCenter.aspx#"></a></span></li>
+                                    <li><label class="b_title">联系QQ：</label><span class="l_title"> </span><span class="tips"><a href="http://www.rwin88.com/UserCenter.aspx#"></a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="user_sidebox">
+                            <div class="s_title"><h2>经验等级</h2> <span>今天您签到了吗？签到可获经验值哦....<a href="http://www.rwin88.com/help/Index.aspx?name=fans-experience" target="_blank">经验等级说明</a></span></div>
+                            <div class="s_content" style="position:relative;">
+
+                                <div class="sign_off" style="display: none;"><a href="javascript:void(0)">已签到</a></div>
+                                <div class="sign_in"><a href="javascript:void(0)">点我签到</a></div>
+
+                                <ul>
+                                    <li><label class="b_title">等级：</label><span class="m_title">R0</span></li>
+                                    <li><label class="b_title">经验值：</label><span class="m_title">0</span></li>
+                                    <li><label class="b_title">天数：</label><span class="m_title">0</span></li>
+                                </ul>
+                            </div>
+                            <div class="my_rank">
+                                <div class="my_rank_state">
+                                    <span id="MyRankStateWidth" style="width: 0px;"></span>
+                                    <div class="my_rank_number">
+                                        <img src="../images/ruiyin/icon_06.png" width="5" height="5"><br>
+                                        <b id="RankNumber">0</b>
+                                    </div>
+                                </div>
+                                <div class="my_rank_sel">
+                                    <ul>
+                                        <li style="margin-right:20px"><b>R0</b><a href="javascript:void(0);" onclick="return false;" val="0" class="a_sel"></a><span>0</span></li>
+                                        <li style="margin-right:60px"><b>R1</b><a href="javascript:void(0);" onclick="return false;" val="600"></a><span style="margin-left:-10px;">600</span></li>
+                                        <li style="margin-right:100px"><b>R2</b><a href="javascript:void(0);" onclick="return false;" val="1800"></a><span style="margin-left:-10px;">1800</span></li>
+                                        <li style="margin-right:140px"><b>R3</b><a href="javascript:void(0);" onclick="return false;" val="3600"></a><span style="margin-left:-10px;">3600</span></li>
+                                        <li style="margin-right:300px"><b>R4</b><a href="javascript:void(0);" onclick="return false;" val="6000"></a><span style="margin-left:-10px;">6000</span></li>
+                                        <li style="margin:0"><b>R5</b><a href="javascript:void(0);" onclick="return false;" val="10800"></a><span style="margin-left:-10px;">10800</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                <!--footer-->
+<!--include "../include/login-footer.html"-->

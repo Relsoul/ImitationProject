@@ -135,7 +135,7 @@ a:hover,a:active{color:#FFCC00;}
 
 /* 用户中心 */
 .user-ctr,.ag-ctr{padding:322px 0 20px;}
-.user-ctr .layout,.ag-ctr .layout{background:#f1f1f1; overflow:hidden;}
+.user-ctr .layout,.ag-ctr .layout{background:#fff; overflow:hidden;}
 
 /* 用户中心-导航 */
 .user-ctr .items-tab a:hover,.user-ctr .items-tab a.current,.user-ctr .items-tab a.current:hover,.item h3.title,.item .item-tab a:hover,.recycle-btn:hover{color:#88662c;}

@@ -1,0 +1,123 @@
+<!--include "../include/login-header.html"-->
+<div class="user_right">
+
+    <script type="text/javascript">
+        //会员中心安全指数
+        $(function () {
+            $(".dial").knob({ width: 110, height: 110, lineCap: "round", thickness: ".1", angleOffset: 180, readOnly: true, displayInput: false, fgColor: "#1fae4b", bgColor: "#eeeeee" });
+            var p = $("#info-complete").attr("data-complete");
+            var i = 0;
+            var t = setInterval(function () {
+                i += 5;
+                if (i >= p) { i = p; clearInterval(t); }
+                $(".dial").val(i).trigger("change");
+                $("#info-complete").html(i + "%");
+            }, 30);
+
+            $("#healthoption").bind("change", function () {
+                $.post("handler/userhandler.ashx", {action:"sethealth",healthoption:$("#healthoption").val()}, function (message) {
+                    alert(message);
+                });
+            });
+        });
+    </script>
+    <div class="user_top">
+        <div class="safe_box">
+            <div class="safe_o">
+                <h3>个人中心</h3>
+                <p>安全指数</p>
+                <span id="info-complete" data-complete="25">25%</span>
+            </div>
+            <div style="display:inline;width:110px;height:110px;"><canvas width="110" height="110"></canvas><input type="text" value="25" class="dial" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div>
+        </div>
+        <div class="safe_data">
+            <div class="user_name">
+                <h2>您好！ rwlz123123</h2>
+                <span class="text">欢迎您注册使用瑞盈通MMA账户资金管理。</span></div>
+            <div class="info">
+                <ul>
+                    <li>
+                        <label class="b_title">用户等级：</label><span class="l_title">R0</span></li>
+                    <li>
+                        <label class="b_title">上次登录：</label><span class="l_title"> 3/4/2016 4:37:39 PM</span></li>
+                    <li>
+                        <label class="b_title">账户认证：</label><span class="l_title">
+
+                      <a title="未通过实名认证，需要认证请联系客服" class="rz_btn_red" href="javascript:">未认证,请联系客服</a>
+
+                                                        </span></li>
+                    <li>
+                        <label class="b_title">钱包余额：</label><span class="s_title"><b> 0.00元</b> <a href="http://www.rwin88.com/useraccount.aspx?action=deposit">充值</a><a href="http://www.rwin88.com/useraccount.aspx?action=withdraw">提款</a><a href="http://www.rwin88.com/useraccount.aspx?action=transfer">平台转帐</a></span></li>
+                    <li>
+                        <label class="b_title">健康设置：</label><span class="l_title">
+                    <select id="healthoption" class="input_text">
+                        <option value="0" selected="">正常</option>
+                        <option value="1">禁登2周</option>
+                        <option value="2">禁登1个月</option>
+                        <option value="3">禁登2个月</option>
+                        <option value="4">禁登3个月</option>
+                        <option value="5">禁登6个月</option>
+                    </select>
+                        <a title="选择的期限内不允许登陆网站，请谨慎设置" href="javascript:">禁止登录功能，谨慎设置！</a>
+                                                        </span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="user_sidebox" style="border: none;">
+        <div class="information_cut">
+            <div class="cut_nav">
+                <ul id="ulYHHolder"><li class="hover"><div class="arrow-right3" style="display:block"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_18&#39;);ChangeCutnav(0)">首存优惠</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_19&#39;);ChangeCutnav(1)">日返水优惠</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_24&#39;);ChangeCutnav(2)">积分优惠</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_26&#39;);ChangeCutnav(3)">特殊优惠</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_32&#39;);ChangeCutnav(4)">存款赠送1%</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_33&#39;);ChangeCutnav(5)">体验金</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_35&#39;);ChangeCutnav(6)">保险金</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_36&#39;);ChangeCutnav(7)">每次存送</a></li>
+                    <li><div class="arrow-right3"></div><a href="javascript:void(0);" onclick="getActivityRecord(1, &#39;ActivityInfo_37&#39;);ChangeCutnav(8)">瑞盈日</a></li></ul>
+            </div>
+            <div class="cut_box" id="divActivityHolder">
+                <dl id="ActivityInfo_18" class="block"><div class="report_box">
+                    <table cellspacing="0" cellpadding="0">
+                        <tbody><tr>
+                            <th width="">优惠标题</th>
+                            <th width="150">优惠开始时间</th>
+                            <th width="150">优惠结束时间</th>
+                            <th width="100">提款流水倍数</th>
+                            <th width="100">申请优惠</th>
+                        </tr>
+                        <tr>
+                            <td>老虎机首存100％</td>
+                            <td>2016-01-01</td>
+                            <td>2016-12-31</td>
+                            <td>25</td>
+                            <td><span style="color:#565699;cursor:pointer;" onclick="doRequest(68);">申请</span></td>
+                        </tr>
+                        </tbody></table></div>
+                    <div class="report_page">
+                        <div class="page_left">Showing 1 to 1 of 1 entries</div>
+                        <div class="page_right">
+                            <a href="http://www.rwin88.com/UserPromotion.aspx#">首页</a>
+                            <a href="http://www.rwin88.com/UserPromotion.aspx#"> <span class="hidden-480">上一页</span></a>
+                            <a href="http://www.rwin88.com/UserPromotion.aspx#"><span class="hidden-480">下一页</span>  </a>
+                            <a href="http://www.rwin88.com/UserPromotion.aspx#">尾页</a>
+
+                        </div>
+                    </div></dl>
+                <dl id="ActivityInfo_19"></dl>
+                <dl id="ActivityInfo_24"></dl>
+                <dl id="ActivityInfo_26"></dl>
+                <dl id="ActivityInfo_32"></dl>
+                <dl id="ActivityInfo_33"></dl>
+                <dl id="ActivityInfo_35"></dl>
+                <dl id="ActivityInfo_36"></dl>
+                <dl id="ActivityInfo_37"></dl></div>
+        </div>
+    </div>
+</div>
+
+
+                <!--footer-->
+<!--include "../include/login-footer.html"-->

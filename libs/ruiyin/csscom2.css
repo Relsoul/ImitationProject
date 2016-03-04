@@ -1,0 +1,33 @@
+﻿fieldset,img{border:0}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+body,input,select,textarea,button{background:#fff;font-size:12px;font-family:"Microsoft YaHei","Verdana","Helvetica Neue";-webkit-text-size-adjust:100%;}
+img{vertical-align:middle;margin:0;padding:0;border:0;}
+input,button,select,textarea{outline:none;}
+
+/*content*/
+.content{width:1025px;height:auto;margin:0px auto;}
+.content .content-ban{position:relative;width:1025px;min-height:661px;overflow:hidden;}
+.content .content-ban .banimg{width:1025px;height:212px;overflow:hidden;}
+.content .content-ban .banimg img{position:absolute;top:0px;left:0px;display:none;}
+
+.content .content-ban .bannav ul{width:1025px;height:123px;}
+.content .content-ban .bannav ul li{position:relative;width:206px;height:123px;float:left;background:#1a710e;cursor:pointer;border-right:1px solid #155b14;}
+.content .content-ban .bannav ul li.short{width:201px;}
+.content .content-ban .bannav ul li.bdn{border-right:none;}
+.content .content-ban .bannav ul li.hov{background:#14a500;}
+.content .content-ban .bannav ul li b{position:absolute;top:123px;left:50%;margin-left:-10px;width:20px;height:11px;background:url("../images/icon-1.png") no-repeat;display:none;}
+
+.content .banlist{width:1025px;height:284px;overflow:hidden;padding-top:40px;}
+.content .banlist ul{width:912px;height:234px;margin:0 auto;display:none;}
+.content .banlist ul li{float:left;text-align:center;width:164px;height:234px;margin:0 70px;}
+.content .banlist ul li em{display:block;width:164px;height:164px;background:url("../images/icon-2.png") no-repeat;}
+.content .banlist ul li.one em{background-position:0px 0px;}
+.content .banlist ul li.two em{background-position:0px -164px;}
+.content .banlist ul li.three em{background-position:0px -328px;}
+.content .banlist ul li.one:hover em{background-position:-164px 0px;}
+.content .banlist ul li.two:hover em{background-position:-164px -164px;}
+.content .banlist ul li.three:hover em{background-position:-164px -328px;}
+.content .banlist ul li p{font-size:12px;color:#97a5be;}
+.content .banlist ul li p.hov{font-size:16px;color:#2b4f8d;margin-top:22px;line-height:24px;}
+

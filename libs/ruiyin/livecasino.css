@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*rightanimated修改*/
+.rec_box .rightanimated #index0 .gamebg{width:744px;height:660px; background:url(../images/rec/china-EA.jpg) no-repeat; display:none;position:absolute;top:0; left:0;z-index:1;}
+.rec_box .rightanimated #index1 .gamebg{width:744px;height:660px; background:url(../images/rec/french-188Live.jpg) no-repeat;display:none;position:absolute;top:0; left:0;z-index:1;}
+.rec_box .rightanimated #index2 .gamebg{width:744px;height:660px; background:url(../images/rec/english-Ritz-Club.jpg) no-repeat;display:none;position:absolute;top:0; left:0;z-index:1;}
+.rec_box .rightanimated .display{display:block!important;
+	animation:display 2s ease; 
+	-webkit-animation:display 2s ease;
+	-moz-animation:display 2s ease;
+	-o-animation:display 2s ease;}
+@keyframes display /* IE9.0 */
+{
+0% {opacity:0;-moz-opacity:0;filter:alpha(opacity=0); }
+30% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-moz-keyframes display /* Firefox */
+{
+0% {opacity:0;-moz-opacity:0;filter:alpha(opacity=0); }
+30% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-webkit-keyframes display /* Safari 和 Chrome */
+{
+0% {opacity:0;-moz-opacity:0;filter:alpha(opacity=0); }
+30% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-o-keyframes display /* Opera */
+{
+0% {opacity:0;-moz-opacity:0;filter:alpha(opacity=0); }
+30% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+
+/*plane*/
+.rec_box .rightanimated .flplane{width:84px;height:40px; background:url(../images/rec/plane.png) no-repeat; position:absolute;top:250px; left:650px;z-index:1000; display:none;}
+.rec_box .rightanimated .myflplane{display:block!important;animation:flight 5s ease; 
+	-webkit-animation:flight 5s ease;
+	-moz-animation:flight 5s ease;
+	-o-animation:flight 5s ease;}	
+@keyframes flight {
+0% {
+    left: -100px;
+	top:0;
+}
+35% {
+    left: -100px;
+	top:50px;
+}
+85% {
+    left: 650px;
+	top:250px;
+}
+100% {
+    left: 650px;
+	top:250px;
+}
+}
+@-moz-keyframes flight {
+0% {
+    left: -100px;
+	top:0;
+}
+35% {
+    left: -100px;
+	top:50px;
+}
+85% {
+    left: 650px;
+	top:250px;
+}
+100% {
+    left: 650px;
+	top:250px;
+}
+}
+@-webkit-keyframes flight {
+0% {
+    left: -100px;
+	top:0;
+}
+35% {
+    left: -100px;
+	top:50px;
+}
+85% {
+    left: 650px;
+	top:250px;
+}
+100% {
+    left: 650px;
+	top:250px;
+}
+}
+@-o-keyframes flight {
+0% {
+    left: -100px;
+	top:0;
+}
+35% {
+    left: -100px;
+	top:50px;
+}
+85% {
+    left: 650px;
+	top:250px;
+}
+100% {
+    left: 650px;
+	top:250px;
+}
+}
+
+/*clouds*/
+
+.webonline{position:absolute;top:10px; left:10px;z-index:1001;width:200px;height:120px; overflow:hidden; cursor:pointer; display:none;}
+.ondownload{position:absolute;top:130px; left:70px;z-index:1001;width:200px;height:120px; overflow:hidden;cursor:pointer; display:none;}
+.phonebox{position:absolute;top:40px; left:450px;z-index:1001;width:200px;height:120px; overflow:hidden;cursor:pointer; display:none;}
+.rec_box .rightanimated .cloud01{position:absolute;top:40px; left:80px;width:98px;height:70px; background:url(../images/rec/cloud01.png);z-index:1;}
+.rec_box .rightanimated .cloud02{position:absolute;top:50px; left:30px;width:88px;height:50px; background:url(../images/rec/cloud02.png);z-index:3;}
+.rec_box .rightanimated .imgpic{position:absolute;top:20px; left:80px;z-index:2;}
+
+.rec_box .rightanimated .webflght{display:block!important;
+	animation:webflght 2s ease; 
+	-webkit-animation:webflght 2s ease;
+	-moz-animation:webflght 2s ease;
+	-o-animation:webflght 2s ease;}
+@keyframes webflght /* IE9.0 */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+70% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-moz-keyframes webflght /* Firefox */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+70% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-webkit-keyframes webflght /* Safari 和 Chrome */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+70% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-o-keyframes webflght /* Opera */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+70% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:10px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+
+.rec_box .rightanimated .downloadflght{display:block!important;
+	animation:downloadflght 2s ease; 
+	-webkit-animation:downloadflght 2s ease;
+	-moz-animation:downloadflght 2s ease;
+	-o-animation:downloadflght 2s ease;}
+@keyframes downloadflght /* IE9.0 */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+50% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-moz-keyframes downloadflght /* Firefox */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+50% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-webkit-keyframes downloadflght /* Safari 和 Chrome */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+50% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-o-keyframes downloadflght /* Opera */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+50% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:130px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+
+.rec_box .rightanimated .phoneflght{display:block!important;
+	animation:phoneflght 3s ease; 
+	-webkit-animation:phoneflght 3s ease;
+	-moz-animation:phoneflght 3s ease;
+	-o-animation:phoneflght 3s ease;}
+@keyframes phoneflght /* IE9.0 */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+20% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-moz-keyframes phoneflght /* Firefox */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+20% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-webkit-keyframes phoneflght /* Safari 和 Chrome */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+20% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+@-o-keyframes phoneflght /* Opera */
+{
+0% {top:-200px;opacity:0;-moz-opacity:0;filter:alpha(opacity=0);}
+20% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+100% {top:40px;opacity:1;-moz-opacity:1;filter:alpha(opacity=100); }
+}
+
+
+
+

@@ -1,0 +1,1806 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)http://www.rwin88.com/UserAccount.aspx -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	瑞盈通MMA账户资金管理
+</title><meta http-equiv="Page-Enter" content="blendTrans(Duration=1)"><meta http-equiv="Page-Exit" content="blendTrans(Duration=1)"><meta name="google-translate-customization" content="db063174d44c6f52-0dfcd8721fd241a9-g6460c337a3bfa2a9-f">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="shortcut icon" href="http://www.rwin88.com/favicon.ico" type="image/x-icon"><link rel="stylesheet" href="./瑞盈通MMA账户资金管理_files/base.css"><link rel="stylesheet" href="./瑞盈通MMA账户资金管理_files/common.css">
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/jquery-1.7.2.min.js"></script>    
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/jquery.cookie.min.js"></script>
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/jquery.validate.message_cn.js"></script>
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/LoginHandler.js"></script>
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/register.js"></script>    
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/jquery.blockUI.js"></script>    
+    
+    <script src="./瑞盈通MMA账户资金管理_files/amcharts.js" type="text/javascript"></script>
+    <script src="./瑞盈通MMA账户资金管理_files/pie.js" type="text/javascript"></script>
+    <script src="./瑞盈通MMA账户资金管理_files/AreaMap.js" type="text/javascript"></script>
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/Trans.js"></script>
+    <script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/Integrals.js"></script>
+
+    <script>
+        function ShowPage() {
+            var action = "";
+            switch (action) {
+                case "deposit":
+                    ChangeCutnav(0);
+                    break;
+                case "withdraw":
+                    ChangeCutnav(1);
+                    break;
+                case "transfer":
+                    ChangeCutnav(2);
+                    break;
+                case "integral":
+                    ChangeCutnav(3);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        var bankInfo = [
+            { "cn": "工商银行", "en": "ICBC", "url": "http://www.icbc.com.cn/icbc/%e4%b8%aa%e4%ba%ba%e5%ae%a2%e6%88%b7%e7%89%88/default.htm" },
+            { "cn": "平安银行", "en": "SDB", "url": "http://bank.pingan.com/index.shtml" },
+            { "cn": "招商银行", "en": "CMB", "url": "http://www.cmbchina.com/" },
+            { "cn": "民生银行", "en": "CMBC", "url": "http://www.cmbc.com.cn/" },
+            { "cn": "建设银行", "en": "CCB", "url": "http://www.ccb.com/cn/home/index.html" },
+            { "cn": "华夏银行", "en": "HXB", "url": "http://www.hxb.com.cn/chinese/index.html" },
+            { "cn": "农业银行", "en": "ABC", "url": "http://www.abchina.com/cn/" },
+            { "cn": "浦发银行", "en": "SPDB", "url": "http://www.spdb.com.cn/chpage/c1/" },
+            { "cn": "邮政储蓄", "en": "PSBC", "url": "http://www.psbc.com/portal/zh_CN/index.html" },
+            { "cn": "北京银行", "en": "BOB", "url": "http://www.bankofbeijing.com.cn/" },
+            { "cn": "交通银行", "en": "COMM", "url": "http://www.bankcomm.com/BankCommSite/cn/index.html" },
+            { "cn": "渤海银行", "en": "CBHB", "url": "http://www.cbhb.com.cn/" },
+            { "cn": "兴业银行", "en": "CIB", "url": "http://www.cib.com.cn/netbank/cn/index.html" },
+            { "cn": "东莞银行", "en": "BOD", "url": "http://www.dongguanbank.cn/Site/Home/CN" },
+            { "cn": "广发银行", "en": "GDB", "url": "http://www.cgbchina.com.cn/" },
+            { "cn": "广州银行", "en": "GZB", "url": "http://www.gzcb.com.cn/i_index.shtml" },
+            { "cn": "上海银行", "en": "BOS", "url": "http://www.bankofshanghai.com/servlet/ServletGate?cur_page=DummyPage&op=MNU_Forward&statistics=1131&target=IndexPage" },
+            { "cn": "杭州银行", "en": "HZB", "url": "http://www.hzbank.com.cn/" },
+            { "cn": "e中信", "en": "ECITIC", "url": "http://www.ecitic.com/bank/" },
+            { "cn": "浙商银行", "en": "CZB", "url": "http://www.czbank.com/czbank/" },
+            { "cn": "中国银行", "en": "BOC", "url": "http://www.boc.cn/" },
+            { "cn": "北京农商", "en": "BJNB", "url": "http://www.bjrcb.com/" },
+            { "cn": "光大银行", "en": "CEB", "url": "http://www.cebbank.com/Site/ceb/cn" },
+            { "cn": "宁波银行", "en": "NBB", "url": "http://www.nbcb.com.cn/" }];
+
+        function thirdpay() {
+            var bankco = $("#bankco").val();
+            var amount = $("#amount").val();
+            if (!$.isNumeric(amount)) {
+                alert('请输入存款金额');
+                return false;
+            }
+            if (amount < 10) {
+                alert("对不起，最小存款金额为10");
+                return false;
+            }
+            //if (amount > 100000) {
+            //    alert("对不起，最大存款金额为100,000");
+            //    return false;
+            //}
+            var strJson = $.ajax({ url: "handler/addcashin.ashx?action=thirdpay&amount="+amount, async: false }).responseText;
+            var json = eval('(' + strJson + ')');
+            if (json.status == 1) {
+                $("#formhuanxun").attr("action", json.errmessage).submit();
+                return true;
+            } else {
+                alert(json.errmessage);
+                return false;
+            }
+        }
+
+        function unionPay() {
+            
+            var amount = $("#amountUnion").val();
+            if (!$.isNumeric(amount)) {
+                alert('请输入存款金额');
+                return false;
+            }
+            if (amount < 10) {
+                alert("对不起，最小存款金额为10");
+                return false;
+            }
+            if (amount > 5000) {
+                alert("对不起，最大存款金额为5000");
+                return false;
+            }
+            var strJson = $.ajax({ url: "handler/addcashin.ashx?action=union&amount=" + amount, async: false }).responseText;
+            var json = eval('(' + strJson + ')');
+            if (json.status == 1) {
+                $("#formunion").attr("action", json.errmessage).submit();
+                return true;
+            } else {
+                alert(json.errmessage);
+                return false;
+            }
+        }
+
+        function wangyinZhuanzhan() {
+            var txtName = $("#txtName1").val();
+            var txtMoney = $("#txtMoney1").val();
+            var bankcode = $("#bankcode1").val();
+
+            if (txtName == '' || txtMoney == '' || bankcode == "") {
+                alert("信息填写不完整");
+                return false;
+            }
+            if (bankcode == "") {
+                alert("请选择银行");
+                return false;
+            } else {
+                $("#hiddenBankCode1").val(bankcode);
+
+                $.each(bankInfo, function (i, item) {
+                    if (item.en == bankcode)
+                        $("#hiddenBankUrl1").val(item.url);
+                });
+            }
+
+            if (txtMoney < 10) {
+                alert("最小存款金额为10");
+                return false;
+            }
+            if (txtMoney > 50000) {
+                alert("最大存款金额为50000");
+                return false;
+            }
+
+
+            $("#form1").submit();
+        }
+
+        /*function wangyinEmail() {
+            var txtName = $("#txtName").val();
+            var txtMoney = $("#txtMoney").val();
+            var hiddenBankCode = $("#hiddenBankCode").val();
+            var hiddenBankUrl = $("#hiddenBankUrl").val();
+            if (txtName == '' || txtMoney == '' || hiddenBankCode == '' || hiddenBankCode == '') {
+                alert("信息填写不完整");
+                return false;
+            }
+            if (txtMoney < 10) {
+                alert("最小存款金额为10");
+                return false;
+            }
+            if (txtMoney > 50000) {
+                alert("最大存款金额为50000");
+                return false;
+            }
+
+            $("#form").submit();
+        }*/
+
+        function wangyinEmail() {
+            var amount = $("#amount1").val();
+            var combankid = $("#combankid1").val();
+            //var userbankid = $("#userbankid4").val();
+            var truname = $("#truename1").val();
+            //var account = $("#account4").val();
+            //var province = $("#province4").val();
+            //var city = $("#city4").val();
+            var openingBank = $("#OpeningBank1").val();
+
+            if (combankid == "" || combankid == "0") {
+                alert("请选择存入支付宝账号");
+                return false;
+            }
+            /*if (userbankid == "") {
+                alert("请输入存款银行");
+                return false;
+            }*/
+            if (truname == "") {
+                alert("请输入支付宝姓名");
+                return false;
+            }
+            /*if (account == "") {
+                alert("请输入存款卡号");
+                return false;
+            }
+            if (province == "") {
+                alert("请输入您的开户城市");
+                return false;
+            }
+            if (city == "") {
+                alert("请输入您的开户城市");
+                return false;
+            }*/
+            if (openingBank == "") {
+                alert("请输入交易流水号");
+                return false;
+            }
+            if (amount == "") {
+                alert("请输入存款金额");
+                return false;
+            }
+            if (!$.isNumeric(amount)) {
+                alert("存款金额必须输入数字");
+                return false;
+            }
+            if (amount < 10) {
+                alert("最小存款金额为10");
+                return false;
+            }
+            if (amount > 1000) {
+                alert("最大存款金额为1000");
+                return false;
+            }
+
+            $.getJSON("handler/addcashin.ashx?action=alitrash", {
+                "amount": amount,
+                "combankid": combankid,
+                //"userbankid": userbankid,
+                "truname": truname,
+                //"account": account,
+                //"province": province,
+                //"city": city,
+                "OpeningBank": openingBank
+            }, function (json) {
+                if (json.status == 1) {
+                    alert("恭喜，存款提交成功，请等待工作人员审核");
+                } else {
+                    alert(json.errmessage);
+                }
+            });
+        }
+
+        function Aotupay() {
+            var txtName = $("#txtName2").val();
+            var txtMoney = $("#txtMoney2").val();
+            var bankcode = $("#bankcode2").val();
+
+            if (txtName == '' || txtMoney == '' || bankcode == "") {
+                alert("信息填写不完整");
+                return false;
+            }
+            if (bankcode == "") {
+                alert("请选择银行");
+                return false;
+            } else {
+                $("#hiddenBankCode2").val(bankcode);
+
+                $.each(bankInfo, function (i, item) {
+                    if (item.en == bankcode)
+                        $("#hiddenBankUrl2").val(item.url);
+                });
+            }
+
+            if (txtMoney < 10) {
+                alert("最小存款金额为10");
+                return false;
+            }
+            if (txtMoney > 50000) {
+                alert("最大存款金额为50000");
+                return false;
+            }
+
+
+            $("#form2").submit();
+        }
+
+        function atmzhuanzhan() {
+            var amount = $("#amount4").val();
+            var combankid = $("#combankid4").val();
+            var userbankid = $("#userbankid4").val();
+            var truname = $("#truname4").val();
+            var account = $("#account4").val();
+            var province = $("#province4").val();
+            var city = $("#city4").val();
+            var OpeningBank = $("#OpeningBank4").val();
+
+            if (combankid == "") {
+                alert("请选择存入银行");
+                return false;
+            }
+            if (userbankid == "") {
+                alert("请输入存款银行");
+                return false;
+            }
+            if (truname == "") {
+                alert("请输入存款人姓名");
+                return false;
+            }
+            if (account == "") {
+                alert("请输入存款卡号");
+                return false;
+            }
+            if (province == "") {
+                alert("请输入您的开户城市");
+                return false;
+            }
+            if (city == "") {
+                alert("请输入您的开户城市");
+                return false;
+            }
+            if (OpeningBank == "") {
+                alert("请输入您的开户行");
+                return false;
+            }
+            if (amount == "") {
+                alert("请输入存款金额");
+                return false;
+            }
+            if (!$.isNumeric(amount)) {
+                alert("存款金额必须输入数字");
+                return false;
+            }
+            if (amount < 10) {
+                alert("最小存款金额为10");
+                return false;
+            }
+            if (amount > 50000) {
+                alert("最大存款金额为50000");
+                return false;
+            }
+
+            $.getJSON("handler/addcashin.ashx?action=atmtrash", {
+                "amount": amount,
+                "combankid": combankid,
+                "userbankid": userbankid,
+                "truname": truname,
+                "account": account,
+                "province": province,
+                "city": city,
+                "OpeningBank": OpeningBank
+            }, function (json) {
+                if (json.status == 1) {
+                    alert("恭喜，存款提交成功，请等待工作人员审核");
+                } else {
+                    alert(json.errmessage);
+                }
+            });
+        }
+
+        function atmcunkuan() {
+            var amount = $("#amount5").val();
+            var combankid = $("#combankid5").val();
+            var truname = $("#truname5").val();
+            var userbankid = $("#userbankid5").val();
+            var province = $("#province5").val();
+            var city = $("#city5").val();
+            var OpeningBank = $("#OpeningBank5").val();
+
+            if (combankid == "0") {
+                alert("请选择存入银行");
+                return false;
+            }
+            if (truname == "") {
+                alert("请输入存款人姓名");
+                return false;
+            }
+            if (province == "") {
+                alert("请输入您的开户城市");
+                return false;
+            }
+            if (city == "") {
+                alert("请输入您的开户城市");
+                return false;
+            }
+            if (OpeningBank == "") {
+                alert("请输入您的开户行");
+                return false;
+            }
+            if (amount == "") {
+                alert("请输入存款金额");
+                return false;
+            }
+            if (!$.isNumeric(amount)) {
+                alert("存款金额必须输入数字");
+                return false;
+            }
+            if (amount < 10) {
+                alert("最小存款金额为10");
+                return false;
+            }
+            if (amount > 50000) {
+                alert("最大存款金额为50000");
+                return false;
+            }
+
+            $.getJSON("handLer/addcashin.ashx?action=atmtrash", {
+                "amount": amount,
+                "userbankid": userbankid,
+                "combankid": combankid,
+                "truname": truname,
+                "province": province,
+                "city": city,
+                "OpeningBank": OpeningBank
+            }, function (json) {
+                if (json.status == 1) {
+                    alert("恭喜，存款提交成功，请等待工作人员审核");
+                } else {
+                    alert(json.errmessage);
+                }
+            });
+        }
+
+        // 提款对象
+        var Withdrawals = function () {
+
+            this.init = function () {
+                $.getJSON("handler/addUserBankAccount.ashx?action=get", function (json) {
+                    var bankoption = "<option value=''>选择银行</option>";
+                    for (var i = 0; i < json.banks.length; i++) {
+                        bankoption += "<option value='" + +json.banks[i].id + "'>" + json.banks[i].openingBank + ":" + json.banks[i].account + "</option>";
+                    }
+                    $("#userbankid6").html(bankoption);
+                });
+
+                $("#Withdrawals").bind("click", function () {
+                    var a = validators();
+                    if (a) {
+                        postinfo();
+                    }
+                });
+            };
+
+            function validators() {
+                var result = false;
+                if ($("#userbankid6").val() != "" && $.isNumeric($("#amount6").val())) {
+                    var amount = $("#amount6").val();
+                    if (amount < 100) {
+                        alert("提款金额不能少于100 ");
+                        return result;
+                    }
+                    var balance = $.ajax({ url: "handler/UserAccount.ashx?action=balance", async: false }).responseText;
+
+                    if (parseFloat(amount) <= parseFloat(balance)) {
+                        result = true;
+                    } else {
+                        alert("您的余额为：" + balance + ",提款金额不能超过余额");
+                    }
+                } else {
+                    alert("请选择银行账户");
+                }
+                return result;
+            }
+
+            function postinfo() {
+                $.getJSON("handler/Withdrawal.ashx", { "amount": $("#amount6").val(), "bankid": $("#userbankid6").val() }, function (json) {
+                    if (json.status == 1) {
+                        alert("您的提款已经提交，提款金额为:" + $("#amount6").val());
+                        showAccount();
+                    } else {
+                        alert(json);
+                    }
+                });
+
+            }
+        }
+
+        $(function () {
+            ShowPage();
+
+            var areamap = new AreaMap("province4", "city4");
+            areamap.province("provincename");
+            areamap.city("省份");
+
+            var areamap5 = new AreaMap("province5", "city5");
+            areamap5.province("provincename");
+            areamap5.city("省份");
+
+            // 获取公司账户
+            $.getJSON("handler/combank.ashx?action=combank", function (json) {
+                var combanklist;
+                if (json.status == 1) {
+                    combanklist = json.data;
+                    for (var j = 0; j < json.data.length; j++) {
+                        if (json.data[j].OpeningBank == 'AliPay') {
+                            $("#combankid1").html($("#combankid1").html() + "<option value=\"" + json.data[j].bankid + "\">" + json.data[j].bankname + "</option>");
+                        } else {
+                            $("#combankid4").html($("#combankid4").html() + "<option value=\"" + json.data[j].bankid + "\">" + json.data[j].bankname + "</option>");
+                            $("#combankid5").html($("#combankid5").html() + "<option value=\"" + json.data[j].bankid + "\">" + json.data[j].bankname + "</option>");
+                        }
+                    }
+                    //选择公司账户
+                    $("#combankid1").bind("change", function () {
+                        /*var bankindex = $(this).get(0).selectedIndex - 1;
+                        if (bankindex >= 0) {
+                            $("#comAccount1").text(combanklist[bankindex].Account);
+                            $("#comAccountHolder1").text(combanklist[bankindex].AccountHolder);
+                            $("#Zhihang1").text(combanklist[bankindex].OpeningBank);
+                        }*/
+
+                        var bankindex = $(this).get(0).selectedIndex - 1;
+                        var bid = $(this).val();
+                        if (bankindex >= 0) {
+                            for (var a = 0; a < combanklist.length; a++) {
+                                if (bid == combanklist[a].bankid) {
+                                    $("#comAccount1").text(combanklist[a].Account);
+                                    $("#comAccountHolder1").text(combanklist[a].AccountHolder);
+                                    $("#Zhihang1").text(combanklist[a].OpeningBank);
+                                    break;
+                                }
+                            }
+                        }
+                    });
+
+                    //选择公司账户
+                    $("#combankid4").bind("change", function () {
+                        /*var bankindex = $(this).get(0).selectedIndex - 1;
+                        if (bankindex >= 0) {
+                            $("#comAccount4").text(combanklist[bankindex].Account);
+                            $("#comAccountHolder").text(combanklist[bankindex].AccountHolder);
+                            $("#Zhihang4").text(combanklist[bankindex].OpeningBank);
+                        }*/
+                        var bankindex = $(this).get(0).selectedIndex - 1;
+                        var bid = $(this).val();
+                        if (bankindex >= 0) {
+                            for (var a = 0; a < combanklist.length; a++) {
+                                if (bid == combanklist[a].bankid) {
+                                    $("#comAccount4").text(combanklist[a].Account);
+                                    $("#comAccountHolder").text(combanklist[a].AccountHolder);
+                                    $("#Zhihang4").text(combanklist[a].OpeningBank);
+                                    break;
+                                }
+                            }
+                        }
+                    });
+                    //选择公司账户
+                    $("#combankid5").bind("change", function () {
+                        /*var bankindex = $(this).get(0).selectedIndex - 1;
+                        if (bankindex >= 0) {
+                            $("#comAccount5").text(combanklist[bankindex].Account);
+                            $("#comAccountHolder5").text(combanklist[bankindex].AccountHolder);
+                            $("#Zhihang5").text(combanklist[bankindex].OpeningBank);
+                        }*/
+                        var bankindex = $(this).get(0).selectedIndex - 1;
+                        var bid = $(this).val();
+                        if (bankindex >= 0) {
+                            for (var a = 0; a < combanklist.length; a++) {
+                                if (bid == combanklist[a].bankid) {
+                                    $("#comAccount5").text(combanklist[a].Account);
+                                    $("#comAccountHolder5").text(combanklist[a].AccountHolder);
+                                    $("#Zhihang5").text(combanklist[a].OpeningBank);
+                                    break;
+                                }
+                            }
+                        }
+                    });
+                }
+            });
+
+            // 获取公司Eamil账户
+            $.getJSON("handler/combank.ashx?action=email", function (json) {
+                var combanklist;
+                if (json.status == 1) {
+                    combanklist = json.data;
+                    for (var j = 0; j < json.data.length; j++) {
+                        $("#combankid2").html($("#combankid2").html() + "<option value=\"" + json.data[j].bankid + "\">" + json.data[j].bankname + "</option>");
+                    }
+                    //选择公司账户
+                    $("#combankid2").bind("change", function () {
+                        var bankindex = $(this).get(0).selectedIndex - 1;
+                        if (bankindex >= 0) {
+                            $("#Shoukuanren2").text(combanklist[bankindex].AccountHolder);
+                            $("#Email").text(combanklist[bankindex].email);
+                        }
+                    });
+                }
+            });
+
+            // 获取银行列表
+            $.getJSON("handler/combank.ashx?action=banks", function (json) {
+                var combanklist;
+                if (json.status == 1) {
+                    combanklist = json.data;
+                    for (var j = 0; j < json.data.length; j++) {
+                        $("#userbankid4").append("<option value=\"" + json.data[j].bankid + "\">" + json.data[j].bankname + "</option>");
+                        $("#userbankid5").append("<option value=\"" + json.data[j].bankid + "\">" + json.data[j].bankname + "</option>");
+                    }
+                }
+            });
+
+            $("#thirdpay").bind("click", thirdpay);
+            $("#wangyinZhuanzhan").bind("click", wangyinZhuanzhan);
+            $("#wangyinEmail").bind("click", wangyinEmail);
+            $("#atmzhuanzhan").bind("click", atmzhuanzhan);
+            $("#atmcunkuan").bind("click", atmcunkuan);
+            $("#Aotupay").bind("click", Aotupay);
+            $("#union").bind("click", unionPay);
+            var withdrawal = new Withdrawals();
+            withdrawal.init();
+        });
+
+
+        $(function () {
+            getGamePlatform(); //转账平台
+            getSummary(); //积分兑换数
+        });
+
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+            if (r != null) return unescape(r[2]); return null; //返回参数值
+        }
+
+        $(document).ready(function () {
+
+            if (getUrlParam('ParentObjID')&&getUrlParam('ParentObjID').length > 0) {
+                $('.leftMenu').remove();
+                $('.quick_nav').remove();
+//                $('.slotgame_pic').remove();
+//                //$('.menuNAV').remove();
+                $('.header').remove();
+                $('.foot_index').remove();
+                $('.user_top').remove();
+//                $('body').css({ 'background': 'none' });
+//                $('.main').css({ 'top': '0px' });
+            }
+
+        });
+    </script>
+
+    <style>
+.history-date h2,.log_box input.span1,.log_box input.span2,.log_box input.span3,.type_btn,.playbtn,.downloadbtn{behavior:url(css/PIE.htc);}
+
+        .success{color: green}
+        .error{color: red}
+    </style>
+    <script type="text/javascript">
+        var code = 'RUIWIN';
+
+        $(function () {
+            $(".forget .btn_close3").bind('click', function () {
+                $(".forget_info_table table").eq(0).css({ "display": "block" });
+                $(".forget_info_table table").eq(1).css({ "display": "none" });
+                $("#forgetUsername").val("");
+            });
+            $(".forget_info_table .type_btn").eq(0).unbind().bind('click', function () {
+                $.post("/handler/userhandler.ashx", { action: "retrievepassword", username: "rw"+$("#forgetUsername").val(), answer: $("#forgetAnswer").val(), code: $("#forgetCode").val() }, function (txt) {
+                    if (txt == "true") {
+                        $(".forget_info_table table").eq(0).css({ "display": "none" });
+                        $(".forget_info_table table").eq(1).css({ "display": "block" });
+                    } else {
+                        alert(txt);
+                    }
+                });
+               
+            });
+            $(".forget_info_table .type_btn").eq(1).unbind().bind('click', function () {
+                if ($("#forgetPassword").val() != $("#forgetRePassword").val()) {
+                    alert("两次输入密码不一致");
+                    return;
+                }
+                $.post("/handler/userhandler.ashx", { action: "updatapassword", password: $("#forgetPassword").val() }, function (txt) {
+                    if (txt == "true") {
+                        $(".forget_info_table table").eq(0).css({ "display": "block" });
+                        $(".forget_info_table table").eq(1).css({ "display": "none" });
+                        $("#forgetUsername").val("");
+                        alert("密码已经重置，请用新密码登陆");
+                        CloseForget();
+                    } else {
+                        alert(txt);
+                    }
+                });
+            });
+            $("#forgetUsername").bind("change", function () {
+                $.post("/handler/userhandler.ashx", { action: "getquestion", username: "rw" + $("#forgetUsername").val() }, function (txt) {
+                    if (txt != "false") {
+                        $("#forgetQuestion").text(txt);
+                    }
+                });
+            });
+        });
+
+        function gotomall() {
+            if ($.cookie("username")) {
+                window.location.href = "/usermalls.aspx";
+            } else {
+                alert("请先登录");
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div class="box">
+    </div>
+    <!--quick log-->
+    <div class="quick_nav">
+        <div class="quick_nav_box">
+            <div class="times"><a href="http://www.rwin88.com/Index.aspx" class="tophome" title="瑞盈首页">首页</a> <a href="javascript:void(0)" class="phone_c" title="手机体育">手机体育 <img src="./瑞盈通MMA账户资金管理_files/jian.gif" align="absmiddle"></a> <a href="javascript:void(0)" class="gamerbox_c" title="Gamerbox">Gamerbox <img src="./瑞盈通MMA账户资金管理_files/jian.gif" align="absmiddle"></a></div>
+            <div class="hide_sphone"><a href="http://s.188sb.info/" target="_blank"><img src="./瑞盈通MMA账户资金管理_files/sports_phone.jpg"></a></div>
+            <div class="hide_gamerbox"><a href="http://m.188sb.info/" target="_blank"><img src="./瑞盈通MMA账户资金管理_files/gamerbox_pic.jpg"></a></div>
+            
+            <div class="log_success">
+                <ul>
+                    <li><a href="http://www.rwin88.com/UserAccount.aspx#" title=""><span class="logo-user"></span><span>rwlz123123</span></a></li>
+                    <li><a class="new-msg" href="http://www.rwin88.com/Message.aspx" title="您有3未读消息">(3)</a></li>
+                    <li><a href="http://www.rwin88.com/UserCenter.aspx" title="">个人中心</a></li>
+                    <li><a href="./瑞盈通MMA账户资金管理_files/瑞盈通MMA账户资金管理.html" title="">钱包管理</a></li>
+                    <li><a href="http://www.rwin88.com/UserMalls.aspx" title="">每日优惠</a></li>
+                    <li class="last"><a href="javascript:void(0)" title="" onclick="doLogout()">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <!--header begin-->
+        <div class="header">
+            <div class="logo"><a href="http://www.rwin88.com/index.aspx"><img src="./瑞盈通MMA账户资金管理_files/logo.png"></a></div>
+            <div class="nav">
+                <a href="http://www.rwin88.com/Sports.aspx" class="nav_1">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">体育</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/LiveCasino.aspx" class="nav_2">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">娱乐场</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/lottery.aspx" class="nav_3">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">彩票</div>
+                    <div class="green_bg"></div>
+                </a>                
+                <a href="http://www.rwin88.com/slot.aspx" class="nav_5">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">老虎机</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/promotions.aspx" class="nav_6">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">优惠</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://gamerbox.rwin88.com/" target="_blank" class="nav_4">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">戳戳乐</div>
+                    <div class="green_bg"></div>
+                </a>
+                <a href="http://www.rwin88.com/club.aspx" class="nav_7">
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text">CLUB</div>
+                    <div class="green_bg"></div>
+                </a>
+				<a href="javascript:" onclick="window.open(&#39;http://messenger.providesupport.com/messenger/0pq5bbm879x650dtaf52u9k528.html?ps_l=http%3A//www.rwin88.com/index2.aspx&#39;,&#39;在线客服&#39;,&#39;height=608,width=496,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no&#39;)" class="nav_8">
+
+                    <div class="ico_show bg1"></div>
+                    <div class="nav_text" style="color:#024d29">优宝客服</div>
+                    <div class="green_bg"></div>
+                </a>
+                <div class="ts_wc"></div>
+            </div>
+            <div class="kefu">
+                <a href="javascript:" onclick="window.open(&#39;https://ruiwins.liaonow.com&#39;,&#39;在线客服&#39;,&#39;height=608,width=496,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no&#39;)">
+                    <div class="toll_img"></div>
+                    <div class="toll_info"></div>
+                </a>
+            </div>            
+        </div>
+
+        <div class="container_box">
+            <div class="index_content">
+                
+
+    <div class="user_box">
+        <div class="leftMenu"> 
+        
+<script type="text/javascript">
+    $(function () {
+        var url = document.location.href;
+        var arrUrlPart = url.split("/");
+        var len = arrUrlPart.length;
+        var pageName = arrUrlPart[len - 1];
+        var pagePrex = pageName.split(".")[0].toLowerCase();
+        $("#li_" + pagePrex).addClass("on").append($("<div class='arrow-right2'></div>"));
+    })
+</script>
+<script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/jquery.knob.js"></script>
+
+<div class="user_left">
+    <div class="left_new"></div>
+    <ul>
+        <li id="li_usercenter"><a href="http://www.rwin88.com/UserCenter.aspx">
+            <span class="logo-bell"></span>
+            <span class="bd">
+                <span class="t-1">账户首页</span>
+                <span class="t-2">个人账户详细</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_usermodify"><a href="http://www.rwin88.com/UserModify.aspx">
+            <span class="logo-lock"></span>
+            <span class="bd">
+                <span class="t-1">安全设置</span>
+                <span class="t-2">账户资料修改</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_message">
+            <a href="http://www.rwin88.com/Message.aspx">
+                <span class="logo-message"></span>
+                <span class="bd">
+                    <span class="t-1">消息中心</span>
+                    <span class="t-2">与我相关的消息</span>
+                </span>
+                <span class="logo-sj8-r"></span>
+            </a></li>
+        <li id="li_useraccount" class="on"><a href="./瑞盈通MMA账户资金管理_files/瑞盈通MMA账户资金管理.html">
+            <span class="logo-money"></span>
+            <span class="bd">
+                <span class="t-1">钱包管理</span>
+                <span class="t-2">充值提款转账中心</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a><div class="arrow-right2"></div></li>
+        <li id="li_userreport"><a href="http://www.rwin88.com/UserReport.aspx">
+            <span class="logo-report"></span>
+            <span class="bd">
+                <span class="t-1">报表中心</span>
+                <span class="t-2">查看近期操作记录</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_userpromotion"><a href="http://www.rwin88.com/UserPromotion.aspx">
+            <span class="logo-promotion"></span>
+            <span class="bd">
+                <span class="t-1">优惠中心</span>
+                <span class="t-2">各大平台优惠申请</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+        <li id="li_usermalls"><a href="http://www.rwin88.com/UserMalls.aspx">
+            <span class="logo-mall"></span>
+            <span class="bd">
+                <span class="t-1">每日优惠</span>
+                <span class="t-2">积分兑换共享优惠</span>
+            </span>
+            <span class="logo-sj8-r"></span>
+        </a></li>
+    </ul>
+</div>
+
+        </div>
+        <div class="user_right">
+            
+            <div class="user_top">
+            
+<script type="text/javascript">
+    //会员中心安全指数
+    $(function () {
+        $(".dial").knob({ width: 110, height: 110, lineCap: "round", thickness: ".1", angleOffset: 180, readOnly: true, displayInput: false, fgColor: "#1fae4b", bgColor: "#eeeeee" });
+        var p = $("#info-complete").attr("data-complete");
+        var i = 0;
+        var t = setInterval(function () {
+            i += 5;
+            if (i >= p) { i = p; clearInterval(t); }
+            $(".dial").val(i).trigger("change");
+            $("#info-complete").html(i + "%");
+        }, 30);
+
+        $("#healthoption").bind("change", function () {
+            $.post("handler/userhandler.ashx", {action:"sethealth",healthoption:$("#healthoption").val()}, function (message) {
+                alert(message);
+            });
+        });
+    });
+</script>
+<div class="user_top">
+    <div class="safe_box">
+        <div class="safe_o">
+            <h3>个人中心</h3>
+            <p>安全指数</p>
+            <span id="info-complete" data-complete="25">25%</span>
+        </div>
+        <div style="display:inline;width:110px;height:110px;"><canvas width="110" height="110"></canvas><input type="text" value="25" class="dial" style="display: none; width: 0px; visibility: hidden;" readonly="readonly"></div>
+    </div>
+    <div class="safe_data">
+        <div class="user_name">
+            <h2>您好！ rwlz123123</h2>
+            <span class="text">欢迎您注册使用瑞盈通MMA账户资金管理。</span></div>
+        <div class="info">
+            <ul>
+                <li>
+                    <label class="b_title">用户等级：</label><span class="l_title">R0</span></li>
+                <li>
+                    <label class="b_title">上次登录：</label><span class="l_title"> 3/4/2016 4:37:39 PM</span></li>
+                <li>
+                    <label class="b_title">账户认证：</label><span class="l_title">
+                                                            
+                      <a title="未通过实名认证，需要认证请联系客服" class="rz_btn_red" href="javascript:">未认证,请联系客服</a>
+                        
+                                                        </span></li>
+                <li>
+                    <label class="b_title">钱包余额：</label><span class="s_title"><b>0.00 元</b> <a href="http://www.rwin88.com/useraccount.aspx?action=deposit">充值</a><a href="http://www.rwin88.com/useraccount.aspx?action=withdraw">提款</a><a href="http://www.rwin88.com/useraccount.aspx?action=transfer">平台转帐</a></span></li>
+                <li>
+                    <label class="b_title">健康设置：</label><span class="l_title">
+                    <select id="healthoption" class="input_text">
+                        <option value="0" selected="">正常</option>
+                        <option value="1">禁登2周</option>
+                        <option value="2">禁登1个月</option>
+                        <option value="3">禁登2个月</option>
+                        <option value="4">禁登3个月</option>
+                        <option value="5">禁登6个月</option>
+                    </select>
+                        <a title="选择的期限内不允许登陆网站，请谨慎设置" href="javascript:">禁止登录功能，谨慎设置！</a>
+                                                        </span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+            <div class="user_sidebox">
+                <div class="s_title">
+                    <h2>钱包状态</h2>
+                </div>
+                <div class="s_content">
+                    <div class="account_box" style="padding: 0; position: relative;">
+
+                        <style>
+                            #chartdiv a {
+                                display: none !important;
+                            }
+                        </style>
+                        <script type="text/javascript">
+                            function showAccount() {
+
+
+                                $.getJSON("handler/transhandler.ashx?action=getBalanceSP", function (json) {
+                                    $(".s_title>b").text(json.cash + " 元");
+                                    $(".account_table01>p").text(json.balance);
+                                    $(".account_table02>p").text(json.integral);
+                                    var chart;
+                                    var legend;
+                                    var chartData = [
+                                        {
+                                            "country": "中心钱包",
+                                            "litres": json.cash
+                                        },
+                                        {
+                                            "country": "南京馆EA",
+                                            "litres": (json.EA == -1 ? "错误" : json.EA)
+                                        },
+                                        {
+                                            "country": "巴黎馆188",
+                                            "litres": (json.LIVE188 == -1 ? "错误" : json.LIVE188)
+                                        },
+                                        {
+                                            "country": "英伦馆MG",
+                                            "litres": "0"
+                                        },
+                                        {
+                                            "country": "台湾BBIN",
+                                            "litres": (json.BB_IN == -1 ? "错误" : json.BB_IN)
+                                        },
+                                        {
+                                            "country": "188体育",
+                                            "litres": (json.T188 == -1 ? "错误" : json.T188)
+                                        },
+                                        {
+                                            "country": "KG彩票",
+                                            "litres": (json.KG == -1 ? "错误" : json.KG)
+                                        },
+                                        {
+                                            "country": "LUZI",
+                                            "litres": (json.LUZI == -1 ? "错误" : json.LUZI)
+                                        },
+                                        {
+                                            "country": "MG老虎机",
+                                            "litres": (json.MGDZ == -1 ? "错误" : json.MGDZ)
+                                        },
+                                        {
+                                            "country": "PT馆",
+                                            "litres": (json.PT == -1 ? "错误" : json.PT)
+                                        }
+                                    ];
+
+                                    var colors = ["#009900", "#66CCCC", "#00CC99", "#006666", "#FF9933", "#CC6600", "#9966CC", "#666699", "#663300"];
+
+                                    //  AmCharts.ready(function() {
+
+                                    // PIE CHART
+                                    chart = new AmCharts.AmPieChart();
+                                    chart.dataProvider = chartData;
+                                    chart.titleField = "country";
+                                    chart.valueField = "litres";
+                                    chart.colors = colors;
+                                    chart.labelRadius = 30;
+                                    chart.depth3D = 10;
+                                    chart.angle = 10;
+
+                                    chart.labelsEnabled = true;
+                                    chart.autoMargins = true;
+                                    chart.marginTop = 40;
+                                    chart.marginBottom = 40;
+                                    chart.marginLeft = 0;
+                                    chart.marginRight = 0;
+                                    chart.pullOutRadius = 10;
+                                    chart.fontSize = 12;
+
+                                    // LEGEND
+                                    legend = new AmCharts.AmLegend();
+                                    legend.align = "center";
+                                    legend.switchType = "x";
+                                    legend.markerType = "circle";
+                                    chart.balloonText = "[[title]]<br><span style='font-size:14px'><b>[[value]]元</b> ([[percents]]%)</span>";
+                                    chart.addLegend(legend);
+
+
+                                    // WRITE
+                                    chart.write("chartdiv");
+
+                                });
+                                //  });
+                            }
+
+                            $(function () {
+                                showAccount();                               
+
+                            });
+                        </script>
+                        <div id="chartdiv" style="width: 480px; height: 380px; overflow: hidden; text-align: left; background: url(http://www.rwin88.com/images/tableline.png) 10px -16px no-repeat;"><div style="position: relative;"><div style="overflow: hidden; position: relative; text-align: left; width: 480px; height: 244px;"><svg version="1.1" style="position: absolute; width: 480px; height: 380px; left: 0.5px;"><desc>JavaScript chart by amCharts 3.4.3</desc><g><path cs="100,100" d="M0.5,0.5 L479.5,0.5 L479.5,243.5 L0.5,243.5 Z" fill="#FFFFFF" stroke="#333333" fill-opacity="0" stroke-width="1" stroke-opacity="0"></path></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g><g></g></g><g id="balloons"></g><g></g><g></g></svg><a href="http://www.amcharts.com/javascript-charts/" title="JavaScript charts" style="position: absolute; text-decoration: none; color: rgb(51, 51, 51); font-family: Verdana; font-size: 12px; opacity: 0.7; display: block; left: 5px; top: 5px;">JS chart by amCharts</a></div><div class="amChartsLegend" style="overflow: hidden; position: relative; text-align: left; width: 480px; height: 136px;"><svg version="1.1" style="position: absolute; width: 480px; height: 380px;"><desc>JavaScript chart by amCharts 3.4.3</desc><g transform="translate(0,0)"><path cs="100,100" d="M0.5,0.5 L479.5,0.5 L479.5,125.5 L0.5,125.5 Z" fill="#FFFFFF" stroke="#333333" fill-opacity="0" stroke-width="1" stroke-opacity="0"></path><g transform="translate(21,11)"><g cursor="pointer" transform="translate(0,0)"><circle r="8" cx="0" cy="0" fill="#009900" stroke="#009900" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">中心钱包</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(151,0)"><circle r="8" cx="0" cy="0" fill="#66CCCC" stroke="#66CCCC" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">南京馆EA</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">NaN</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(302,0)"><circle r="8" cx="0" cy="0" fill="#00CC99" stroke="#00CC99" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">巴黎馆188</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(0,29)"><circle r="8" cx="0" cy="0" fill="#006666" stroke="#006666" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">英伦馆MG</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(151,29)"><circle r="8" cx="0" cy="0" fill="#FF9933" stroke="#FF9933" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">台湾BBIN</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(302,29)"><circle r="8" cx="0" cy="0" fill="#CC6600" stroke="#CC6600" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">188体育</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(0,58)"><circle r="8" cx="0" cy="0" fill="#9966CC" stroke="#9966CC" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">KG彩票</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">NaN</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(151,58)"><circle r="8" cx="0" cy="0" fill="#666699" stroke="#666699" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">LUZI</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">NaN</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(302,58)"><circle r="8" cx="0" cy="0" fill="#663300" stroke="#663300" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">MG老虎机</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g><g cursor="pointer" transform="translate(0,87)"><circle r="8" cx="0" cy="0" fill="#4faec3" stroke="#4faec3" fill-opacity="1" stroke-width="1" stroke-opacity="1" transform="translate(8,8)"></circle><g transform="translate(8,8)" visibility="hidden"><path cs="100,100" d="M-5.5,-5.5 L6.5,6.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path><path cs="100,100" d="M-5.5,6.5 L6.5,-5.5" fill="none" stroke="#FFFFFF" stroke-width="3"></path></g><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="start" transform="translate(21,7)">PT馆</text><text y="6" fill="#333333" font-family="Verdana" font-size="12" opacity="1" text-anchor="end" transform="translate(136,7)">0</text><rect x="16" y="0" width="120" height="19" rx="0" ry="0" stroke-width="0" stroke="none" fill="#ffffff" fill-opacity="0.005"></rect></g></g></g></svg></div></div></div>
+                        <div class="account_table_left">
+                            <div class="account_jackpot" style="display:none;">
+                                <h2><img src="./瑞盈通MMA账户资金管理_files/jackpot.jpg" align="absmiddle"> jackpot</h2>
+                                <p>￥35,063,880.00</p>
+                            </div>
+                            <div class="account_table01">
+                                <h2>竞猜积分</h2>
+                                <p>0.00</p>
+                            </div>
+                            <div class="account_table02">
+                                <h2>积分宝</h2>
+                                <p>0</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user_sidebox" style="border: none;">
+                <div class="information_cut">
+                    <div class="cut_nav">
+                        <ul>
+                            <li class="hover">
+                                <div class="arrow-right3" style="display: block"></div>
+                                <a href="javascript:void(0);" onclick="ChangeCutnav(0)">充值</a></li>
+                            <li>
+                                <div class="arrow-right3"></div>
+                                <a href="javascript:void(0);" onclick="ChangeCutnav(1)">提款</a></li>
+                            <li>
+                                <div class="arrow-right3"></div>
+                                <a href="javascript:void(0);" onclick="ChangeCutnav(2)">平台转帐</a></li>
+                            <li>
+                                <div class="arrow-right3"></div>
+                                <a href="javascript:void(0);" onclick="ChangeCutnav(3)">兑换现金</a></li>
+                        </ul>
+                    </div>
+                    <div class="cut_box">
+                        <dl class="block">
+                            <div class="cut_list">
+                                <div class="cut_title">
+                                    <h2>存款方式</h2>
+                                </div>
+                                <div class="cut_tips">
+                                    <p>存款步骤：1、选择存款方式 2、输入存款转账信息 3、完成</p>
+                                </div>
+                            </div>
+                            <div class="cashier_pay" style="position:relative;">
+                                <div class="cash_text">
+                                    <ul>
+                                        <li>三方在线1</li>
+                                        <li>三方在线2</li>
+                                        <li>支付宝</li>
+                                        <li>网银秒存</li>
+                                        <li>ATM/柜台</li>
+                                        <!--<li>尚未开放</li>-->
+                                    </ul>
+                                </div>
+                                <div class="hi-icon-wrap">
+                                    <a href="javascript:void(0)" onclick="ShowCashierTable(4)" class="hi-icon bg_color04 icon-suitcase"><span>第三方支付1</span></a>
+                                    <a href="javascript:void(0)" onclick="ShowCashierTable(1)" class="hi-icon bg_color01 icon-database"><span>第三方支付2</span></a>
+                                    <a href="javascript:void(0)" onclick="ShowCashierTable(3)" class="hi-icon bg_color03 icon-at"><span>支付宝支付</span></a>
+                                    <a href="javascript:void(0)" onclick="ShowCashierTable(2)" class="hi-icon bg_color02 icon-screen"><span>网银转账</span></a>
+                                    <a href="javascript:void(0)" onclick="ShowCashierTable(5)" class="hi-icon bg_color05 icon-publish"><span>现金存款</span></a>
+                                    <!--<a href="javascript:void(0)" onclick="ShowCashierTable(6)" class="hi-icon bg_color06 icon-browser"><span>尚未开放</span></a>-->
+                                </div>
+                                <span style="width:600px; position:absolute; margin-top:-20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-5000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-5000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-1000
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10-50000</span>
+
+                                
+                                <script type="text/javascript">
+                                    $(".hi-icon").hover(function () {
+                                        $(this).children("span").fadeToggle("slow", "linear");
+                                    });
+                                </script>
+
+                                <!--第三方支付2 begin-->
+                                <div id="CashierTable_1" class="cashier_table">
+                                    <div class="cashier_title">
+                                        <h2>第三方支付2</h2>
+                                    </div>
+                                        <form id="formhuanxun" name="formhuanxun" action="http://www.rwin88.com/dinpay.aspx" method="POST" target="_blank">
+                                            <div class="cashier_list">
+                                                <ul>
+                                                <li><font color="#000000">最小充值：10元｜最高充值：5000元｜回馈红利：1％（最低1元）</font></li>
+                                                    <li>
+                                                        <label class="b_title">输入存款金额：</label><span class="l_title"><input onpaste="return !clipboardData.getData(&#39;text&#39;).match(/\D/)" ondragenter="return false" onkeyup="this.value=this.value.replace(/[^\d]/g,&quot;&quot;)" value="" class="input_text" id="amount" name="amount"></span></li>
+                                                    <li>
+                                                        <label class="b_title">选择支付银行：</label><span class="l_title"><select id="bankco" name="bankcode" class="input_text2">
+ 
+		                                                    <option value="">-请选择-</option>
+		                                                    <option value="ABC">农业银行</option>
+		                                                    <option value="ICBC">工商银行</option>
+		                                                    <option value="CCB">建设银行</option>
+		                                                    <option value="BCOM">交通银行</option>
+		                                                    <option value="BOC">中国银行</option>
+		                                                    <option value="CMB">招商银行</option>
+		                                                    <option value="CMBC">民生银行</option>
+		                                                    <option value="CEBB">光大银行</option>
+		                                                    <option value="CIB">兴业银行</option>
+		                                                    <option value="PSBC">邮储银行</option>
+		                                                    <option value="SPABANK">平安银行</option>
+		                                                    <option value="ECITIC">中信银行</option>
+		                                                    <option value="GDB">广发银行</option>
+		                                                    <option value="HXB">华夏银行</option>
+		                                                    <option value="SPDB">浦发银行</option>
+		                                                    <option value="BEA">东亚银行</option>
+
+                                                        </select></span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="cut_btn"><a href="javascript:void(0)" id="thirdpay">立即存款</a></div>
+                                            <input type="hidden" name="username" value="rwlz123123">
+                                     </form>
+                                </div>
+                                <!--第三方支付2 end-->
+
+                                <!--网银转账 begin-->
+                                <div id="CashierTable_2" class="cashier_table">
+                                    <div class="cashier_title">
+                                        <h2>网银转账</h2>
+                                    </div>
+                                    <form id="form1" method="post" action="http://autopay.mycard.asia/Transh01.aspx" target="_blank">
+                                        <div class="cashier_list">
+                                            <ul>
+                                                <li><font color="#000000">最小充值：10元｜最高充值：50000元｜回馈红利：1％（最低1元）</font></li>
+                                                <li><font color="#ba0000"><b>注：</b>存款人姓名請填寫您匯款銀行相同姓名. 如填寫錯誤不仅到帐时间慢，您还得联系客服进行手动办理哟～</font></li>
+                                                <li>
+                                                    <label class="b_title">您转账的银行：</label><span class="l_title"><select name="bankcode" id="bankcode1" class="input_text2">
+                                                        <option value="0">选择支付银行</option>
+                                                        <option value="ICBC">工商银行</option>
+                                                        <option value="SDB">平安银行</option>
+                                                        <option value="CMB">招商银行</option>
+                                                        <option value="CMBC">民生银行</option>
+                                                        <option value="CCB">建设银行</option>
+                                                        <option value="HXB">华夏银行</option>
+                                                        <option value="ABC">农业银行</option>
+                                                        <option value="SPDB">浦发银行</option>
+                                                        <option value="PSBC">邮政储蓄</option>
+                                                        <option value="BOB">北京银行</option>
+                                                        <option value="COMM">交通银行</option>
+                                                        <option value="CBHB">渤海银行</option>
+                                                        <option value="CIB">兴业银行</option>
+                                                        <option value="BOD">东莞银行</option>
+                                                        <option value="GDB">广发银行</option>
+                                                        <option value="GZB">广州银行</option>
+                                                        <option value="BOS">上海银行</option>
+                                                        <option value="HZB">杭州银行</option>
+                                                        <option value="ECITIC">e中信</option>
+                                                        <option value="CZB">浙商银行</option>
+                                                        <option value="BOC">中国银行</option>
+                                                        <option value="BJNB">北京农商</option>
+                                                        <option value="CEB">光大银行</option>
+                                                        <option value="NBB">宁波银行</option>
+                                                    </select></span></li>
+                                                <li>
+                                                    <label class="b_title">存款人姓名：</label><span class="l_title"><input type="text" name="txtName" id="txtName1" class="input_text"></span></li>
+                                                <li>
+                                                    <label class="b_title">输入存款金额：</label><span class="l_title"><input type="text" name="txtMoney" id="txtMoney1" class="input_text"></span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="cut_btn"><a href="javascript:void(0)" id="wangyinZhuanzhan">立即存款</a></div>
+                                        <input id="hiddenUsername1" name="hiddenUsername" value="rwlz123123" type="hidden">
+                                        <input id="hiddenBankCode1" name="hiddenBankCode" value="" type="hidden">
+                                        <input id="hiddenBankUrl1" name="hiddenBankUrl" value="" type="hidden">
+                                        <input name="isemail" value="0" type="hidden">
+                                    </form>
+                                </div>
+                                <!--网银转账 end-->
+
+                                <!--支付宝,原工行EMAIL转账位置 begin-->
+                                <div id="CashierTable_3" class="cashier_table">
+                                    <!--<form id="form" method="post" action="http://autopay.mycard.asia/Transh01.aspx" target="_blank">-->
+                                        <div class="cashier_title">
+                                            <h2>支付宝</h2>
+                                        </div>
+                                    <div class="cashier_list">
+                                        <ul>
+                                            <li><font color="#000000">最小充值：10元｜最高充值：1000元｜回馈红利：1％（最低1元）</font></li>
+                                            <li>
+                                                <label class="b_title">选择支付宝帐号：</label><span class="l_title"><select name="combankid1" id="combankid1" class="input_text2">
+                                                    <option value="0">选择支付宝帐号</option>
+                                                <option value="27">支付宝</option></select></span></li>
+                                            <li>
+                                                <label class="b_title">支付宝帐号：</label><b id="comAccount1"></b></li>
+                                            <li>
+                                                <label class="b_title">收款人姓名：</label><b id="comAccountHolder1"></b></li>
+                                            <li>
+                                                <label class="b_title">支付平台：</label><b id="Zhihang1"></b></li>
+                                            <!--<li>
+                                                <label class="b_title">您的银行名称：</label><span class="l_title"><select name="userbankid4" id="userbankid4" class="input_text2"></select></span></li>-->
+                                            <li>
+                                                <label class="b_title">您的支付宝姓名：</label><span class="l_title"><input type="text" name="truename1" id="truename1" class="input_text"></span></li>
+                                            <li>
+                                                <label class="b_title">交易流水号：</label><span class="l_title"><!--<select id="province4" class="input_text3"></select>
+                                                    <select id="city4" class="input_text3">
+                                                        <option value="城市">城市</option>
+                                                    </select>--><input type="text" id="OpeningBank1" name="OpeningBank1" class="input_text"></span><!--<span class="tips">(例如:广东省深圳市分行蛇口支行)</span>--></li>
+                                            <li>
+                                                <label class="b_title">输入存款金额：</label><span class="l_title"><input type="text" name="amount1" id="amount1" class="input_text"></span></li>
+                                        </ul>
+                                    </div>
+                                        <div class="cut_btn"><a href="javascript:void(0)" id="wangyinEmail">立即存款</a></div>
+                                        <input id="hiddenUsername" name="hiddenUsername" value="rwlz123123" type="hidden">
+                                        <input id="hiddenBankCode" name="hiddenBankCode" value="ICBC" type="hidden">
+                                        <input name="isemail" value="1" type="hidden">
+                                        <input id="hiddenBankUrl" name="hiddenBankUrl" value="http://www.icbc.com.cn/icbc/%e4%b8%aa%e4%ba%ba%e5%ae%a2%e6%88%b7%e7%89%88/default.htm" type="hidden">
+                                            <li><font color="#ba0000"><b>重要通知：</b></font></li>
+                                            <li><font color="#ba0000">(1)充值的相关资料請填寫正确. 如填寫錯誤不仅到帐时间慢，您还得联系客服进行手动办理哟～</font></li>
+                                            <li><font color="#ba0000">(2)支付宝账号将不定期更换，请<b>充值前先检查核实</b>，如误充至旧账号则须等到隔日上午10点后才能到账，感谢配合！</font></li>
+
+                                    <!--</form>-->
+                                </div>
+                                <!--支付宝,原工行EMAIL转账 end-->
+
+
+                                <!--银联支付 begin-->
+                                <div id="CashierTable_4" class="cashier_table">
+                                    <!--<form id="form2" method="post" action="http://autopay.mycard.asia/Transh02.aspx" target="_blank">-->
+                                        <div class="cashier_title">
+                                            <h2>第三方支付1</h2>
+                                        </div>
+                                        <form id="formunion" name="formunion" action="http://www.rwin88.com/dinpay.aspx" method="post" target="_blank">
+                                            <div class="cashier_list">
+                                                <ul>
+                                                <li><font color="#000000">最小充值：10元｜最高充值：5000元｜回馈红利：1％（最低1元）</font></li>
+                                                    <li>
+                                                        <label class="b_title">输入存款金额：</label><span class="l_title"><input onpaste="return !clipboardData.getData(&#39;text&#39;).match(/\D/)" ondragenter="return false" onkeyup="this.value=this.value.replace(/[^\d]/g,&quot;&quot;)" value="" class="input_text" id="amountUnion" name="amountUnion"></span></li>
+                                                    <!--<li>
+                                                        <label class="b_title">选择支付银行：</label><span class="l_title"><select id="bankcoNew" name="bankcoNew" class="input_text2">
+ 
+		                                                    <option value="">-请选择-</option>
+		                                                    <option value="ABC">农业银行</option>
+		                                                    <option value="ICBC">工商银行</option>
+		                                                    <option value="CCB">建设银行</option>
+		                                                    <option value="BCOM">交通银行</option>
+		                                                    <option value="BOC">中国银行</option>
+		                                                    <option value="CMB">招商银行</option>
+		                                                    <option value="CMBC">民生银行</option>
+		                                                    <option value="CEBB">光大银行</option>
+		                                                    <option value="CIB">兴业银行</option>
+		                                                    <option value="PSBC">邮储银行</option>
+		                                                    <option value="SPABANK">平安银行</option>
+		                                                    <option value="ECITIC">中信银行</option>
+		                                                    <option value="GDB">广发银行</option>
+		                                                    <option value="HXB">华夏银行</option>
+		                                                    <option value="SPDB">浦发银行</option>
+		                                                    <option value="BEA">东亚银行</option>
+
+                                                        </select></span></li>-->
+                                                </ul>
+                                            </div>
+                                            <div class="cut_btn"><a href="javascript:void(0)" id="union">立即存款</a></div>
+                                            <input type="hidden" name="username" value="rwlz123123">
+                                        </form>
+                                </div>
+                                <!--银联支付 end-->
+
+                                <!--ATM转账 begin-->
+                                <div id="CashierTable_5" class="cashier_table">
+                                    <div class="cashier_title">
+                                        <h2>ATM转帐/柜台现金存款</h2>
+                                    </div>
+                                    <div class="cashier_list">
+                                        <ul>
+                                            <li><font color="#ba0000"><b>注：</b>以下相关资料請填寫正确. 如填寫錯誤不仅到帐时间慢，您还得联系客服进行手动办理哟～</font></li>
+                                            <li>
+                                                <label class="b_title">选择收款银行：</label><span class="l_title"><select name="combankid4" id="combankid4" class="input_text2">
+                                                    <option value="0">选择收款银行</option>
+                                                </select></span></li>
+                                            <li>
+                                                <label class="b_title">收款帐号：</label><b id="comAccount4"></b></li>
+                                            <li>
+                                                <label class="b_title">收款人：</label><b id="comAccountHolder"></b></li>
+                                            <li>
+                                                <label class="b_title">开户行：</label><b id="Zhihang4"></b></li>
+                                            <li>
+                                                <label class="b_title">您的银行名称：</label><span class="l_title"><select name="userbankid4" id="userbankid4" class="input_text2"><option value="1">工商银行</option><option value="2">农业银行</option><option value="3">建设银行</option><option value="4">交通银行</option><option value="5">中国银行</option><option value="6">招商银行</option><option value="7">上海浦发银行</option><option value="8">中信银行</option><option value="9">光大银行</option><option value="10">北京银行</option><option value="11">兴业银行</option><option value="12">南京银行</option><option value="13">中国民生银行</option><option value="14">平安银行</option><option value="15">东亚银行</option><option value="16">渤海银行</option><option value="17">宁波银行</option><option value="18">深圳发展银行</option><option value="19">中国邮政</option><option value="20">北京农村商业银行</option><option value="21">广发银行</option><option value="22">上海农村商业银行</option><option value="23">重庆农村商业银行</option><option value="24">贵州农村信用社</option><option value="25">支付宝</option></select></span></li>
+                                            <li>
+                                                <label class="b_title">您的开户名：</label><span class="l_title"><input type="text" name="truename4" id="truname4" class="input_text"></span></li>
+                                            <li>
+                                                <label class="b_title">您的银行账号：</label><span class="l_title"><input type="text" name="account4" id="account4" class="input_text"></span></li>
+                                            <li>
+                                                <label class="b_title">所属分行：</label><span class="l_title"><select id="province4" class="input_text3"><option value="省份">省份</option><option value="北京">北京</option><option value="上海">上海</option><option value="天津">天津</option><option value="重庆">重庆</option><option value="河北">河北</option><option value="山西">山西</option><option value="内蒙古">内蒙古</option><option value="辽宁">辽宁</option><option value="吉林">吉林</option><option value="黑龙江">黑龙江</option><option value="江苏">江苏</option><option value="浙江">浙江</option><option value="安徽">安徽</option><option value="福建">福建</option><option value="江西">江西</option><option value="山东">山东</option><option value="河南">河南</option><option value="湖北">湖北</option><option value="湖南">湖南</option><option value="广东">广东</option><option value="广西">广西</option><option value="海南">海南</option><option value="四川">四川</option><option value="贵州">贵州</option><option value="云南">云南</option><option value="西藏">西藏</option><option value="陕西">陕西</option><option value="甘肃">甘肃</option><option value="宁夏">宁夏</option><option value="青海">青海</option><option value="新疆">新疆</option><option value="香港">香港</option><option value="澳门">澳门</option><option value="台湾">台湾</option><option value="其它">其它</option></select>
+                                                    <select id="city4" class="input_text3">
+                                                        
+                                                    <option value="城市">城市</option></select><input type="text" id="OpeningBank4" name="OpeningBank4" class="input_text"></span><span class="tips">(例如:广东省深圳市分行蛇口支行)</span></li>
+                                            <li>
+                                                <label class="b_title">输入存款金额：</label><span class="l_title"><input type="text" name="amount4" id="amount4" class="input_text"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="cut_btn"><a href="javascript:void(0)" id="atmzhuanzhan">立即存款</a></div>
+                                </div>
+                                <!--ATM转账 end-->
+
+                                <!--原ATM现金存款位置 begin-->
+                                <div id="CashierTable_6" class="cashier_table">
+                                    <div class="cashier_title">
+                                        <h2>尚未开放</h2>
+                                    </div>
+                                    <div class="cashier_list">
+                                        <ul>
+                                            <li><font color="#ba0000"><b>预告：</b>近期即将开放瑞盈移动钱包功能，请随时关注最新动态！</font></li>
+                                            <!--<li>
+                                                <label class="b_title">选择收款银行：</label><span class="l_title"><select name="combankid5" id="combankid5" class="input_text2">
+                                                    <option value="0">选择收款银行</option>
+                                                </select></span></li>-->
+                                            <li>
+                                                <label class="b_title">收款帐号：</label><b id="comAccount5"></b></li>
+                                            <li>
+                                                <label class="b_title">收款人：</label><b id="comAccountHolder5"></b></li>
+                                            <li>
+                                                <label class="b_title">开户行：</label><b id="Zhihang5"></b></li>
+                                            <!--<li>
+                                                <label class="b_title">您的银行名称：</label><span class="l_title"><select name="userbankid5" id="userbankid5" class="input_text2">
+                                                </select></span></li>-->
+                                            <li>
+                                                <label class="b_title">您的姓名：</label><span class="l_title"><input type="text" name="truename5" id="truname5" class="input_text"></span></li>
+                                            <li>
+                                                <label class="b_title">所属分行：</label><span class="l_title"><select id="province5" class="input_text3"><option value="省份">省份</option><option value="北京">北京</option><option value="上海">上海</option><option value="天津">天津</option><option value="重庆">重庆</option><option value="河北">河北</option><option value="山西">山西</option><option value="内蒙古">内蒙古</option><option value="辽宁">辽宁</option><option value="吉林">吉林</option><option value="黑龙江">黑龙江</option><option value="江苏">江苏</option><option value="浙江">浙江</option><option value="安徽">安徽</option><option value="福建">福建</option><option value="江西">江西</option><option value="山东">山东</option><option value="河南">河南</option><option value="湖北">湖北</option><option value="湖南">湖南</option><option value="广东">广东</option><option value="广西">广西</option><option value="海南">海南</option><option value="四川">四川</option><option value="贵州">贵州</option><option value="云南">云南</option><option value="西藏">西藏</option><option value="陕西">陕西</option><option value="甘肃">甘肃</option><option value="宁夏">宁夏</option><option value="青海">青海</option><option value="新疆">新疆</option><option value="香港">香港</option><option value="澳门">澳门</option><option value="台湾">台湾</option><option value="其它">其它</option></select>
+                                                    <select id="city5" class="input_text3">
+                                                        
+                                                    <option value="城市">城市</option></select><input type="text" id="OpeningBank5" name="OpeningBank5" class="input_text"></span><span class="tips">(例如:广东省深圳市分行蛇口支行)</span></li>
+                                            <li>
+                                                <label class="b_title">输入存款金额：</label><span class="l_title"><input type="text" name="amount5" id="amount5" class="input_text"></span></li>
+                                        </ul>
+                                    </div>
+                                       <!--<div class="cut_btn"><a href="javascript:void(0)" id="atmcunkuan">立即存款</a></div>-->
+                                </div>
+                                <!--ATM现金存款 end-->
+
+                            </div>
+                        </dl>
+                        <dl>
+                            <div class="cut_list">
+                                <div class="cut_title">
+                                    <h2>提款方式</h2>
+                                </div>
+                                <div class="cut_tips">
+                                    <p>提款步骤：1、输入提款信息 2、完成 </p>
+                                </div>
+                                <div class="cut_table">
+                                    <ul>
+                                        <li>
+                                            <label class="b_title">提款帐号：</label><span class="l_title"><select name="userbankid6" id="userbankid6" class="input_text2"><option value="">选择银行</option></select></span> <span class="tips">未绑定银行？<a href="http://www.rwin88.com/UserModify.aspx" title="绑定银行">请点这里</a></span></li>
+                                        <li>
+                                            <label class="b_title">提款金额：</label><span class="l_title"><input name="amount6" id="amount6" class="input_text" type="text"></span></li>
+                                    </ul>
+                                </div>
+                                <div class="cut_btn">
+                                    <a href="javascript:void(0)" id="Withdrawals">确认提款</a>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <div class="cut_list">
+                                <div class="cut_title">
+                                    <h2>平台转帐方式</h2>
+                                </div>
+                                <div class="cut_tips">
+                                    <p>平台转账步骤：1、输入平台转账信息 2、完成</p>
+                                </div>
+                                <div class="cut_table">
+                                    <ul>
+                                        <li>
+                                            <label class="b_title">转出平台：</label><span class="l_title"><select id="selTransFrom" name="selTransFrom" class="input_text2" onchange="selectLeft();"><option value="0">中心钱包</option>
+<option value="30">英伦馆(MG)</option>
+<option value="31">台湾馆(BBIN)</option>
+<option value="5">南京馆(EA)</option>
+<option value="33">路子游戏</option>
+<option value="28">巴黎馆(188)</option>
+<option value="34">PT馆</option>
+<option value="29">MG老虎机</option>
+<option value="27">KG彩票</option>
+<option value="6">188体育</option></select></span></li>
+                                        <li>
+                                            <label class="b_title">转入平台：</label><span class="l_title"><select id="selTransTo" name="selTransTo" class="input_text2"><option value="0">中心钱包</option>
+<option value="30">英伦馆(MG)</option>
+<option value="31">台湾馆(BBIN)</option>
+<option value="5">南京馆(EA)</option>
+<option value="33">路子游戏</option>
+<option value="28">巴黎馆(188)</option>
+<option value="34">PT馆</option>
+<option value="29">MG老虎机</option>
+<option value="27">KG彩票</option>
+<option value="6">188体育</option></select></span></li>
+                                        <li>
+                                            <label class="b_title">转帐金额：</label><span class="l_title"><input name="txtAmount1" id="txtAmount1" class="input_text" type="text" onkeyup="this.value=this.value.replace(/[^\d]/g,&quot;&quot;)" ondragenter="return false" onpaste="return !clipboardData.getData(&#39;text&#39;).match(/\D/)"></span></li>
+                                    </ul>
+                                </div>
+                                <div class="cut_btn">
+                                    <a href="javascript:void(0)" onclick="return doTransacter(this);">确认转帐</a>
+                                    <a href="javascript:void(0)" id="aTransDoing" style="display: none;">转帐中...</a>
+                                </div>
+                            </div>
+                        </dl>
+                        <dl>
+                            <div class="cut_list">
+                                <div class="cut_title">
+                                    <h2>兑换现金</h2>
+                                    <span><a href="http://rwin88.com/help/Index.aspx?name=integral" target="_blank">积分兑换现金规则</a></span></div>
+                                <div class="cut_tips">
+                                    <p>积分兑换现金步骤：1、输入兑换积分信息 2、完成</p>
+                                </div>
+                                <div class="cut_table">
+                                    <ul>
+                                        <li>
+                                            <label class="b_title" style="width: 130px;">本月累计兑换积分：</label><span class="l_title" id="tdTotIntegral">0</span></li>
+                                        <li>
+                                            <label class="b_title" style="width: 130px;">本月累计兑换次数：</label><span class="l_title" id="tdTimes">0</span></li>
+                                        <li>
+                                            <label class="b_title" style="width: 130px;">当前兑换比例：</label><span class="l_title" id="tdRatio"></span></li>
+                                        <li>
+                                            <label class="b_title" style="width: 130px;">当前可用积分：</label><span class="l_title" id="tdCurIntegral">0</span></li>
+                                        <li>
+                                            <label class="b_title" style="width: 130px;">兑换积分：</label><span class="l_title"><input name="txtJF" id="txtJF" class="input_text" type="text" disabled="disabled"></span></li>
+                                    </ul>
+                                </div>
+                                <div class="cut_btn">
+                                    <a href="javascript:void(0)" id="aExhJF">未达条件</a>
+                                    <a href="javascript:void(0)" id="aExchangeDoing" style="display: none;">兑换中...</a>
+                                </div>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+                <div class="foot_index">
+                    <div class="inst_side">
+                        <h2>监管机构</h2>
+                        <a href="http://www.gicc.ph/" target="_blank"><img src="./瑞盈通MMA账户资金管理_files/Gicc.jpg"></a>
+                        <h2>实地合作</h2>
+                        <img src="./瑞盈通MMA账户资金管理_files/Resorts.jpg"><img src="./瑞盈通MMA账户资金管理_files/Solaire.jpg"><img src="./瑞盈通MMA账户资金管理_files/city.jpg">
+                        <h2>合作伙伴</h2>
+                        <img src="./瑞盈通MMA账户资金管理_files/EA.jpg"><img src="./瑞盈通MMA账户资金管理_files/188bet.jpg"><img src="./瑞盈通MMA账户资金管理_files/microgaming.jpg"><img src="./瑞盈通MMA账户资金管理_files/KG.jpg"><img src="./瑞盈通MMA账户资金管理_files/AutoPay.jpg"><img src="./瑞盈通MMA账户资金管理_files/BBIN.jpg"><img src="./瑞盈通MMA账户资金管理_files/a1.jpg"><img src="./瑞盈通MMA账户资金管理_files/GameCare.jpg"><img src="./瑞盈通MMA账户资金管理_files/18jia.jpg">
+                    </div>
+                    <div class="quick_side">
+                        <div class="side_content">
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>玩家帮助</h2>
+                                    <div class="letter">Game guide</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=deposit">如何存款</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=withdrawal">如何提款</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=games-faq">常见问题</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>优惠活动</h2>
+                                    <div class="letter">Promotion</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/promotions.aspx">优惠活动主页</a></li>
+                                        <li><a href="http://www.rwin88.com/club.aspx">VIP专属小秘</a></li>
+                                        <li><a href="http://www.rwin88.com/UserAccount.aspx#">商品兑换</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>博彩责任</h2>
+                                    <div class="letter">Gambling</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=privacy-policy">隐私权政策</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=terms-and-conditions">规则与条款</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=responsible-gambling">博彩责任</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="side_box">
+                                <div class="title_b">
+                                    <h2>关于我们</h2>
+                                    <div class="letter">About us</div>
+                                </div>
+                                <div class="side_list">
+                                    <ul>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=aboutus">关于我们</a></li>
+                                        <li><a href="http://lago.rwin88.com/" target="_blank">拉勾宝联盟</a></li>
+                                        <li><a href="http://www.rwin88.com/help/Index.aspx?name=contact">客户之声</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+							<div class="copyright" style="width:190px"><a href="javascript:void(0);" onclick="ShowJob()" title="找工作就点这里">
+                                    <img src="./瑞盈通MMA账户资金管理_files/job_img2.jpg"></a>
+                                <p style="margin-top:10px">Copyright © 2013-2016 Rwin88 All Rights Reserved.</p>
+                            </div>
+
+                            <div class="job_box" style=" width:210px">
+                                <p>
+                                    亚洲最好，最丰富的产品<br>
+                                    一分钟存款/十分钟提款<br>
+                                    政府颁发的执照，良好的口碑
+                                </p>
+								
+                                <p>
+                                    <a href="javascript:void(0);" class="footico ficon-IE" title="IE9.0"></a>
+                                    <a href="javascript:void(0);" class="footico ficon-firefox" title="Firefox3.0"></a>
+                                    <a href="javascript:void(0);" class="footico ficon-chrome" title="Chrome"></a>
+                                    <a href="javascript:void(0);" class="footico ficon-safari" title="safari"></a>
+                                </p>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--注册-->
+    <div class="reg_box">
+        <form id="registerform" name="registerform" novalidate="novalidate">
+        <div id="RegFloat">
+            <div class="reg" id="RegInfo">
+                <div class="btn_close"></div>
+                <div class="reg_info">
+                    <div class="reg_info_table">
+                         <table style="display: none">
+                             <tbody><tr>
+                                <td width="220"><span class="text">公测邀请码：</span></td>
+                                 <td width="220">&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <span class="reg_text"><input type="text" style="width: 180px;color: #3b2316; border: none; clear:left" name="yqma" id="yqma"></span></td>
+                                <td>&nbsp;<span class="red">请向客服询问邀请码</span></td>
+                            </tr>
+                             <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">创建瑞盈账号</a></td>
+                            </tr>
+
+                             <tr>
+                                <td style="padding-top:10px;" colspan="2" align="center">
+                                    <div>
+                                        <div style="float:left;width:300px;padding-right:10px;overflow:hidden; text-align:left;"><strong>公测日期: 2014年3月10日~2014年4月7日</strong><br>
+                                                参与公测的玩家可免费获得”<font color="red"><strong>公测礼包</strong></font>”，助您VIP升级暢快领先一步!</div>
+                                        <div style="float:right;overflow:hidden;"><img src="./瑞盈通MMA账户资金管理_files/libao.png"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                        <table style="display:block;">
+                            <tbody><tr>
+                                <td width="220"><span class="text">用户账号：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="reg_text">rw<input type="text" style="width: 180px;color: #3b2316; border: none; clear:left" name="username" id="username"></span></td>
+                                <td>&nbsp;<span class="red">*</span> 请以rw开头+数字或字母組合(7-12位)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">登入密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="reg_text" name="password" id="password"></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入6-12位密码</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">确认密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="reg_text" name="repassword" id="repassword"></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入6-12位密码</td>
+                            </tr>                            
+                            <tr>
+                                <td><span class="text">推广代码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="reg_text" name="agentcode" id="agentcode"></td>
+                                <td>&nbsp;<span class="red">*</span> 建议使用默认代码</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">创建瑞盈账号</a></td>
+                            </tr>
+                        </tbody></table>
+                        
+                        <table style="display:none;"> 
+                            <tbody><tr>
+                                <td width="220"><span class="text">邮箱地址：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" class="reg_text" name="email" id="email"></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入正确邮箱地址</td>
+                            </tr>                           
+                            <tr>
+                                <td><span class="text">安全问题：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                <select name="securityissues" id="securityissues" class="reg_text" style=" height: 30px; width: 220px"><option>请选择</option><option value="1">您的出生地是？</option><option value="2">您的出生日期是？</option><option value="3">您最熟悉的人的名字？</option><option value="4">您的偶像是？</option><option value="5">您的幸运数字是？</option></select></td>
+                                <td>&nbsp;<span class="red">*</span> 请选择安全问题</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">问题答案：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><input id="securityanswer" name="securityanswer" maxlength="15" class="reg_text"></td>
+                                <td>&nbsp;<span class="red">*</span> 请填写安全问题答案</td>
+                            </tr>                            
+                            <tr>
+                                <td><span class="text">验证码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" class="reg_text code_text" name="code" id="code"><a class="code_img" href="http://www.rwin88.com/UserAccount.aspx#"><img src="./瑞盈通MMA账户资金管理_files/CreateCodeImage.ashx"></a></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入验证码，点击图片刷新</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">下一步</a></td>
+                            </tr>
+                        </tbody></table>
+
+
+                        <table style="display:none;"> 
+                            <tbody><tr style="line-height:22px!important;">
+                                <td colspan="2"><span class="text">恭喜您, 您即将成为瑞盈会员, 为了确保您的帐户数据完全正确, 请仔细核对以下您的账户信息:</span></td>
+                            </tr>
+                            <tr style="line-height:24px!important;">
+                                <td style="padding:10px;" colspan="2">
+                                    <strong>用户账号：</strong> <label id="lbusername"></label><br>
+                                    <strong>登入密码：</strong> <label id="lbpassword"></label><br>
+                                    <strong>推广代理：</strong> <label id="lbagentcode"></label><br>
+                                    <strong>邮箱地址：</strong> <label id="lbemail"></label><br>
+                                    <strong>安全问题：</strong> <label id="lbquestion"></label><br>
+                                    <strong>安全答案：</strong> <label id="lbanswer"></label><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="20"><input name="rule" type="checkbox" value="" id="rule" style="margin-top:10px;"></td>
+                                <td><span class="text">本人同意并接受所有<a href="http://www.rwin88.com/UserAccount.aspx#" style="color:#3b2316; text-decoration:underline;">规则与条款</a></span></td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top:10px;" align="center" colspan="2"><a href="javascript:" id="submitbutton" class="type_btn">确认开通</a></td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </form>
+    </div>
+
+    <!--忘记密码-->
+    <div class="forget_box">
+        <div id="ForgetFloat">
+            <div class="forget">
+                <div class="btn_close3"></div>
+                <div class="forget_info">
+                    <div class="forget_info_table">
+                         <table>
+                             <tbody><tr>
+                                <td width="220"><span class="text">输入用户名：</span></td>
+                                 <td width="220">&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td>
+                                    <span class="forget_text">rw<input type="text" style="width: 180px;color: #3b2316; border: none; clear:left" id="forgetUsername"></span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td width="220"><span class="text">安全问题：</span></td>
+                                 <td width="220">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><span class="forget_text" id="forgetQuestion"></span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><span class="text">请填写安全问题答案：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td><input id="forgetAnswer" maxlength="15" class="forget_text"></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                             <tr>
+                                <td><span class="text">验证码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                              <tr>
+                                <td>
+                                    <input type="text" class="forget_text code_text" name="code" id="forgetCode"><a class="code_img" href="http://www.rwin88.com/UserAccount.aspx#"><img src="./瑞盈通MMA账户资金管理_files/CreateCodeImage.ashx"></a></td>
+                                <td>&nbsp;<span class="red">*</span> 请输入验证码，点击图片刷新</td>
+                            </tr>
+                             <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">下一步</a></td>
+                            </tr>
+                        </tbody></table>
+
+                        <table style="display:none;"> 
+                            <tbody><tr>
+                                <td><span class="text">输入新密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="forget_text" id="forgetPassword"></td>
+                                <td>&nbsp;</td>
+                            </tr>                           
+                            <tr>
+                                <td><span class="text">请再输入一次新密码：</span></td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" class="forget_text" id="forgetRePassword"></td>
+                                <td>&nbsp;</td>
+                            </tr> 
+                                                       
+                            
+                            <tr>
+                                <td style="padding-top:20px;" colspan="2" align="center"><a href="javascript:" class="type_btn">确认提交</a></td>
+                            </tr>
+                        </tbody></table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="index_jobbox">
+        <div id="get_job">
+            <div class="btn_close2"></div>
+            <div class="job_content">
+                <p>RWIN88瑞盈要以F.A.M.I.L.Y.的价值观，<br>
+                     创造人与人之间凝聚的力量，带领有梦想、有目标、勇于挑战的您一起进化。<br>
+                     RWIN88瑞盈核心价值：<br>
+                   「家」是所有关系的起点，所有人都从「家」开始学习社会化，同担责任、共享欢乐、勇敢筑梦。<br>
+                     如果您对加入RWIN88瑞盈有兴趣及意向, 请将您最新的个人简历（word文档或PDF格式）<br>
+                     发送到<a href="mailto:info@rwin88.com" target="_blank"> info#rwin88.com</a>（发邮件请记得将“#”换成“@”）。</p>
+            </div>
+        </div>        
+    </div>
+    <div id="wscrolltop"><h5>Top</h5><div class="scrico"></div></div>
+
+<script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/action.js"></script>
+
+<script type="text/javascript" src="./瑞盈通MMA账户资金管理_files/stats" charset="UTF-8"></script>
+
+
+
+</body></html>
