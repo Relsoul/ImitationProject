@@ -2,108 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/deposits/deposit.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/deposits/deposit.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/deposits/deposit.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/footbrowser/footbrowser.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/footbrowser/footbrowser.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/footbrowser/footbrowser.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/header_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/ie-css3.htc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/introduct_bank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jindu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jindu_d.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/jindu_l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/line_left.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/rz_gray.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/tr_back.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_02.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_03.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_04.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_05.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_06.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/user_tab_w_07.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/AreaMap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/Integrals.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/LoginHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/PIE.htc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/PIE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/Profile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/Protomotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ReportMessage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/Trans.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/UserHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/amcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/base64.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/csscom2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/deposits/deposit.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/fonts/footbrowser/footbrowser.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jQuery.textSlider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.blockUI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.cookie.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.knob.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.lazyload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.marquee.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.reveal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.sideFloat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jquery.validate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.validate.message_cn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/jsbn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/kz.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/liveCasino.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/ruiyin/livecasino.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-footer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-header.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/member.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/messenger-theme-flat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/messenger.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/messenger.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/pie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/prng4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/pro_scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/register.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/report_scroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/respond.src.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/rng.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/login-content_files/rsa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/scrollbanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/select2css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/tablecloth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/textscroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login-person-favorable/博亿.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login-person-message/博亿.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login-person-report/博亿.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login-person-secure/博亿.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/login-person-wallet/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/base.css" afterPath="$PROJECT_DIR$/libs/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/css.css" afterPath="$PROJECT_DIR$/libs/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/register-bak.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/agent-header.html" afterPath="$PROJECT_DIR$/include/agent-header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/ruiyin/common.css" afterPath="$PROJECT_DIR$/libs/ruiyin/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.html" afterPath="$PROJECT_DIR$/include/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-agreement/index.html" afterPath="$PROJECT_DIR$/agent-agreement/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-home/index.html" afterPath="$PROJECT_DIR$/agent-home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-model/index.html" afterPath="$PROJECT_DIR$/agent-model/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-policy/index.html" afterPath="$PROJECT_DIR$/agent-policy/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientdown/index.html" afterPath="$PROJECT_DIR$/clientdown/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/index.html" afterPath="$PROJECT_DIR$/game/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/index.html" afterPath="$PROJECT_DIR$/home/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/index.html" afterPath="$PROJECT_DIR$/include/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/index.html" afterPath="$PROJECT_DIR$/index/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liveCasino/index.html" afterPath="$PROJECT_DIR$/liveCasino/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/main.css" afterPath="$PROJECT_DIR$/libs/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/ruiyin.js" afterPath="$PROJECT_DIR$/libs/ruiyin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-everydayFavorable/index.html" afterPath="$PROJECT_DIR$/login-person-everydayFavorable/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-favorable/index.html" afterPath="$PROJECT_DIR$/login-person-favorable/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-home/index.html" afterPath="$PROJECT_DIR$/login-person-home/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-message/index.html" afterPath="$PROJECT_DIR$/login-person-message/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-report/index.html" afterPath="$PROJECT_DIR$/login-person-report/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-secure/index.html" afterPath="$PROJECT_DIR$/login-person-secure/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-wallet/index.html" afterPath="$PROJECT_DIR$/login-person-wallet/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lottery/index.html" afterPath="$PROJECT_DIR$/lottery/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promotions/index.html" afterPath="$PROJECT_DIR$/promotions/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/index.html" afterPath="$PROJECT_DIR$/sports/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/indexbak.html" afterPath="$PROJECT_DIR$/index/indexbak.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/login-header.html" afterPath="$PROJECT_DIR$/include/login-header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/register.html" afterPath="$PROJECT_DIR$/home/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liveCasino/真人视讯.html" afterPath="$PROJECT_DIR$/liveCasino/真人视讯.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/体育赛事.html" afterPath="$PROJECT_DIR$/sports/体育赛事.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-home/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-home/博亿 - home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" afterPath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-favorable/博亿.html" afterPath="$PROJECT_DIR$/login-person-favorable/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-home/博亿.html" afterPath="$PROJECT_DIR$/login-person-home/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-wallet/博亿.html" afterPath="$PROJECT_DIR$/login-person-wallet/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lottery/彩票游戏.html" afterPath="$PROJECT_DIR$/lottery/彩票游戏.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/老虎机.html" afterPath="$PROJECT_DIR$/game/老虎机.html" />
     </list>
     <ignored path="ImitationProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,22 +59,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0357144">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state vertical-scroll-proportion="-25.285715">
+              <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#5;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,8 +80,8 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.607143">
-              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state vertical-scroll-proportion="-24.607143">
+              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -162,7 +93,7 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.357143">
+            <state vertical-scroll-proportion="-0.6785714">
               <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -175,17 +106,17 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-report/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
+            <state vertical-scroll-proportion="-6.107143">
               <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-secure/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24022989">
+            <state vertical-scroll-proportion="-0.6785714">
               <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               <folding />
             </state>
@@ -195,42 +126,54 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-wallet/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.678572">
-              <caret line="185" column="26" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
+            <state vertical-scroll-proportion="-19.678572">
+              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding>
-                <marker date="1457092373391" expanded="true" signature="7974:7988" placeholder="..." />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1457107272458" expanded="true" signature="7974:7988" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/index.html">
+      <file leaf-file-name="彩票游戏.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lottery/彩票游戏.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.785714">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="资料修改.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login-person-secure/资料修改.html">
+      <file leaf-file-name="博艺.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/promotions/博艺.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.785714">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="体育赛事.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sports/体育赛事.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.87931037">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -252,7 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/agent-policy/无限博 - home.html" />
         <option value="$PROJECT_DIR$/clientdown/无限博.html" />
         <option value="$PROJECT_DIR$/LotteryGame/彩票游戏.html" />
         <option value="$PROJECT_DIR$/OneArmBandit/老虎机.html" />
@@ -262,47 +204,48 @@
         <option value="$PROJECT_DIR$/promotions/index.html" />
         <option value="$PROJECT_DIR$/game/index.html" />
         <option value="$PROJECT_DIR$/sports/index.html" />
-        <option value="$PROJECT_DIR$/home/index.html" />
         <option value="$PROJECT_DIR$/index/index.html" />
-        <option value="$PROJECT_DIR$/include/header.html" />
-        <option value="$PROJECT_DIR$/sports/体育赛事.html" />
-        <option value="$PROJECT_DIR$/promotions/博艺.html" />
-        <option value="$PROJECT_DIR$/lottery/彩票游戏.html" />
-        <option value="$PROJECT_DIR$/home/register.html" />
-        <option value="$PROJECT_DIR$/game/老虎机.html" />
-        <option value="$PROJECT_DIR$/clientdown/博亿.html" />
         <option value="$PROJECT_DIR$/include/footer.html" />
-        <option value="$PROJECT_DIR$/index/indexbak.html" />
         <option value="$PROJECT_DIR$/include/agent-header.html" />
-        <option value="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-home/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-model/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
         <option value="$PROJECT_DIR$/../blog/themes/yilia/layout/_partial/left-col.ejs" />
         <option value="$PROJECT_DIR$/include/header-copy.html" />
         <option value="$PROJECT_DIR$/include/login-content.html" />
         <option value="$PROJECT_DIR$/libs/main.css" />
         <option value="$PROJECT_DIR$/libs/action.js" />
-        <option value="$PROJECT_DIR$/login-person-wallet/index.html" />
         <option value="$PROJECT_DIR$/include/login-footer.html" />
         <option value="$PROJECT_DIR$/libs/register.js" />
         <option value="$PROJECT_DIR$/libs/ruiyin.js" />
-        <option value="$PROJECT_DIR$/include/login-header.html" />
         <option value="$PROJECT_DIR$/libs/base.css" />
-        <option value="$PROJECT_DIR$/libs/ruiyin/common.css" />
-        <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
         <option value="$PROJECT_DIR$/liveCasino/index.html" />
         <option value="$PROJECT_DIR$/login-person-home/index.html" />
+        <option value="$PROJECT_DIR$/login-person-everydayFavorable/index.html" />
+        <option value="$PROJECT_DIR$/libs/css.css" />
+        <option value="$PROJECT_DIR$/login-person-secure/资料修改.html" />
+        <option value="$PROJECT_DIR$/libs/ruiyin/common.css" />
+        <option value="$PROJECT_DIR$/login-person-wallet/index.html" />
+        <option value="$PROJECT_DIR$/game/老虎机.html" />
+        <option value="$PROJECT_DIR$/home/index.html" />
+        <option value="$PROJECT_DIR$/home/register.html" />
+        <option value="$PROJECT_DIR$/include/header.html" />
+        <option value="$PROJECT_DIR$/include/login-header.html" />
+        <option value="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/agent-home/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/agent-model/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
+        <option value="$PROJECT_DIR$/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/home/register-bak.html" />
+        <option value="$PROJECT_DIR$/index/indexbak.html" />
+        <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
         <option value="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
         <option value="$PROJECT_DIR$/login-person-favorable/博亿.html" />
         <option value="$PROJECT_DIR$/login-person-home/博亿.html" />
         <option value="$PROJECT_DIR$/login-person-message/博亿.html" />
         <option value="$PROJECT_DIR$/login-person-report/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-wallet/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-everydayFavorable/index.html" />
-        <option value="$PROJECT_DIR$/libs/css.css" />
-        <option value="$PROJECT_DIR$/login-person-secure/资料修改.html" />
         <option value="$PROJECT_DIR$/login-person-secure/博亿.html" />
+        <option value="$PROJECT_DIR$/login-person-wallet/博亿.html" />
+        <option value="$PROJECT_DIR$/lottery/彩票游戏.html" />
+        <option value="$PROJECT_DIR$/promotions/博艺.html" />
+        <option value="$PROJECT_DIR$/sports/体育赛事.html" />
       </list>
     </option>
   </component>
@@ -353,6 +296,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,6 +312,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="promotions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lottery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login-person-wallet" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,10 +455,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liveCasino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-policy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImitationProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="agent-agreement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,11 +598,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\soul\ImitationProject\home" />
       <recent name="D:\Project\soul\ImitationProject\images" />
       <recent name="D:\Project\soul\ImitationProject\login-person-everydayFavorable" />
       <recent name="D:\Project\soul\ImitationProject\login-person-favorable" />
       <recent name="D:\Project\soul\ImitationProject\login-person-report" />
-      <recent name="D:\Project\soul\ImitationProject\libs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Project\soul\ImitationProject\include" />
@@ -487,10 +612,7 @@
       <recent name="D:\Project\soul\ImitationProject\博艺\dev\clientdown" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
-    <configuration default="false" name="index.html (5)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-favorable/index.html">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration default="false" name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-everydayFavorable/index.html">
       <method />
     </configuration>
@@ -501,6 +623,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-home/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-wallet/index.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -542,19 +667,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.login-header.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login-header.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.login-header.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (5)" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.login-header.html" />
       </list>
     </recent_temporary>
   </component>
@@ -586,7 +711,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -596,6 +720,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -646,139 +771,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/agent-agreement/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent-home/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../blog/themes/yilia/layout/_partial/left-col.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28423476">
-          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcstart/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcstart/dev/client/js/createSingletonDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38084632">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mcstart/dev/client/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22048998">
-          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/agent-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.535715">
-          <caret line="45" column="52" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.071429">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/ruiyin/csscom2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9230769">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/ruiyin/livecasino.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.3846154">
-          <caret line="6" column="99" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/base64.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/jquery.knob.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40022936">
-          <caret line="376" column="0" selection-start-line="376" selection-start-column="0" selection-end-line="376" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.153846">
@@ -795,14 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.556.1215/HZ$D.556.1216/Web/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/Integrals.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -811,32 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-wallet/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.464286">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1457092373449" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login-person-secure/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.142858">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/login-footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.25">
-          <caret line="197" column="0" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -901,34 +863,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/login-header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.285714">
-          <caret line="150" column="24" selection-start-line="150" selection-start-column="24" selection-end-line="150" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="209" column="76" selection-start-line="209" selection-start-column="76" selection-end-line="209" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/ruiyin/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33296213">
-          <caret line="542" column="44" selection-start-line="542" selection-start-column="44" selection-end-line="542" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/liveCasino/真人视讯.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.392858">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -985,71 +923,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-secure/资料修改.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0357144">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding>
-            <element signature="n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.607143">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.357143">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-report/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-wallet/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.678572">
-          <caret line="185" column="26" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
-          <folding>
-            <marker date="1457092373391" expanded="true" signature="7974:7988" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        <state vertical-scroll-proportion="-5.428571">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/agent-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62873566">
+          <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,18 +965,255 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-secure/资料修改.html">
+    <entry file="file://$PROJECT_DIR$/libs/ruiyin/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.884615">
+          <caret line="683" column="41" selection-start-line="683" selection-start-column="41" selection-end-line="683" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-wallet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.214286">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <marker date="1457104988187" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/老虎机.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.0">
+          <caret line="1088" column="0" selection-start-line="1088" selection-start-column="0" selection-end-line="1088" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714">
+          <caret line="17" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="423" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/login-footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.285715">
+          <caret line="182" column="99" selection-start-line="182" selection-start-column="99" selection-end-line="182" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.571428">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/login-header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.642857">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-agreement/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-home/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-27.0">
+          <caret line="423" column="7" selection-start-line="423" selection-start-column="7" selection-end-line="423" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#li#0;n#ul#0;n#fieldset#1;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#li#3;n#ul#0;n#fieldset#1;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#li#3;n#ul#0;n#fieldset#1;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/register-bak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3392857">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index/indexbak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liveCasino/真人视讯.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.392858">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.285715">
+          <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#5;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.607143">
+          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-report/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-secure/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24022989">
+        <state vertical-scroll-proportion="-0.6785714">
           <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-wallet/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.678572">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <marker date="1457107272458" expanded="true" signature="7974:7988" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lottery/彩票游戏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotions/博艺.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sports/体育赛事.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.87931037">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>

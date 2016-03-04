@@ -1,0 +1,81 @@
+<!--include "../include/header.html"-->
+
+<div class="content">
+    <div class="mod-reg">
+        <div class="layout">
+  <div class="hd">
+    <h3 id="regtitle">欢迎注册无限博</h3>
+    <p></p>
+    <p id="regword">（请详细填写以下表格，带 <em class="cRed">*</em> 项目为必填项目）</p>
+  </div>
+  <form id="memberReg" method="post" action="http://www.boyi88.com/kz/member/account" novalidate="novalidate">
+    <input type="hidden" name="gender" value="0">
+    <fieldset>
+      <legend>账户资料</legend>
+      <ul class="mod-forms">
+        <li>
+          <label><em class="cRed">*</em> 用户名</label>
+          <div class="item-ipt">
+            <input type="text" name="joiname" value="" minlength="4" maxlength="11" class="txt-ipt">
+            <p><span class="tips">请输入4-11个字符, 仅可输入英文字母以及数字的组合</span></p>
+          </div>
+        </li>
+        <li>
+          <label><em class="cRed">*</em> 密码</label>
+          <div class="item-ipt">
+            <input type="password" id="joinpwd" name="joinpwd" value="" maxlength="50" class="txt-ipt">
+            <p><span class="tips">密码长度为6-16个字符,以及必须含有字母和数字的组合</span></p>
+          </div>
+        </li>
+        <li>
+          <label><em class="cRed">*</em> 确认密码</label>
+          <div class="item-ipt">
+            <input type="password" name="password1" maxlength="50" value="" class="txt-ipt">
+          </div>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>个人资料</legend>
+      <ul class="mod-forms">
+        <li>
+          <label><em class="cRed">*</em> 真实姓名</label>
+          <div class="item-ipt">
+            <input type="text" name="fullname" maxlength="50" value="" class="txt-ipt">
+            <p><span class="tips" style="color:red;">必须与您的银行帐户姓名一致，否则不能出款</span></p>
+          </div>
+        </li>
+                        <li>
+          <label><em class="cRed">*</em> 手机号码</label>
+          <div class="item-ipt">
+            <input type="text" name="uphone" value="" maxlength="50" class="txt-ipt">
+            <p><span class="tips">当前仅支持中国大陆手机号码</span></p>
+          </div>
+        </li>
+                                <input type="hidden" name="birthyear" value="0">
+        <input type="hidden" name="birthmonth" value="0">
+        <input type="hidden" name="birthday" value="0">
+                <li>
+          <label>推介代码</label>
+          <div class="item-ipt">
+                        <input type="text" name="agc" maxlength="50" class="txt-ipt">
+                      </div>
+        </li>
+        <li>
+          <label><em class="cRed">*</em>验证码</label>
+          <div class="item-ipt">
+            <input type="text" name="verifycode" where="pa" maxlength="50" class="txt-ipt">
+            <img style="cursor:hand;" onclick="get_captcha()" id="captcha" src="../libs/verifycode"><a onclick="get_captcha()" href="javascript:void(0);" style="color:red;cursor:hand;">看不清？点此换一个</a>
+          </div>
+        </li>
+      </ul>
+    </fieldset>
+    <div class="agreement"><input type="checkbox" checked="checked"> 我已届满合法博彩年龄﹐且同意并愿意遵守 <a href="http://www.boyi88.com/help/terms">"用户协议"</a>。
+</div>
+<div class="reg-sub"><a onclick="" href="javascript:void(0);">立即注册</a></div>
+</form>
+</div>
+</div>
+</div><!--footer-->
+
+<!--include "../include/footer.html"-->

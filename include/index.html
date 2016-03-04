@@ -1,67 +1,65 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0034)../agent-home/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="Keywords" content="">
     <meta name="Description" content="">
     <link type="image/x-icon" rel="shortcut icon" href="http://boyi88.com/static/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="../libs/base.css" media="screen, projection">
     <link rel="stylesheet" type="text/css" href="../libs/main.css" media="screen, projection">
-    <link rel="stylesheet" type="text/css" href="../libs/css.css" media="screen, projection">
-    <link rel="stylesheet" href="../libs/ruiyin/base.css"><link rel="stylesheet" href="../libs/ruiyin/common.css">
+    <link rel="stylesheet" type="text/css" href="../libs/agency-style.css" media="screen, projection">
     <script type="text/javascript" src="../libs/jquery.min.js"></script>
-    <script type="text/javascript" src="../libs/jquery.reveal.js"></script>
-    <script type="text/javascript" src="../libs/respond.src.js"></script>
-    <script type="text/javascript" src="../libs/jquery.marquee.min.js"></script>
-    <script type="text/javascript" src="../libs/jquery.cookie.min.js"></script>
-    <script type="text/javascript" src="../libs/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="../libs/jquery.validate.message_cn.js"></script>
-    <script type="text/javascript" src="../libs/LoginHandler.js"></script>
-    <script type="text/javascript" src="../libs/register.js"></script>
+    <script type="text/javascript" src="../libs/jquery.validate.js"></script>
     <script type="text/javascript" src="../libs/jquery.blockUI.js"></script>
-    <script type="text/javascript" src="../libs/jquery.knob.js"></script>
-
-    <script src="../libs/amcharts.js" type="text/javascript"></script>
-    <script src="../libs/pie.js" type="text/javascript"></script>
-    <script src="../libs/AreaMap.js" type="text/javascript"></script>
-    <script type="text/javascript" src="../libs/Trans.js"></script>
-    <script type="text/javascript" src="../libs/Integrals.js"></script>
     <link rel="stylesheet" type="text/css" href="../libs/messenger.css">
     <link rel="stylesheet" type="text/css" href="../libs/messenger-theme-flat.css">
-    <title>无限博</title>
-    <style>@-webkit-keyframes marqueeAnimation-756598 {
-               100% {
-                   margin-left: -100px
-               }
-           }
-    </style>
+    <script type="text/javascript" src="../libs/messenger.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery.marquee.min.js"></script>
+    <script type="text/javascript" src="../libs/agent.js"></script>
+    <script type="text/javascript" src="../libs/jsbn.js"></script>
+    <script type="text/javascript" src="../libs/prng4.js"></script>
+    <script type="text/javascript" src="../libs/rng.js"></script>
+    <script type="text/javascript" src="../libs/rsa.js"></script>
+    <script type="text/javascript" src="../libs/base64.js"></script>
+    <script type="text/javascript" src="../libs/error.js"></script>
+    <title>无限博 - home</title>
 </head>
-<body>
+<body class="">
 <div class="header">
     <div class="layout pr">
         <div class="header-top clearfix">
             <div class="web-nav clearfix">
                 <span class="spare-url">备用网址：www.rwin88.com</span>
-                <a href="../agent-home/index.html">代理加盟</a><span>｜</span><a
-                    onclick="AddFavorite(window.location,document.title);" href="../index/indexbak.html">收藏本站</a><span>｜</span><a
-                    href="../index/indexbak.html" onclick="SetHome(this,window.location);">设为首页</a>
+                <a href="../agent-home/index.html">代理加盟</a><span>｜</span><a onclick="AddFavorite(window.location,document.title);" href="../agent-home/index.html#">收藏本站</a><span>｜</span><a href="../agent-home/index.html#" onclick="SetHome(this,window.location);">设为首页</a>
             </div>
             <div class="login-wrap">
-                <div class="logined-nav">
-                    <span class="username">欢迎！test</span>
-                    <span>账户余额：<em class="cMain">0.00</em></span>
-                    <a href="http://boyi88.com/member/message" class="message">未读消息（<em id="_umessage" class="cMain">0</em>）</a>
-                        <span class="money-operate">
-                            <a href="./login-header_files/login-header.html" class="user-center">账户中心</a>
-                            <a href="http://boyi88.com/fund/index#transfer" class="transfer-href" onclick="lokmok(&#39;transfer&#39;);">转账</a>
-                            <a href="http://boyi88.com/fund/index#deposit" class="deposit-href" onclick="lokmok(&#39;deposit&#39;);">存款</a>
-                            <a href="http://boyi88.com/fund/index#withdraw" class="withdraw-href" onclick="lokmok(&#39;withdraw&#39;);">取款</a>
-                        </span>
-                    <a class="logged-out" href="http://boyi88.com/home/logout">安全退出</a>
+                <div class="login-menu">
+                    <i class="login-icon"></i>
+                    <input type="text" id="uid" name="uid" placeholder="代理账号">
+                    <input type="password" id="jpwd" name="jpwd" placeholder="密码">
+                    <a href="javascript:void(0);" id="gologin" class="log-btn">登录</a>
+                    <a href="../home/register-bak.html" class="reg-btn">注册</a>
+                    <a href="http://boyi88.com/agent/home/fetchPassword" class="forgot-password" title="忘记密码？">忘记密码？</a>
+                </div>
+            </div>
+        </div>
+        <div class="logo"><a href="http://boyi88.com/home/index" title="无限博"><img src="../images/header_logo.png"></a></div>
+    </div>
+    <div class="layout">
+        <ul class="nav fr">
+            <li class="cur"><a href="../agent-home/index.html">合营首页</a></li>
+            <li class=""><a href="../agent-home/index.html">合营模式</a></li>
+            <li class=""><a href="../agent-policy/index.html">佣金政策</a></li>
+            <li class=""><a href="../agent-agreement/index.html">合营协议</a></li>
+            <li class=""><a href="../index/index.html" target="_blank">联系我们</a></li>
+        </ul>
+    </div>
+</div>全退出</a>
                 </div>
             </div>
         </div>
 
-        <div class="logo"><a href="../index/indexbak.html" title="无限博"><img src="../images/header_logo.png"></a></div>
+        <div class="logo"><a href="../index/index.html" title="无限博"><img src="../images/header_logo.png"></a></div>
 
     </div>
     <ul class="nav clearfix" id="menu">
@@ -80,7 +78,7 @@
                 <a href="../liveCasino/index.html">泰山</a>
                 <a href="../liveCasino/index.html">GD</a>
                 <a href="../liveCasino/index.html">188</a>
-                <a href="../liveCasino/index.html">hy</a>
+                <a href="../liveCasino/index.html">HY</a>
                 <span class="drop-bg-right"></span>
             </div>
         </li>
@@ -88,8 +86,8 @@
 
             <div class="nav-drop sports-drop clearfix">
                 <span class="drop-bg-left"></span>
-                <a href="../sports/index.html">BBin</a>
-                <a href="../sports/index.html">im</a>
+                <a href="../sports/index.html">BBIN</a>
+                <a href="../sports/index.html">IM</a>
                 <a href="../sports/index.html">188 </a>
                 <a href="../sports/index.html">威能</a>
                 <span class="drop-bg-right"></span>

@@ -662,7 +662,7 @@ transform: rotate(180deg);}
 .report_box table{width:100%;border-collapse:collapse;margin:5px 0;}
 .report_box th{font-size:14px;}
 .report_box th,.report_box td{text-align:left;padding:.5em;border:1px solid #fff;}
-.report_box th{background:#1fae4b url(../../images/tr_back.gif) repeat-x;color:#fff;}
+.report_box th{background:#eee;color:#000;}
 .report_box td{background:#e5f1f4;}
 .report_box td a{color:#1fae4b;}
 /* tablecloth styles */
@@ -680,7 +680,7 @@ transform: rotate(180deg);}
 /* use this if you want to apply different styleing to empty table cells*/
 .report_box td.empty,.report_box tr.odd td.empty,.report_box tr.even td.empty{background:#fff;}
 
-.report_total{width:100%;background-color:#36c476;padding:.5em;color:#fff;margin-top:5px;font-size:13px;}
+.report_total{width:100%;background-color:#eee;padding:.5em;color:#000;margin-top:5px;font-size:13px;}
 .report_page{width:100%;overflow:hidden;}
 .report_page .page_left{float:left;width:;line-height:30px;color:#999;padding-left:6px;font-size:12px;font-style:italic;}
 .report_page .page_right{float:right;width:;line-height:30px;padding-right:6px;}
