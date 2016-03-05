@@ -2,40 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/home/register-bak.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/agent-header.html" afterPath="$PROJECT_DIR$/include/agent-header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/ruiyin/common.css" afterPath="$PROJECT_DIR$/libs/ruiyin/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/header.html" afterPath="$PROJECT_DIR$/include/header.html" />
+      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\仿站ver1.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-agreement/index.html" afterPath="$PROJECT_DIR$/agent-agreement/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-home/index.html" afterPath="$PROJECT_DIR$/agent-home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-model/index.html" afterPath="$PROJECT_DIR$/agent-model/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-policy/index.html" afterPath="$PROJECT_DIR$/agent-policy/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientdown/index.html" afterPath="$PROJECT_DIR$/clientdown/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/index.html" afterPath="$PROJECT_DIR$/game/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/index.html" afterPath="$PROJECT_DIR$/home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/index.html" afterPath="$PROJECT_DIR$/include/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/index.html" afterPath="$PROJECT_DIR$/index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/liveCasino/index.html" afterPath="$PROJECT_DIR$/liveCasino/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-everydayFavorable/index.html" afterPath="$PROJECT_DIR$/login-person-everydayFavorable/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-favorable/index.html" afterPath="$PROJECT_DIR$/login-person-favorable/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-home/index.html" afterPath="$PROJECT_DIR$/login-person-home/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-message/index.html" afterPath="$PROJECT_DIR$/login-person-message/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-report/index.html" afterPath="$PROJECT_DIR$/login-person-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-secure/index.html" afterPath="$PROJECT_DIR$/login-person-secure/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-wallet/index.html" afterPath="$PROJECT_DIR$/login-person-wallet/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lottery/index.html" afterPath="$PROJECT_DIR$/lottery/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promotions/index.html" afterPath="$PROJECT_DIR$/promotions/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/index.html" afterPath="$PROJECT_DIR$/sports/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/indexbak.html" afterPath="$PROJECT_DIR$/index/indexbak.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/login-header.html" afterPath="$PROJECT_DIR$/include/login-header.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/register.html" afterPath="$PROJECT_DIR$/home/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/体育赛事.html" afterPath="$PROJECT_DIR$/sports/体育赛事.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-agreement/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-home/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-home/博亿 - home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-model/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-model/博亿 - home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-policy/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientdown/博亿.html" afterPath="$PROJECT_DIR$/clientdown/博亿.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" afterPath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-favorable/博亿.html" afterPath="$PROJECT_DIR$/login-person-favorable/博亿.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-home/博亿.html" afterPath="$PROJECT_DIR$/login-person-home/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-message/博亿.html" afterPath="$PROJECT_DIR$/login-person-message/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-report/博亿.html" afterPath="$PROJECT_DIR$/login-person-report/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-secure/博亿.html" afterPath="$PROJECT_DIR$/login-person-secure/博亿.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-wallet/博亿.html" afterPath="$PROJECT_DIR$/login-person-wallet/博亿.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promotions/博艺.html" afterPath="$PROJECT_DIR$/promotions/博艺.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lottery/彩票游戏.html" afterPath="$PROJECT_DIR$/lottery/彩票游戏.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/老虎机.html" afterPath="$PROJECT_DIR$/game/老虎机.html" />
     </list>
@@ -59,10 +44,20 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-25.285715">
-              <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+              <caret line="428" column="6" selection-start-line="428" selection-start-column="6" selection-end-line="428" selection-end-column="6" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -80,8 +75,8 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.607143">
-              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+            <state vertical-scroll-proportion="-25.964285">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -93,8 +88,8 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state vertical-scroll-proportion="-1.3571428">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -106,8 +101,8 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-report/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.107143">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state vertical-scroll-proportion="-1.3571428">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,8 +111,8 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-secure/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+            <state vertical-scroll-proportion="-1.3571428">
+              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,14 +121,13 @@
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-wallet/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.678572">
-              <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <marker date="1457107272458" expanded="true" signature="7974:7988" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -142,8 +136,8 @@
       <file leaf-file-name="彩票游戏.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lottery/彩票游戏.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -152,18 +146,8 @@
       <file leaf-file-name="博艺.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/promotions/博艺.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6785714">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -172,8 +156,8 @@
       <file leaf-file-name="体育赛事.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sports/体育赛事.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.87931037">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.77011496">
+              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -223,19 +207,19 @@
         <option value="$PROJECT_DIR$/login-person-secure/资料修改.html" />
         <option value="$PROJECT_DIR$/libs/ruiyin/common.css" />
         <option value="$PROJECT_DIR$/login-person-wallet/index.html" />
-        <option value="$PROJECT_DIR$/game/老虎机.html" />
         <option value="$PROJECT_DIR$/home/index.html" />
-        <option value="$PROJECT_DIR$/home/register.html" />
         <option value="$PROJECT_DIR$/include/header.html" />
         <option value="$PROJECT_DIR$/include/login-header.html" />
+        <option value="$PROJECT_DIR$/home/register-bak.html" />
+        <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
         <option value="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
         <option value="$PROJECT_DIR$/agent-home/博亿 - home.html" />
         <option value="$PROJECT_DIR$/agent-model/博亿 - home.html" />
         <option value="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
         <option value="$PROJECT_DIR$/clientdown/博亿.html" />
-        <option value="$PROJECT_DIR$/home/register-bak.html" />
+        <option value="$PROJECT_DIR$/game/老虎机.html" />
+        <option value="$PROJECT_DIR$/home/register.html" />
         <option value="$PROJECT_DIR$/index/indexbak.html" />
-        <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
         <option value="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
         <option value="$PROJECT_DIR$/login-person-favorable/博亿.html" />
         <option value="$PROJECT_DIR$/login-person-home/博亿.html" />
@@ -296,7 +280,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -584,6 +567,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -704,18 +688,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13119073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -771,19 +755,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libs/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.153846">
-          <caret line="137" column="49" selection-start-line="137" selection-start-column="49" selection-end-line="137" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login-person-message/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.285715">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,7 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.142858">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -807,7 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -815,9 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.392857">
           <caret line="254" column="0" selection-start-line="254" selection-start-column="0" selection-end-line="425" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.821428">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,9 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.642857">
           <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="368" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -843,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.785714">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.19042316">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="209" column="76" selection-start-line="209" selection-start-column="76" selection-end-line="209" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.464286">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2862069">
           <caret line="289" column="16" selection-start-line="289" selection-start-column="16" selection-end-line="289" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -891,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.481482">
           <caret line="314" column="7" selection-start-line="297" selection-start-column="4" selection-end-line="314" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.04367816">
           <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,9 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.964285">
           <caret line="290" column="75" selection-start-line="290" selection-start-column="75" selection-end-line="290" selection-end-column="75" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -917,9 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7264368">
           <caret line="1797" column="54" selection-start-line="1797" selection-start-column="54" selection-end-line="1797" selection-end-column="54" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.428571">
           <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -945,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.62873566">
           <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -953,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="123" column="23" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.884615">
           <caret line="683" column="41" selection-start-line="683" selection-start-column="41" selection-end-line="683" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,17 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.214286">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-          <folding>
-            <marker date="1457104988187" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/老虎机.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.0">
-          <caret line="1088" column="0" selection-start-line="1088" selection-start-column="0" selection-end-line="1088" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -995,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.535714">
           <caret line="17" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="423" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1011,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.285715">
           <caret line="182" column="99" selection-start-line="182" selection-start-column="99" selection-end-line="182" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1019,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.571428">
           <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,54 +956,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.642857">
           <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/register-bak.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3392857">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liveCasino/真人视讯.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.392858">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../bdwork/soul/soulChat/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent-agreement/博亿 - home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent-home/博亿 - home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3571428">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/老虎机.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.0">
+          <caret line="1088" column="0" selection-start-line="1088" selection-start-column="0" selection-end-line="1088" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.0">
-          <caret line="423" column="7" selection-start-line="423" selection-start-column="7" selection-end-line="423" selection-end-column="7" />
+        <state vertical-scroll-proportion="-25.285715">
+          <caret line="419" column="0" selection-start-line="419" selection-start-column="0" selection-end-line="419" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#a#0;n#li#6;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#li#0;n#ul#0;n#fieldset#1;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1085,15 +1051,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home/register-bak.html">
+    <entry file="file://$PROJECT_DIR$/index/indexbak.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3392857">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index/indexbak.html">
+    <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6785714">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -1101,26 +1067,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/liveCasino/真人视讯.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.392858">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3571428">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.285715">
-          <caret line="429" column="0" selection-start-line="429" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
+          <caret line="428" column="6" selection-start-line="428" selection-start-column="6" selection-end-line="428" selection-end-column="6" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -1136,8 +1086,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.607143">
-          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+        <state vertical-scroll-proportion="-25.964285">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1147,8 +1097,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1158,62 +1108,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-report/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.107143">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-secure/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+        <state vertical-scroll-proportion="-1.3571428">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login-person-wallet/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.678572">
-          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#svg#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <marker date="1457107272458" expanded="true" signature="7974:7988" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lottery/彩票游戏.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/promotions/博艺.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sports/体育赛事.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87931037">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.77011496">
+          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
           <folding />
         </state>
       </provider>

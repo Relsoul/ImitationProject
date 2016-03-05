@@ -195,6 +195,7 @@
                 $(".dial").val(i).trigger("change");
                 $("#info-complete").html(i + "%");
             }, 30);
+
             $("#healthoption").bind("change", function () {
                 $.post("handler/userhandler.ashx", {action:"sethealth",healthoption:$("#healthoption").val()}, function (message) {
                     alert(message);
