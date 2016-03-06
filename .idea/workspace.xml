@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc6fd37-687a-4f70-b38b-d158f0696a93" name="默认的" comment="">
-      <change type="DELETED" beforePath="D:\Project\soul\ImitationProject\仿站ver1.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-agreement/index.html" afterPath="$PROJECT_DIR$/agent-agreement/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index/indexbak.html" afterPath="$PROJECT_DIR$/index/indexbak.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home/register.html" afterPath="$PROJECT_DIR$/home/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sports/体育赛事.html" afterPath="$PROJECT_DIR$/sports/体育赛事.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-agreement/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-home/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-home/博亿 - home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-model/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-model/博亿 - home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agent-policy/博亿 - home.html" afterPath="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clientdown/博亿.html" afterPath="$PROJECT_DIR$/clientdown/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" afterPath="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-favorable/博亿.html" afterPath="$PROJECT_DIR$/login-person-favorable/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-home/博亿.html" afterPath="$PROJECT_DIR$/login-person-home/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-message/博亿.html" afterPath="$PROJECT_DIR$/login-person-message/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-report/博亿.html" afterPath="$PROJECT_DIR$/login-person-report/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-secure/博亿.html" afterPath="$PROJECT_DIR$/login-person-secure/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login-person-wallet/博亿.html" afterPath="$PROJECT_DIR$/login-person-wallet/博亿.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/promotions/博艺.html" afterPath="$PROJECT_DIR$/promotions/博艺.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lottery/彩票游戏.html" afterPath="$PROJECT_DIR$/lottery/彩票游戏.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game/老虎机.html" afterPath="$PROJECT_DIR$/game/老虎机.html" />
     </list>
     <ignored path="ImitationProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="博亿.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.285715">
-              <caret line="428" column="6" selection-start-line="428" selection-start-column="6" selection-end-line="428" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.3118527">
+              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -153,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="体育赛事.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="体育赛事.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sports/体育赛事.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77011496">
-              <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+            <state vertical-scroll-proportion="-23.928572">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -596,11 +576,8 @@
       <recent name="D:\Project\soul\ImitationProject\博艺\dev\clientdown" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.博亿.html">
     <configuration default="false" name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-everydayFavorable/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="login-header.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/include/login-header.html">
       <method />
     </configuration>
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/liveCasino/index.html">
@@ -610,6 +587,9 @@
       <method />
     </configuration>
     <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-wallet/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="博亿.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-favorable/博亿.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -652,18 +632,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.login-header.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.博亿.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.login-header.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.博亿.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -688,18 +668,18 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13119073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1067,34 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.285715">
-          <caret line="428" column="6" selection-start-line="428" selection-start-column="6" selection-end-line="428" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#5;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.964285">
-          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3571428">
@@ -1153,9 +1105,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sports/体育赛事.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77011496">
-          <caret line="66" column="16" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
+        <state vertical-scroll-proportion="-23.928572">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.964285">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3118527">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#td#4;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#dl#5;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
