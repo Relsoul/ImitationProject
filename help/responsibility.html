@@ -1,0 +1,424 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <link type="image/x-icon" rel="shortcut icon" href="http://boyi88.com/static/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../libs/base.css" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="../libs/main.css" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="../libs/css.css" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="../libs/help.css" media="screen, projection">
+    <script type="text/javascript" src="../libs/jquery.min.js"></script>
+    <script type="text/javascript" src="../libs/jquery.reveal.js"></script>
+    <script type="text/javascript" src="../libs/respond.src.js"></script>
+    <script type="text/javascript" src="../libs/jquery.marquee.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../libs/messenger.css">
+    <link rel="stylesheet" type="text/css" href="../libs/messenger-theme-flat.css">
+    <title>无限博</title>
+    <style>@-webkit-keyframes marqueeAnimation-756598 {
+               100% {
+                   margin-left: -100px
+               }
+           }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="layout pr">
+        <div class="header-top clearfix">
+            <div class="web-nav clearfix">
+                <span class="spare-url">备用网址：www.rwin88.com</span>
+                <a href="../agent-home/index.html">代理加盟</a><span>｜</span><a
+                    onclick="AddFavorite(window.location,document.title);" href="../index/index.html">收藏本站</a><span>｜</span><a
+                    href="../index/index.html" onclick="SetHome(this,window.location);">设为首页</a>
+            </div>
+            <div class="login-wrap">
+                <div class="login-menu">
+                    <i class="login-icon"></i>
+                    <input type="text" id="uid" name="uid" placeholder="会员账号">
+                    <input type="password" id="jpwd" name="jpwd" placeholder="密码">
+                    <a href="javascript:void(0);" id="gologin" class="log-btn">登录</a>
+                    <a href="../home/index.html" class="reg-btn">注册</a>
+                    <a href="http://www.rwin88.com/" class="forgot-password" title="忘记密码？">忘记密码？</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="logo"><a href="../index/index.html" title="无限博"><img src="../images/header_logo.png"></a></div>
+
+    </div>
+    <ul class="nav clearfix" id="menu">
+        <li class="cur"><a href="../index/index.html">首页</a></li>
+        <li class=""><a href="../liveCasino/index.html">真人视讯</a>
+
+            <div class="nav-drop l-c-drop clearfix">
+                <span class="drop-bg-left"></span>
+                <a href="../liveCasino/index.html">BBIN</a>
+                <a href="../liveCasino/index.html">AG</a>
+                <a href="../liveCasino/index.html">MG</a>
+                <a href="../liveCasino/index.html">PT</a>
+                <a href="../liveCasino/index.html">VIVO</a>
+                <a href="../liveCasino/index.html">GPI</a>
+                <a href="../liveCasino/index.html">欧博</a>
+                <a href="../liveCasino/index.html">泰山</a>
+                <a href="../liveCasino/index.html">GD</a>
+                <a href="../liveCasino/index.html">188</a>
+                <a href="../liveCasino/index.html">HY</a>
+                <span class="drop-bg-right"></span>
+            </div>
+        </li>
+        <li class=""><a href="../sports/index.html">体育赛事</a>
+
+            <div class="nav-drop sports-drop clearfix">
+                <span class="drop-bg-left"></span>
+                <a href="../sports/index.html">BBIN</a>
+                <a href="../sports/index.html">IM</a>
+                <a href="../sports/index.html">188 </a>
+                <a href="../sports/index.html">威能</a>
+                <span class="drop-bg-right"></span>
+            </div>
+        </li>
+        <li class=""><a href="../game/index.html">PT老虎机</a>
+
+            <div class="nav-drop games-drop clearfix">
+                <span class="drop-bg-left"></span>
+                <a href="../game/index.html#bbin" >BBIN</a>
+                <a href="../game/index.html#ag" >AG</a>
+                <a href="../game/index.html#mg" >MG</a>
+                <a href="../game/index.html#pt" >PT</a>
+                <a href="../game/index.html#bbtech" >BBTECH</a>
+                <a href="../game/index.html#gpi" >GPI</a>
+                <a href="../game/index.html#gos" >GOS</a>
+                <a href="../game/index.html#bs" >BS</a>
+                <a href="../game/index.html#png" >PNG</a>
+                <span class="drop-bg-right"></span>
+            </div>
+        </li>
+        <li class=""><a href="../lottery/index.html">彩票游戏</a>
+
+            <div class="nav-drop lottery-drop clearfix">
+                <span class="drop-bg-left"></span>
+                <a href="../lottery/index.html#bbin" >BBIN</a>
+                <a href="../lottery/index.html#gpi" >优德</a>
+                <a href="../lottery/index.html#kg" >KG</a>
+                <a href="../lottery/index.html#lb" >LB</a>
+                <a href="../lottery/index.html#yungu" >云谷</a>
+                <a href="../lottery/index.html#im" >IM</a>
+                <span class="drop-bg-right"></span>
+            </div>
+        </li>
+        <li class=""><a href="../clientdown/index.html">客户端下载</a></li>
+        <li class=""><a href="../promotions/index.html" class="ss nav-promotions"
+                        style="color: rgb(255, 255, 255);">优惠活动</a></li>
+        <li><a href="../agent-home/index.html" target="_blank">代理加盟</a></li>
+        <li><a href="javascript:void(0);"
+               onclick="alert('敬请期待');">在线客服</a>
+        </li>
+    </ul>
+    <script>
+        //下拉导航alert("暂未开放");
+        $(function () {
+            $('#menu').find('li').mouseover(function () {
+                $(this).addClass('hover');
+                $(this).find('.nav-drop').show();
+            });
+            $('#menu').find('li').mouseout(function () {
+                $(this).removeClass('hover');
+                $(this).find('.nav-drop').hide();
+            });
+        });
+        //文字闪烁
+        var i = 0;
+        function getColor() {
+            i++;
+            switch (i) {
+                case 1:
+                    return "#f3e00d";
+                default:
+                    return "#fff";
+            }
+        }
+        function colorful() {
+            var color = getColor();
+            $(".ss").css("color", color);
+            if (i == 2)i = 0;
+            setTimeout('colorful()', 600);
+        }
+        colorful();
+    </script>
+</div>
+<div class="content">
+    <div class="mod-banner">
+        <!--焦点图-->
+        <div class="slide-wrap" id="slides">
+            <ul>
+                <li style="display:block;"><img src="../images/welcome_banner_01.png"></li>
+            </ul>
+        </div>
+        <!-- 公告 -->
+        <div class="notice"><div class="layout"><div class="marquee"><div style="width: 100000px; margin-left: 765px; animation: marqueeAnimation-6712298 146.711s linear -10s;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 100px; float: left;"></div><div class="js-marquee" style="margin-right: 100px; float: left;"></div></div></div></div></div>
+<script type="text/javascript">
+    //公告滚动
+    $(document).ready(function(){
+        $('.marquee').marquee({
+            duration:30000,
+            gap:100,
+            delayBeforeStart:-10000,
+            direction: 'left',
+            duplicated: true,
+            pauseOnHover:true
+        });
+    });
+</script>        <!--end 公告 -->
+        <!--end 焦点图-->
+    </div>
+    <div class="help-content">
+        <div class="help-wrap layout">
+            <div class="area-sub fl">
+                <div class="menu-sub">
+    <div class="sub-hd"></div>
+    <ul>
+                <li><a href="../help/problems.html">常见问题<em></em></a></li>
+                <li><a href="../help/contact.html">联系我们<em></em></a></li>
+                <li><a href="../help/privacy.html">隐私政策<em></em></a></li>
+                <li class="current"><a href="../help/responsibility.html">责任博彩<em></em></a></li>
+                <li><a href="../help/terms.html">规则条款<em></em></a></li>
+            </ul>
+    <div class="sub-ft"></div>
+</div>            </div>
+            <div class="area-main fr">
+    <h2>责任博彩</h2>
+    <p>无限博致力于理性博彩，并积极促进对问题博彩的关注、提高预防以及干预和消除。无限博以理性博彩政策为起点努力减少问题博彩的负面影响并大力推广理智博彩活动。我们认为，确保您喜爱在我们网站上博彩同时充分关注与问题博彩相关的社会和财务危害是我们对客户您的责任。为了协助您进行理性博彩，我们确保工作人员接受理性博彩意识的培训。如需更多信息或协助请联系客户服务部。</p>
+                <h3>保持控制</h3>
+                <p>我们绝大部分的客户都在自己的财力之内进行博彩，但也有少数难以做到这一点。为了维持对博彩习惯的自我控制，请注意以下几点：</p>
+                <ul class="child">
+                    <li>博彩是需要有节制的，是一种休闲方式而不是赚钱方法 </li>
+                    <li>避免越输越想捞本的做法</li>
+                    <li>只有在能够承担损失的情况下才博彩</li>
+                    <li>游戏时间长短和资金投入数量的纪录</li>
+                    <li>如果您需要和他人交流关于您博彩的顾虑，请联系我们列出的以下组织。</li>
+                </ul>
+                <h3>您遇到了问题吗？</h3>
+                <p>如果您担心博彩对您或别人的生活造成负面影响，以下的几个提问也许能帮助您解答。</p>
+                <ol class="child">
+                    <li>您会否因为博彩而不上班或不上学？</li>
+                    <li>您会以博彩消磨时间或逃避无聊吗？</li>
+                    <li>您独自博彩很长时间了吗？</li>
+                    <li>其他人指责您博彩吗？</li>
+                    <li>由于博彩您已经对家庭、朋友或爱好失去兴趣了吗？</li>
+                    <li>您曾经说谎以掩盖您花费在博彩上的金钱和时间吗？</li>
+                    <li>您曾说谎、偷窃或借钱以保证博彩的需要吗？</li>
+                    <li>您不情愿把博彩的钱花费在其他东西上吗？</li>
+                    <li>直到输光了您才停止博彩吗？</li>
+                    <li>在损失金钱后，您是否感觉必须尝试和尽快赢回那些损失？</li>
+                    <li>如果您博彩输光了，您是否有失落、绝望并有想尽快再博彩的感觉？</li>
+                    <li>争执、挫折或失望使您想要进行博彩吗？</li>
+                    <li>博彩使您感觉消沉或有自杀倾向？</li>
+                </ol>
+                <p>您回答“是”的问题越多，您越有可能是问题博彩者。需要与给您忠告和支持的人员交流，请联系以下组织。</p>
+                <p>博彩互戒协会（ Gamblers Anonymous ）是一个男女的共同组织，其目标就是并肩解决他们的博彩问题，并帮助解决其他博彩强迫症者的问题。世界各地都有他们的地区组织。互戒协会的国际服务网站为：www.gamblersanonymous.org</p>
+                <p>博彩医治组织（ Gambling Therapy ）为每一个不幸被博彩困扰的人提供支持和咨询。该组织成员居于英国及世界各地。其网站为：www.gamblingtherapy.org</p>
+                <h3>未成年人博彩</h3>
+                <p>任何未满 18 岁人士在无限博开户或博彩均属违法。 无限博会在此方面绝对严格执行。我们对所有使用 18 岁以下青少年可用的存款方式的客户执行电子年龄验证，并随机验证使用其它存款方式。 请注意任何 18 岁以下人士若被发现使用这个网站，所有盈利将被没收并且交由警察处理。</p>
+                <h3>过滤系统</h3>
+                <p>无限博 忠告并鼓励客户阻止未成年人使用博彩网站。 ICRA ( 互联网内容等级协会 ) 为家长提供完整的过滤方案，无限博 作为“博彩内容”网站已经与其注册。 如果您和博彩年龄以下的朋友家人共享电脑，请点击链接注册： www.icra.org 。 此外，过滤方案请见 NetNanny 或 Cyberpatrol。</p>
+</div>        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-menu"><a href="../index/indexbak.html">联系我们</a><span>|</span><a
+            href="http://boyi88.com/help/privacy">隐私政策</a><span>|</span><a href="http://boyi88.com/help/responsibility">责任博彩</a><span>|</span><a
+            href="http://boyi88.com/help/faqs">常见问题</a><span>|</span><a
+            href="http://boyi88.com/help/terms">规则条款</a><span>|</span><a
+            href="../agent-home/index.html">合营加盟</a></div>
+    <div class="footer-icon layout">
+        <div class="liability-wrap fr">
+            <h4>博彩责任</h4>
+            <ul>
+                <li><a><span id="_FastCagayan"></span></a></li>
+                <li><a><span id="_GamCare"></span></a></li>
+                <li><a><span id="_AdultsOnly"></span></a></li>
+            </ul>
+        </div>
+        <div class="partner-wrap fl">
+            <h4>合作伙伴</h4>
+            <ul>
+                <li><a href="http://www.asia-gaming.com/index.php?LANG=zh" target="_blank"><span
+                        id="_AsiaGaming"></span></a></li>
+                <li><a href="http://www.microgaming.co.uk/" target="_blank"><span id="_MicroGaming"></span></a></li>
+                <li><a href="http://www.playtech.com/" target="_blank"><span id="_Playtech"></span></a></li>
+                <li><a href="http://www.bb-in.com/" target="_blank"><span id="_BBIN"></span></a></li>
+                <li><a href="http://www.rwin88.com/" target="_blank"><span id="_FHcai"></span></a></li>
+            </ul>
+        </div>
+        <div class="payment-wrap fl">
+            <h4>支付方式</h4>
+            <ul>
+                <li><a><span id="_Visa"></span></a></li>
+                <li><a><span id="_UnionPay"></span></a></li>
+                <li><a><span id="_MasterCard"></span></a></li>
+            </ul>
+        </div>
+        <div class="gambling-wrap fl">
+            <h4>运营监管</h4>
+            <ul>
+                <li><a><span id="_Gambling"></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!--introduce-->
+    <div class="introduce layout">
+        <ul class="clearfix">
+            <li class="int-service">
+                <h3>服务优势</h3>
+                <dl>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr"><em id="m">45</em><span>秒</span></div>
+                            <div class="fl"><h4>存款到账</h4>
+
+                                <p>平均时间</p></div>
+                        </div>
+                        <div class="int-speed-bar deposit-speed"><i id="pm"></i></div>
+                    </dd>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr"><em id="d">4'33</em><span>秒</span></div>
+                            <div class="fl"><h4>取款到账</h4>
+
+                                <p>平均时间</p></div>
+                        </div>
+                        <div class="int-speed-bar withdraw-speed"><i id="dm"></i></div>
+                    </dd>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr"><em id="j">34</em><span>家</span></div>
+                            <div class="fl"><h4>便捷的银行服务</h4>
+
+                                <p>目前我们支付机构有：</p></div>
+                        </div>
+                        <img src="../images/introduct_bank.png" width="253" height="21" class="m-t-10">
+                    </dd>
+                </dl>
+            </li>
+            <li class="int-product">
+                <h3>产品优势</h3>
+                <dl>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr">LOTTERY</div>
+                            <div class="fl"><h4>彩票游戏</h4></div>
+                        </div>
+                        <p>无限博，兼容iPad/iPhone等各种移动设备是目前市面上用户体验最优秀的产品。</p>
+                    </dd>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr">SPORT BET</div>
+                            <div class="fl"><h4>体育平台</h4></div>
+                        </div>
+                        <p>经过无限博用户体验中心设计的投注界面，能够让您轻松、怡静的享受体育投注的乐趣。</p>
+                    </dd>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr">LIVE CASINO</div>
+                            <div class="fl"><h4>真人娱乐城</h4></div>
+                        </div>
+                        <p>无限博所使用的娱乐平台，必须经过TST Game国际认证，保证每款游戏公平公正。</p>
+                    </dd>
+                </dl>
+            </li>
+            <li class="int-more">
+                <h3>更多服务</h3>
+                <dl>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr">SUBVERSIVE PRODUCTS</div>
+                            <div class="fl"><h4>颠覆性产品</h4></div>
+                        </div>
+                        <p>每一款上线的无限博产品都是经过大量测试后证实最符合亚洲人的产品，这是一个对现状做出的强势挑战的创新团队。</p>
+                    </dd>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr">Communication security</div>
+                            <div class="fl"><h4>通信安全</h4></div>
+                        </div>
+                        <p>数据传送均通过128位SSL加密安全端口，所有数据内部出入严格限制和严密监控。</p>
+                    </dd>
+                    <dd>
+                        <div class="int-tit">
+                            <div class="fr">Website maintenance</div>
+                            <div class="fl"><h4>网站运维</h4></div>
+                        </div>
+                        <p>SSD专业服务器集群，多种技术优化保障运营稳定。</p>
+                    </dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <!--存款到账，取款到账，便捷的银行服务数据动态显示-->
+    <script type="text/javascript">
+        var dh = true;
+        var win = $(window); //得到窗口对象
+        var sc = $(document);//得到document文档对象。
+        win.scroll(function () {
+            if (sc.scrollTop() >= 300 && dh == true) {
+                dh = false;
+                var m = 45;
+                var mm = 0;
+                var d = 33;
+                var dd = 0;
+                var j = 34;
+                var jj = 0;
+                setInterval(function () {
+                    if (mm <= m) {
+                        $("#m").html(mm);
+                        $("#pm").css("width", mm + "%");
+                        mm++;
+                    }
+                    if (dd <= d) {
+                        $("#d").html("4'" + dd);
+                        $("#dm").css("width", parseInt(dd * 2.2) + "%");
+                        dd++;
+                    }
+                    if (jj <= j) {
+                        $("#j").html(jj);
+                        jj++;
+                    }
+                }, 30);
+            }
+        });
+    </script>
+    <!--introduce end-->
+    <div class="layout"><p class="footer-info"></p></div>
+</div>
+
+<div id="sideChatRight" class="float-box float-box-right" picfloat="right"
+     style="position: absolute; z-index: 1100; top: 150px; right: 5px;">
+    <div>
+        <ul>
+            <li class="box-chat"
+                onclick="alert('敬请期待');"></li>
+            <li class="box-reg" onclick="window.open(&#39;../home/index.html&#39;);"></li>
+            <li class="box-promotion" onclick="window.open(&#39;../promotions/index.html#39;);"></li>
+            <li class="box-close"
+                onclick="document.getElementById(&#39;sideChatRight&#39;).style.display=&#39;none&#39;"></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="../libs/messenger.min.js"></script>
+<script type="text/javascript" src="../libs/jsbn.js"></script>
+<script type="text/javascript" src="../libs/prng4.js"></script>
+<script type="text/javascript" src="../libs/rng.js"></script>
+<script type="text/javascript" src="../libs/rsa.js"></script>
+<script type="text/javascript" src="../libs/base64.js"></script>
+<script type="text/javascript" src="../libs/error.js"></script>
+<script type="text/javascript" src="../libs/kz.js"></script>
+<script src="../libs/ruiyin.js"></script>
+
+<!--<script type="text/javascript" src="./libs/jquery.sideFloat.js"></script>-->
+
+
+
+</body>
+</html>
