@@ -103,7 +103,120 @@
         return{
             setLoginCurrent:setLoginCurrent
         }
-    }
+    };
+
+    var LoginValiDate={
+        strategies:{},
+        showDialog:function(elem,msg){
+            $(elem).show();
+            $(elem).removeClass("valid-tips")
+            $(elem).addClass("error-tips")
+            $(elem).html(msg)
+        },
+        hideDialog:function(elem){
+            $(elem).removeClass("error-tips")
+            $(elem).addClass("valid-tips")
+            $(elem).html("")
+        },
+        addStrategies:function(name,func) {
+            this.strategies[name]=func
+        },
+        get:function(key){
+            return this.strategies[key]
+        }
+    };
+
+    var AuthController=Object.create(LoginValiDate);
+    AuthController.setValidator=function(elem,rules){
+        this.elem=$(elem);
+        this.validateFunc=[];
+        for(var i= 0,func_key;func_key=rules[i++];){
+            this.validateFunc.push(function(func_key){
+                return function(){
+                    var rule=func_key["rule"].split(":");
+                    var strte=rule.shift()
+                    rule.unshift(this.elem.val());
+                    rule.push(func_key.errorMesg);
+                    var strategie=this.get(strte)
+                    return strategie.apply(elem,rule)
+                }
+            }.call(this,func_key))
+        }
+
+
+    };
+    AuthController.build=function(error_elem){
+        this.error_elem=error_elem;
+        this.elem.on("change",this.keyUpFunction.bind(this))
+    };
+    AuthController.keyUpFunction=function(e){
+        var message=[];
+        for(var i= 0,validate;validate=this.validateFunc[i++];){
+            //单纯执行一次返回的是bind函数
+            var errorMsg=validate.bind(this)()
+            if(errorMsg){
+                message.push(errorMsg)
+
+            }
+        }
+        console.log(165,message)
+        message.forEach(function(e,i){
+            if(e){
+                this.showDialog( this.error_elem,e)
+            }
+        },this)
+        if(message.length<=0){
+            this.hideDialog(this.error_elem)
+        }
+    };
+
+    LoginValiDate.addStrategies("minLength",function(value,length,errorMsg){
+        if(value.length<length){
+            return errorMsg
+        }
+    });
+    LoginValiDate.addStrategies("maxLength",function(value,length,errorMsg){
+        if(value.length>length){
+            return errorMsg
+        }
+    });
+    LoginValiDate.addStrategies("onlyWordNumber",function(value,errorMsg){
+        if(/[^0-9A-Za-z]/.test(value)){
+            return errorMsg
+        }
+    })
+    LoginValiDate.addStrategies("wordAndNumber",function(value,errorMsg){
+        if(!(/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]+$/.test(value))){
+            return errorMsg
+        }
+    })
+    LoginValiDate.addStrategies("identifyPassWord",function(value,indentifyElem,errorMsg){
+        if($(indentifyElem).val()!=value){
+            return errorMsg
+        }
+    })
+    LoginValiDate.addStrategies("telephone",function(value,errorMsg){
+        if(!(/^1[3|4|5|7|8][0-9]{9}$/.test(value))){
+            return errorMsg
+        }
+    })
+
+
+    var username=Object.create(AuthController);
+    username.setValidator("#username",[{rule:"minLength:4",errorMesg:"用户名必须大于等于4"},{rule:"onlyWordNumber",errorMesg:"必须使用单词或者数字"},{rule:"maxLength:11",errorMesg:"用户名必须小于等于11"}]);
+    username.build("#username + .error_info");
+
+    var joinpwd=Object.create(AuthController);
+    joinpwd.setValidator("#joinpwd",[{rule:"minLength:6",errorMesg:"密码长度必须大于等于6"},{rule:"maxLength:16",errorMesg:"密码长度必须小于等于16"},{rule:"wordAndNumber",errorMesg:"必须使用单词和数字组合"},])
+    joinpwd.build("#joinpwd + .error_info");
+
+    var indetifyPw=Object.create(AuthController);
+    indetifyPw.setValidator("#indetifyPw",[{rule:"minLength:6",errorMesg:"密码长度必须大于等于6"},{rule:"maxLength:16",errorMesg:"密码长度必须小于等于16"},{rule:"wordAndNumber",errorMesg:"必须使用单词和数字组合"},{rule:"identifyPassWord:#joinpwd",errorMesg:"两次密码必须一致"}])
+    indetifyPw.build("#indetifyPw + .error_info");
+
+    var telephoneID=Object.create(AuthController);
+    telephoneID.setValidator("#telephoneID",[{rule:"telephone",errorMesg:"请输入正确的手机号"}])
+    telephoneID.build("#telephoneID + .error_info")
 
 
 

@@ -164,21 +164,24 @@
             <li>
               <label><em class="cRed">*</em> 用户名</label>
               <div class="item-ipt">
-                <input type="text" name="joiname" value="" minlength="4" maxlength="11" class="txt-ipt">
-                <p><span class="tips">请输入4-11个字符, 仅可输入英文字母以及数字的组合</span></p>
+                <input type="text" id="username" name="joiname" value="" minlength="4" maxlength="11" class="txt-ipt">
+                <span class="error_info"></span>
+                <p><span class="tips" id="error_u">请输入4-11个字符, 仅可输入英文字母以及数字的组合</span></p>
               </div>
             </li>
             <li>
               <label><em class="cRed">*</em> 密码</label>
               <div class="item-ipt">
                 <input type="password" id="joinpwd" name="joinpwd" value="" maxlength="50" class="txt-ipt">
+                <span class="error_info"></span>
                 <p><span class="tips">密码长度为6-16个字符,以及必须含有字母和数字的组合</span></p>
               </div>
             </li>
             <li>
               <label><em class="cRed">*</em> 确认密码</label>
               <div class="item-ipt">
-                <input type="password" name="password1" maxlength="50" value="" class="txt-ipt">
+                <input type="password" id="indetifyPw" name="password1" maxlength="50" value="" class="txt-ipt">
+                <span class="error_info"></span>
               </div>
             </li>
           </ul>
@@ -196,7 +199,8 @@
             <li>
               <label><em class="cRed">*</em> 手机号码</label>
               <div class="item-ipt">
-                <input type="text" name="uphone" value="" maxlength="50" class="txt-ipt">
+                <input type="text" name="uphone" id="telephoneID" value="" maxlength="50" class="txt-ipt">
+                <span class="error_info"></span>
                 <p><span class="tips">当前仅支持中国大陆手机号码</span></p>
               </div>
             </li>
