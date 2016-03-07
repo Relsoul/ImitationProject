@@ -184,19 +184,24 @@
         if(/[^0-9A-Za-z]/.test(value)){
             return errorMsg
         }
-    })
+    });
     LoginValiDate.addStrategies("wordAndNumber",function(value,errorMsg){
         if(!(/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]+$/.test(value))){
             return errorMsg
         }
-    })
+    });
     LoginValiDate.addStrategies("identifyPassWord",function(value,indentifyElem,errorMsg){
         if($(indentifyElem).val()!=value){
             return errorMsg
         }
-    })
+    });
     LoginValiDate.addStrategies("telephone",function(value,errorMsg){
         if(!(/^1[3|4|5|7|8][0-9]{9}$/.test(value))){
+            return errorMsg
+        }
+    });
+    LoginValiDate.addStrategies("required",function(value,errorMsg){
+        if(value==""||value==" "){
             return errorMsg
         }
     })
@@ -216,7 +221,11 @@
 
     var telephoneID=Object.create(AuthController);
     telephoneID.setValidator("#telephoneID",[{rule:"telephone",errorMesg:"请输入正确的手机号"}])
-    telephoneID.build("#telephoneID + .error_info")
+    telephoneID.build("#telephoneID + .error_info");
+
+    var trueName=Object.create(AuthController);
+    trueName.setValidator("#trueName",[{rule:"required",errorMesg:"不能为空"}])
+    trueName.build("#trueName + .error_info");
 
 
 
@@ -255,6 +264,27 @@
             login.setLoginCurrent()
         }
 
+        // register vilidate
+        if($("#registerNow").length){
+            $("#registerNow").on("click",function(){
+                if($(".error_info")){
+                    var isValiDate=false;
+                    $(".error_info").each(function(i,e){
+                        console.log(271,$(e).attr("class").search("error-tips"))
+                        if($(e).attr("class").search("valid-tips")==-1){
+                            isValiDate=true
+                        }
+                    })
+                    if(isValiDate){
+                        alert("请填写好完整项目")
+                        return false
+                    }else{
+                        alert("ajax")
+                        //ajax验证之类的
+                    }
+                }
+            })
+        }
     };
 
 

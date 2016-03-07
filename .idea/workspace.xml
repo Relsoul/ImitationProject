@@ -26,8 +26,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="博亿.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
+=======
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/无限博.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login-person-favorable/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-19.642857">
               <caret line="74" column="14" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="14" />
@@ -45,8 +60,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="register-bak.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/register-bak.html">
+=======
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-home/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.392857">
               <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
@@ -55,8 +75,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/index.html">
+=======
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-message/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-25.107143">
               <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
@@ -65,8 +90,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/index.html">
+=======
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-report/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -75,8 +105,13 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="indexbak.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index/indexbak.html">
+=======
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-secure/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="8.142858">
               <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
@@ -85,6 +120,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,6 +133,10 @@
       </file>
       <file leaf-file-name="register.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/register.html">
+=======
+      <file leaf-file-name="无限博.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login-person-wallet/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-2.7142856">
               <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
@@ -188,20 +228,20 @@
         <option value="$PROJECT_DIR$/include/login-header.html" />
         <option value="$PROJECT_DIR$/home/register-bak.html" />
         <option value="$PROJECT_DIR$/liveCasino/真人视讯.html" />
-        <option value="$PROJECT_DIR$/agent-agreement/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-home/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-model/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/agent-policy/博亿 - home.html" />
-        <option value="$PROJECT_DIR$/clientdown/博亿.html" />
+        <option value="$PROJECT_DIR$/agent-agreement/无限博 - home.html" />
+        <option value="$PROJECT_DIR$/agent-home/无限博 - home.html" />
+        <option value="$PROJECT_DIR$/agent-model/无限博 - home.html" />
+        <option value="$PROJECT_DIR$/agent-policy/无限博 - home.html" />
+        <option value="$PROJECT_DIR$/clientdown/无限博.html" />
         <option value="$PROJECT_DIR$/game/老虎机.html" />
         <option value="$PROJECT_DIR$/index/indexbak.html" />
-        <option value="$PROJECT_DIR$/login-person-everydayFavorable/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-favorable/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-home/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-message/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-report/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-secure/博亿.html" />
-        <option value="$PROJECT_DIR$/login-person-wallet/博亿.html" />
+        <option value="$PROJECT_DIR$/login-person-everydayFavorable/无限博.html" />
+        <option value="$PROJECT_DIR$/login-person-favorable/无限博.html" />
+        <option value="$PROJECT_DIR$/login-person-home/无限博.html" />
+        <option value="$PROJECT_DIR$/login-person-message/无限博.html" />
+        <option value="$PROJECT_DIR$/login-person-report/无限博.html" />
+        <option value="$PROJECT_DIR$/login-person-secure/无限博.html" />
+        <option value="$PROJECT_DIR$/login-person-wallet/无限博.html" />
         <option value="$PROJECT_DIR$/lottery/彩票游戏.html" />
         <option value="$PROJECT_DIR$/promotions/博艺.html" />
         <option value="$PROJECT_DIR$/sports/体育赛事.html" />
@@ -364,8 +404,13 @@
       <recent name="D:\Project\soul\ImitationProject\博艺\dev\clientdown" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration default="false" name="index.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-wallet/index.html">
+=======
+  <component name="RunManager" selected="JavaScript Debug.无限博.html">
+    <configuration default="false" name="index.html (4)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-everydayFavorable/index.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
       <method />
     </configuration>
     <configuration default="false" name="博亿.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-favorable/博亿.html">
@@ -377,7 +422,11 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/home/index.html">
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-home/index.html">
+=======
+    <configuration default="false" name="无限博.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ImitationProject/login-person-favorable/无限博.html">
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -419,6 +468,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.博亿.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.register-bak.html" />
@@ -432,6 +482,21 @@
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.register-bak.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.博亿.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.无限博.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.无限博.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (2)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (4)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+>>>>>>> 226f5d0ecbec1bb1abc3bb1df9aeb1a5907a2398
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +578,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/login-person-message/博亿.html</url>
+          <url>file://$PROJECT_DIR$/login-person-message/无限博.html</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -706,35 +771,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-agreement/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-agreement/无限博 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-home/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-home/无限博 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-model/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-model/无限博 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agent-policy/博亿 - home.html">
+    <entry file="file://$PROJECT_DIR$/agent-policy/无限博 - home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/clientdown/博亿.html">
+    <entry file="file://$PROJECT_DIR$/clientdown/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.6785714">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -748,7 +813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-everydayFavorable/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
@@ -756,7 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-message/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-message/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
@@ -767,7 +832,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-report/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-report/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -775,7 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-secure/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-secure/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
@@ -783,7 +848,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-wallet/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-wallet/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="207" column="34" selection-start-line="207" selection-start-column="34" selection-end-line="207" selection-end-column="34" />
@@ -820,7 +885,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-home/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-home/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
@@ -831,7 +896,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login-person-favorable/博亿.html">
+    <entry file="file://$PROJECT_DIR$/login-person-favorable/无限博.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.642857">
           <caret line="74" column="14" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="14" />

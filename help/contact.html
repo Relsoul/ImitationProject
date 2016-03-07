@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="../libs/base.css" media="screen, projection">
     <link rel="stylesheet" type="text/css" href="../libs/main.css" media="screen, projection">
     <link rel="stylesheet" type="text/css" href="../libs/css.css" media="screen, projection">
+    <link rel="stylesheet" type="text/css" href="../libs/help.css" media="screen, projection">
     <script type="text/javascript" src="../libs/jquery.min.js"></script>
     <script type="text/javascript" src="../libs/jquery.reveal.js"></script>
     <script type="text/javascript" src="../libs/respond.src.js"></script>
@@ -146,90 +147,70 @@
         colorful();
     </script>
 </div>
-
 <div class="content">
-  <div class="mod-reg">
-    <div class="layout">
-      <div class="hd">
-        <h3 id="regtitle">欢迎注册无限博</h3>
-        <p></p>
-        <p id="regword">（请详细填写以下表格，带 <em class="cRed">*</em> 项目为必填项目）</p>
-      </div>
-      <form id="memberReg" method="post" action="http://www.boyi88.com/kz/member/account" novalidate="novalidate">
-        <input type="hidden" name="gender" value="0">
-        <fieldset>
-          <legend>账户资料</legend>
-          <ul class="mod-forms">
-            <li>
-              <label><em class="cRed">*</em> 用户名</label>
-              <div class="item-ipt">
-                <input type="text" id="username" name="joiname" value="" minlength="4" maxlength="11" class="txt-ipt">
-                <span class="error_info"></span>
-                <p><span class="tips" id="error_u">请输入4-11个字符, 仅可输入英文字母以及数字的组合</span></p>
-              </div>
-            </li>
-            <li>
-              <label><em class="cRed">*</em> 密码</label>
-              <div class="item-ipt">
-                <input type="password" id="joinpwd" name="joinpwd" value="" maxlength="50" class="txt-ipt">
-                <span class="error_info"></span>
-                <p><span class="tips">密码长度为6-16个字符,以及必须含有字母和数字的组合</span></p>
-              </div>
-            </li>
-            <li>
-              <label><em class="cRed">*</em> 确认密码</label>
-              <div class="item-ipt">
-                <input type="password" id="indetifyPw" name="password1" maxlength="50" value="" class="txt-ipt">
-                <span class="error_info"></span>
-              </div>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset>
-          <legend>个人资料</legend>
-          <ul class="mod-forms">
-            <li>
-              <label><em class="cRed">*</em> 真实姓名</label>
-              <div class="item-ipt">
-                <input type="text" name="fullname" id="trueName" maxlength="50" value="" class="txt-ipt">
-                <span class="error_info"></span>
-                <p><span class="tips" style="color:red;">必须与您的银行帐户姓名一致，否则不能出款</span></p>
-              </div>
-            </li>
-            <li>
-              <label><em class="cRed">*</em> 手机号码</label>
-              <div class="item-ipt">
-                <input type="text" name="uphone" id="telephoneID" value="" maxlength="50" class="txt-ipt">
-                <span class="error_info"></span>
-                <p><span class="tips">当前仅支持中国大陆手机号码</span></p>
-              </div>
-            </li>
-            <input type="hidden" name="birthyear" value="0">
-            <input type="hidden" name="birthmonth" value="0">
-            <input type="hidden" name="birthday" value="0">
-            <li>
-              <label>推介代码</label>
-              <div class="item-ipt">
-                <input type="text" name="agc" maxlength="50" class="txt-ipt">
-              </div>
-            </li>
-            <li>
-              <label><em class="cRed">*</em>验证码</label>
-              <div class="item-ipt">
-                <input type="text" name="verifycode" where="pa" maxlength="50" class="txt-ipt">
-                <img style="cursor:hand;" onclick="get_captcha()" id="captcha" src="../libs/verifycode"><a onclick="get_captcha()" href="javascript:void(0);" style="color:red;cursor:hand;">看不清？点此换一个</a>
-              </div>
-            </li>
-          </ul>
-        </fieldset>
-        <div class="agreement"><input type="checkbox" checked="checked"> 我已届满合法博彩年龄﹐且同意并愿意遵守 <a href="../help/terms.html">"用户协议"</a>。
+    <div class="mod-banner">
+        <!--焦点图-->
+        <div class="slide-wrap" id="slides">
+            <ul>
+                <li style="display:block;"><img src="../images/welcome_banner_01.png"></li>
+            </ul>
         </div>
-        <div class="reg-sub"><a id="registerNow" onclick="" href="javascript:void(0);">立即注册</a></div>
-      </form>
+        <!-- 公告 -->
+        <div class="notice"><div class="layout"><div class="marquee"><div style="width: 100000px; margin-left: 765px; animation: marqueeAnimation-4240839 146.711s linear -10s;" class="js-marquee-wrapper"><div class="js-marquee" style="margin-right: 100px; float: left;"></div><div class="js-marquee" style="margin-right: 100px; float: left;"></div></div></div></div></div>
+<script type="text/javascript">
+    //公告滚动
+    $(document).ready(function(){
+        $('.marquee').marquee({
+            duration:30000,
+            gap:100,
+            delayBeforeStart:-10000,
+            direction: 'left',
+            duplicated: true,
+            pauseOnHover:true
+        });
+    });
+</script>        <!--end 公告 -->
+        <!--end 焦点图-->
     </div>
-  </div>
-</div><!--footer-->
+    <div class="help-content">
+        <div class="help-wrap layout">
+            <div class="area-sub fl">
+                <div class="menu-sub">
+    <div class="sub-hd"></div>
+    <ul>
+                <li><a href="../help/problems.html">常见问题<em></em></a></li>
+                <li class="current"><a href="../help/contact.html">联系我们<em></em></a></li>
+                <li><a href="../help/privacy.html">隐私政策<em></em></a></li>
+                <li><a href="../help/responsibility.html">责任博彩<em></em></a></li>
+                <li><a href="../help/terms.html">规则条款<em></em></a></li>
+            </ul>
+    <div class="sub-ft"></div>
+</div>            </div>
+                <div class="area-main fr contact-wrap">
+        <h2>联系我们</h2>
+        <ul>
+                    <li class="online-chat"> <i></i>
+                        <div>
+                            <h4>在线客服</h4>
+                            <p> <a href="http://www.boyi88.com/help/xxxxxxx">点击咨询</a>
 
+                        </p></div>
+   
+                        <div>
+                        </div>
+                    </li>
+                    <li class="email"> <i></i>
+                        <div>
+                            <h4>客服邮箱</h4>
+                            <p>客服部：<a class="mail" href="mailto:xxxxx@xx.com">xxxxx@xx.com </a> （有关服务问题，请联系此邮箱）</p>
+                            <p>市场部：<a class="mail" href="mailto:xxxxx@xx.com">xxxxx@xx.com </a> （有关合营问题，请联系此邮箱）</p>
+                        </div>
+                    </li>
+                </ul>
+    </div>        </div>
+    </div>
+</div>
+<!--footer-->
 <div class="footer">
     <div class="footer-menu"><a href="../index/indexbak.html">联系我们</a><span>|</span><a
             href="http://boyi88.com/help/privacy">隐私政策</a><span>|</span><a href="http://boyi88.com/help/responsibility">责任博彩</a><span>|</span><a
