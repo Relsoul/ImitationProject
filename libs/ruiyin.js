@@ -142,8 +142,6 @@
                 }
             }.call(this,func_key))
         }
-
-
     };
     AuthController.build=function(error_elem){
         this.error_elem=error_elem;
@@ -227,6 +225,83 @@
     trueName.setValidator("#trueName",[{rule:"required",errorMesg:"不能为空"}])
     trueName.build("#trueName + .error_info");
 
+    //轮播图
+    var Slides=function(id){
+        this.sideId=id;
+        this.init();
+    };
+    Slides.prototype={
+        init:function(){
+            this.setDom();
+            if($(this.sideId).length>0){
+                this.bindEvents();
+                this.autoPlay();
+            }
+        },
+        setDom:function(){
+            this.dotId=$(this.sideId).find(".num");
+            this.dotItem=$(this.dotId).find("span");
+            this.imgId=$(this.sideId).find("ul");
+            this.imgItem=$(this.imgId).find("li");
+            this.autoId=0;
+            this.maxLength=this.imgItem.length;
+        },
+        bindEvents:function(){
+            $(this.dotItem).on("click",this.dotEvent.bind(this))
+        },
+        dotEvent:function(e){
+            if(this.timer){
+                clearInterval(this.timer);
+                this.timer=null;
+                this.startTimer();
+            }
+            this.show(e.target)
+        },
+        show:function(target){
+            var imgcurrent;
+            if(target){
+                imgcurrent=$(this.dotItem).index($(target))
+                this.autoId=imgcurrent+1;
+            }else{
+                imgcurrent=this.autoId;
+            }
+            if(imgcurrent>=this.maxLength){
+                imgcurrent=this.autoId=0;
+            }
+            //console.log("imgcurrent",imgcurrent,target);
+            this.setClass(imgcurrent)
+        },
+        setClass:function(imgcurrent){
+            $(this.dotItem).siblings().removeClass("current");
+            $(this.dotItem).eq(imgcurrent).addClass("current");
+            $(this.imgItem).siblings().hide();
+            $(this.imgItem).eq(imgcurrent).show(200);
+        },
+        autoPlay:function(){
+            var self=this;
+            this.timer=setInterval(function(){
+                self.show();
+                self.autoId++;
+                //console.log(self.autoId)
+            },3000)
+        },
+        startTimer:function(){
+            var isRun=false;
+            return function (){
+                if(!isRun){
+                    var self=this;
+                    isRun=true;
+                    setTimeout(function(){
+                        self.autoPlay();
+                        isRun=false;
+                    },2500)
+                }else{
+                   return false
+                }
+            }
+        }()
+
+    };
 
 
 
@@ -270,7 +345,6 @@
                 if($(".error_info")){
                     var isValiDate=false;
                     $(".error_info").each(function(i,e){
-                        console.log(271,$(e).attr("class").search("error-tips"))
                         if($(e).attr("class").search("valid-tips")==-1){
                             isValiDate=true
                         }
@@ -285,6 +359,7 @@
                 }
             })
         }
+        var side=new Slides("#slides")
     };
 
 
